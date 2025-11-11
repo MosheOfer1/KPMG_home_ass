@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "244793275",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "19",
+    "month": "11",
+    "year": "1995"
+  },
+  "address": {
+    "apartment": "57",
+    "city": "חיפה",
+    "entrance": "א",
+    "houseNumber": "84",
+    "poBox": "",
+    "postalCode": "0863606",
+    "street": "בן גוריון"
+  },
+  "landlinePhone": "05200408",
+  "mobilePhone": "0507502433",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "24",
+    "month": "08",
+    "year": "2025"
+  },
+  "timeOfInjury": "05:45",
+  "accidentLocation": "מקום העבודה",
+  "accidentAddress": "רח׳ הרצל 31, ירושלים",
+  "accidentDescription": "תאונת דרכים קלה",
+  "injuredBodyPart": "רגל ימין",
+  "signature": "שם המבקש נחתם על ידי נציג",
+  "formFillingDate": {
+    "day": "26",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "07",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "אבחנות רפואיות"
+  }
+}

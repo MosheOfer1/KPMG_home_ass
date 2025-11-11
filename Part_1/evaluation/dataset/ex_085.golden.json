@@ -1,0 +1,44 @@
+{
+  "lastName": "אוחנה",
+  "firstName": "נועה",
+  "idNumber": "305390292",
+  "dateOfBirth": {
+    "day": 16,
+    "month": 4,
+    "year": 1985
+  },
+  "address": {
+    "street": "ויצמן",
+    "houseNumber": 100,
+    "entrance": "",
+    "apartment": 18,
+    "city": "נתניה",
+    "postalCode": "7435960"
+  },
+  "landlinePhone": "0568150759",
+  "mobilePhone": "0579478583",
+  "dateOfInjury": {
+    "day": 21,
+    "month": 8,
+    "year": 2025
+  },
+  "timeOfInjury": "06:36",
+  "accidentLocation": "בדרך לעבודה",
+  "accidentDescription": "התחשמלות קלה בעת ירידה במדרגות",
+  "accidentAddress": "רח' החשמונאים 143, תל אביב",
+  "injuredBodyPart": "גב תחתון",
+  "signature": "חתימת נבדק",
+  "formFillingDate": {
+    "day": 9,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 29,
+    "month": 10,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "פרטי",
+  "natureOfAccident": "התחשמלות קלה"
+}

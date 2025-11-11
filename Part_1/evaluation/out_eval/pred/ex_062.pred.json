@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "805414309",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "16",
+    "month": "04",
+    "year": "1989"
+  },
+  "address": {
+    "street": "ויצמן",
+    "houseNumber": "29",
+    "entrance": "ג",
+    "apartment": "8",
+    "city": "רעננה",
+    "postalCode": "7067168",
+    "poBox": ""
+  },
+  "landlinePhone": "0523999070",
+  "mobilePhone": "0539569618",
+  "jobType": "עצמאי",
+  "dateOfInjury": {
+    "day": "30",
+    "month": "08",
+    "year": "2025"
+  },
+  "timeOfInjury": "13:39",
+  "accidentLocation": "בדרך לעבודה",
+  "accidentAddress": "רח׳ שדרות חן 21, תל אביב",
+  "accidentDescription": "פגיעה במהלך ספורט במהלך עבודה",
+  "injuredBodyPart": "יד שמאל",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "02",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "28",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

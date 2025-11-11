@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "622613043",
+  "gender": "female",
+  "dateOfBirth": {
+    "day": "20",
+    "month": "04",
+    "year": "2000"
+  },
+  "address": {
+    "apartment": "39",
+    "city": "חיפה",
+    "entrance": "ב",
+    "houseNumber": "46",
+    "poBox": "",
+    "postalCode": "9950048",
+    "street": "בן גוריון"
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0532393689",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "25",
+    "month": "08",
+    "year": "2025"
+  },
+  "timeOfInjury": "03:26",
+  "accidentLocation": "בכביש",
+  "accidentAddress": "רח׳ יהודה הלוי 131, ירושלים",
+  "accidentDescription": "פגיעה במהלך ספורט במהלך עבודה",
+  "injuredBodyPart": "קרסול שמאל",
+  "signature": "חתימהX",
+  "formFillingDate": {
+    "day": "04",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "08",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "כללית",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

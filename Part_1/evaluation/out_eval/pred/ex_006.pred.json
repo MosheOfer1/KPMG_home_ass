@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "507380059",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "12",
+    "month": "06",
+    "year": "1993"
+  },
+  "address": {
+    "apartment": "55",
+    "city": "באר שבע",
+    "entrance": "ד",
+    "houseNumber": "47",
+    "poBox": "",
+    "postalCode": "8783903",
+    "street": "יהודה הלוי"
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0544537454",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "30",
+    "month": "08",
+    "year": "2025"
+  },
+  "timeOfInjury": "20:20",
+  "accidentLocation": "בחוף הים",
+  "accidentAddress": "רח׳ דיזנגוף 48, פתח תקווה",
+  "accidentDescription": "פציעה בעבודה במהלך פעילות יומיומית",
+  "injuredBodyPart": "יד ימין",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "20",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "07",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "כללית",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

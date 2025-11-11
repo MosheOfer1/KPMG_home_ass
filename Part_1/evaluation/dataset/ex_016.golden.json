@@ -1,0 +1,44 @@
+{
+  "lastName": "גולן",
+  "firstName": "מיכל",
+  "idNumber": "067373299",
+  "dateOfBirth": {
+    "day": 15,
+    "month": 8,
+    "year": 2001
+  },
+  "address": {
+    "street": "ויצמן",
+    "houseNumber": 64,
+    "entrance": "ג",
+    "apartment": 22,
+    "city": "פתח תקווה",
+    "postalCode": "5661091"
+  },
+  "landlinePhone": "0515717134",
+  "mobilePhone": "0528105698",
+  "dateOfInjury": {
+    "day": 25,
+    "month": 9,
+    "year": 2025
+  },
+  "timeOfInjury": "04:19",
+  "accidentLocation": "בבית",
+  "accidentDescription": "תאונת דרכים קלה בעת ירידה במדרגות",
+  "accidentAddress": "רח' ויצמן 163, ראשון לציון",
+  "injuredBodyPart": "גב תחתון",
+  "signature": "חתימה ממוחשבת",
+  "formFillingDate": {
+    "day": 22,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 5,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "מכבי",
+  "natureOfAccident": "תאונת דרכים קלה"
+}

@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "658284538",
+  "gender": "female",
+  "dateOfBirth": {
+    "day": "12",
+    "month": "05",
+    "year": "1986"
+  },
+  "address": {
+    "apartment": "26",
+    "city": "ירושלים",
+    "entrance": "119",
+    "houseNumber": "",
+    "poBox": "",
+    "postalCode": "2026450",
+    "street": "בן גוריון"
+  },
+  "landlinePhone": "0564621993",
+  "mobilePhone": "06542789343",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "21",
+    "month": "08",
+    "year": "2025"
+  },
+  "timeOfInjury": "11:01",
+  "accidentLocation": "בכביש",
+  "accidentAddress": "רח׳ אלנבי 821, אשדוד",
+  "accidentDescription": "נפילה ממדרגות במהלך פעילות יומיומית",
+  "injuredBodyPart": "צוואר",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "21",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "10",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

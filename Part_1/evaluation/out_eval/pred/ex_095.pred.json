@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "705455487",
+  "gender": "נקבה",
+  "dateOfBirth": {
+    "day": "28",
+    "month": "03",
+    "year": "1992"
+  },
+  "address": {
+    "street": "אלנבי",
+    "houseNumber": "62",
+    "entrance": "ב",
+    "apartment": "44",
+    "city": "ראשון לציון",
+    "postalCode": "1360694",
+    "poBox": ""
+  },
+  "landlinePhone": "0574098814",
+  "mobilePhone": "0525241225",
+  "jobType": "עצמאי",
+  "dateOfInjury": {
+    "day": "10",
+    "month": "04",
+    "year": "2025"
+  },
+  "timeOfInjury": "04:17",
+  "accidentLocation": "בבית הספר",
+  "accidentAddress": "רח׳ הרצל 281, פתח תקווה",
+  "accidentDescription": "נפילה ממדרגות במהלך עבודה",
+  "injuredBodyPart": "יד ימין",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "31",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "08",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "לאומית",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

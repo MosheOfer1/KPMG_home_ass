@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "997298217",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "14",
+    "month": "05",
+    "year": "2000"
+  },
+  "address": {
+    "apartment": "30",
+    "city": "תל אביב",
+    "entrance": "ב",
+    "houseNumber": "19",
+    "poBox": "",
+    "postalCode": "5126978",
+    "street": "אלנבי"
+  },
+  "landlinePhone": "0566577911",
+  "mobilePhone": "056500654881",
+  "jobType": "עצמאי",
+  "dateOfInjury": {
+    "day": "01",
+    "month": "11",
+    "year": "2025"
+  },
+  "timeOfInjury": "14:45",
+  "accidentLocation": "בכביש",
+  "accidentAddress": "רח' הרצל 08, באר שבע",
+  "accidentDescription": "החלקה בבית בעת ירידה במדרגות",
+  "injuredBodyPart": "רגל ימין",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "29",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מאוחדת",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

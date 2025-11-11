@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "285518222",
+  "gender": "female",
+  "dateOfBirth": {
+    "day": "02",
+    "month": "01",
+    "year": "1998"
+  },
+  "address": {
+    "street": "אבן גבירול",
+    "houseNumber": "57",
+    "entrance": "א",
+    "apartment": "31",
+    "city": "באר שבע",
+    "poBox": "",
+    "postalCode": "1951382"
+  },
+  "landlinePhone": "0521774981",
+  "mobilePhone": "0591412821",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "25",
+    "month": "08",
+    "year": "2025"
+  },
+  "timeOfInjury": "13:33",
+  "accidentLocation": "בדרך לעבודה",
+  "accidentAddress": "רח׳ אבן גבירול 791, נתניה",
+  "accidentDescription": "נפילה מאופניים במהלך פעילות יומיומית",
+  "injuredBodyPart": "יד שמאל",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "11",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "09",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "כללית",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "אבחנות רפואיות"
+  }
+}

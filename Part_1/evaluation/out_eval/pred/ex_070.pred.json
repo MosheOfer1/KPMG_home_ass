@@ -1,0 +1,49 @@
+{
+  "lastName": "902824097",
+  "firstName": "",
+  "idNumber": "",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "04",
+    "month": "09",
+    "year": "1976"
+  },
+  "address": {
+    "apartment": "1",
+    "city": "תל אביב",
+    "entrance": "",
+    "houseNumber": "44",
+    "poBox": "",
+    "postalCode": "8222873",
+    "street": "דיזנגוף"
+  },
+  "landlinePhone": "0549802158",
+  "mobilePhone": "0549802158",
+  "jobType": "self-employed",
+  "dateOfInjury": {
+    "day": "09",
+    "month": "11",
+    "year": "2025"
+  },
+  "timeOfInjury": "06:57",
+  "accidentLocation": "במגרש הספורט",
+  "accidentAddress": "רח׳ הרצל 331, הרצליה",
+  "accidentDescription": "התחשמלות קלה בעת ירידה במדרגות",
+  "injuredBodyPart": "רגל ימין",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "08",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "09",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מאוחדת",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "טופס זה מנוסח בלשון זכר אך פונה לנשים וגברים כאחד"
+  }
+}

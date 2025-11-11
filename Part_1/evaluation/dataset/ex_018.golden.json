@@ -1,0 +1,44 @@
+{
+  "lastName": "גולן",
+  "firstName": "נעם",
+  "idNumber": "396486343",
+  "dateOfBirth": {
+    "day": 12,
+    "month": 9,
+    "year": 2000
+  },
+  "address": {
+    "street": "דיזנגוף",
+    "houseNumber": 22,
+    "entrance": "ב",
+    "apartment": 46,
+    "city": "נתניה",
+    "postalCode": "7832867"
+  },
+  "landlinePhone": "0508498689",
+  "mobilePhone": "0594089134",
+  "dateOfInjury": {
+    "day": 7,
+    "month": 10,
+    "year": 2025
+  },
+  "timeOfInjury": "11:33",
+  "accidentLocation": "בבית",
+  "accidentDescription": "מכה בראש במהלך פעילות יומיומית",
+  "accidentAddress": "רח' שדרות חן 27, רעננה",
+  "injuredBodyPart": "גב תחתון",
+  "signature": "חתימה ידנית",
+  "formFillingDate": {
+    "day": 11,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 10,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "לאומית",
+  "natureOfAccident": "מכה בראש"
+}

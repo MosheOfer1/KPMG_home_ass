@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "347509480",
+  "gender": "נקבה",
+  "dateOfBirth": {
+    "day": "24",
+    "month": "09",
+    "year": "1977"
+  },
+  "address": {
+    "apartment": "59",
+    "city": "פתח תקווה",
+    "entrance": "ג",
+    "houseNumber": "93",
+    "poBox": "",
+    "postalCode": "9730132",
+    "street": "יהודה הלוי"
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0552843095",
+  "jobType": "עצמאי",
+  "dateOfInjury": {
+    "day": "10",
+    "month": "09",
+    "year": "2025"
+  },
+  "timeOfInjury": "07:44",
+  "accidentLocation": "בדרך הביתה",
+  "accidentAddress": "רח׳ הרצל 43, פתח תקווה",
+  "accidentDescription": "נפילה מאופניים במהלך פעילות יומיומית",
+  "injuredBodyPart": "יד שמאל",
+  "signature": "חתימהX",
+  "formFillingDate": {
+    "day": "10",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "30",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "כללית",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

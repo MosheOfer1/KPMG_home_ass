@@ -1,0 +1,44 @@
+{
+  "lastName": "שלום",
+  "firstName": "נועה",
+  "idNumber": "464386931",
+  "dateOfBirth": {
+    "day": 10,
+    "month": 8,
+    "year": 1989
+  },
+  "address": {
+    "street": "אלנבי",
+    "houseNumber": 13,
+    "entrance": "א",
+    "apartment": 5,
+    "city": "רעננה",
+    "postalCode": "5897804"
+  },
+  "landlinePhone": "0598346038",
+  "mobilePhone": "0578508801",
+  "dateOfInjury": {
+    "day": 30,
+    "month": 8,
+    "year": 2025
+  },
+  "timeOfInjury": "03:38",
+  "accidentLocation": "בגן הציבורי",
+  "accidentDescription": "החלקה בבית במהלך פעילות יומיומית",
+  "accidentAddress": "רח' הרצל 83, נתניה",
+  "injuredBodyPart": "רגל ימין",
+  "signature": "חתימה אלקטרונית",
+  "formFillingDate": {
+    "day": 10,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 31,
+    "month": 10,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "מכבי",
+  "natureOfAccident": "החלקה בבית"
+}

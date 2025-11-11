@@ -1,0 +1,44 @@
+{
+  "lastName": "ברדוגו",
+  "firstName": "עומר",
+  "idNumber": "835984231",
+  "dateOfBirth": {
+    "day": 2,
+    "month": 6,
+    "year": 1972
+  },
+  "address": {
+    "street": "הרצל",
+    "houseNumber": 111,
+    "entrance": "ד",
+    "apartment": 45,
+    "city": "ראשון לציון",
+    "postalCode": "8268168"
+  },
+  "landlinePhone": "0585740242",
+  "mobilePhone": "0564767373",
+  "dateOfInjury": {
+    "day": 25,
+    "month": 9,
+    "year": 2025
+  },
+  "timeOfInjury": "06:47",
+  "accidentLocation": "בגן הציבורי",
+  "accidentDescription": "החלקה בבית בעת ירידה במדרגות",
+  "accidentAddress": "רח' ויצמן 1, באר שבע",
+  "injuredBodyPart": "ברך ימין",
+  "signature": "חתימה ידנית",
+  "formFillingDate": {
+    "day": 28,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 6,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "מאוחדת",
+  "natureOfAccident": "החלקה בבית"
+}

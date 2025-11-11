@@ -1,0 +1,44 @@
+{
+  "lastName": "מזרחי",
+  "firstName": "יוסי",
+  "idNumber": "138460651",
+  "dateOfBirth": {
+    "day": 25,
+    "month": 6,
+    "year": 1970
+  },
+  "address": {
+    "street": "אבן גבירול",
+    "houseNumber": 78,
+    "entrance": "ד",
+    "apartment": 32,
+    "city": "אשדוד",
+    "postalCode": "0523245"
+  },
+  "landlinePhone": "0541519728",
+  "mobilePhone": "0546182646",
+  "dateOfInjury": {
+    "day": 7,
+    "month": 10,
+    "year": 2025
+  },
+  "timeOfInjury": "03:47",
+  "accidentLocation": "בבית הספר",
+  "accidentDescription": "פציעה בעבודה בעת ירידה במדרגות",
+  "accidentAddress": "רח' הרצל 137, חיפה",
+  "injuredBodyPart": "יד שמאל",
+  "signature": "חתימה ידנית",
+  "formFillingDate": {
+    "day": 19,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 11,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "ללא",
+  "natureOfAccident": "פציעה בעבודה"
+}

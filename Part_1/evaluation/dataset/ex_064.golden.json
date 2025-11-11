@@ -1,0 +1,44 @@
+{
+  "lastName": "אוחנה",
+  "firstName": "יוסי",
+  "idNumber": "501391927",
+  "dateOfBirth": {
+    "day": 19,
+    "month": 12,
+    "year": 1976
+  },
+  "address": {
+    "street": "אלנבי",
+    "houseNumber": 94,
+    "entrance": "ב",
+    "apartment": 30,
+    "city": "ראשון לציון",
+    "postalCode": "1153245"
+  },
+  "landlinePhone": "0592346846",
+  "mobilePhone": "0585865175",
+  "dateOfInjury": {
+    "day": 11,
+    "month": 11,
+    "year": 2025
+  },
+  "timeOfInjury": "07:23",
+  "accidentLocation": "בדרך הביתה",
+  "accidentDescription": "חבלה בגב במהלך עבודה",
+  "accidentAddress": "רח' ז'בוטינסקי 167, ירושלים",
+  "injuredBodyPart": "מרפק שמאל",
+  "signature": "נחתם על ידי נציג",
+  "formFillingDate": {
+    "day": 12,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 6,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "מאוחדת",
+  "natureOfAccident": "חבלה בגב"
+}

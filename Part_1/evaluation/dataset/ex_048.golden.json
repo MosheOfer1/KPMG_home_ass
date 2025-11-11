@@ -1,0 +1,44 @@
+{
+  "lastName": "אליהו",
+  "firstName": "נעם",
+  "idNumber": "636498321",
+  "dateOfBirth": {
+    "day": 9,
+    "month": 1,
+    "year": 1997
+  },
+  "address": {
+    "street": "הרצל",
+    "houseNumber": 95,
+    "entrance": "א",
+    "apartment": 16,
+    "city": "הרצליה",
+    "postalCode": "7703696"
+  },
+  "landlinePhone": "0580346634",
+  "mobilePhone": "0540727027",
+  "dateOfInjury": {
+    "day": 23,
+    "month": 10,
+    "year": 2025
+  },
+  "timeOfInjury": "13:42",
+  "accidentLocation": "בדרך לעבודה",
+  "accidentDescription": "חתך ביד",
+  "accidentAddress": "רח' החשמונאים 92, פתח תקווה",
+  "injuredBodyPart": "מרפק שמאל",
+  "signature": "חתימה ידנית",
+  "formFillingDate": {
+    "day": 13,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 5,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "פרטי",
+  "natureOfAccident": "חתך ביד"
+}

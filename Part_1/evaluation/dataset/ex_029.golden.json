@@ -1,0 +1,44 @@
+{
+  "lastName": "סבן",
+  "firstName": "טל",
+  "idNumber": "665650915",
+  "dateOfBirth": {
+    "day": 22,
+    "month": 4,
+    "year": 1988
+  },
+  "address": {
+    "street": "דיזנגוף",
+    "houseNumber": 25,
+    "entrance": "",
+    "apartment": 31,
+    "city": "הרצליה",
+    "postalCode": "7311955"
+  },
+  "landlinePhone": "0553263595",
+  "mobilePhone": "0559920940",
+  "dateOfInjury": {
+    "day": 3,
+    "month": 11,
+    "year": 2025
+  },
+  "timeOfInjury": "07:44",
+  "accidentLocation": "במדרגות הבניין",
+  "accidentDescription": "פגיעה במהלך ספורט",
+  "accidentAddress": "רח' ז'בוטינסקי 27, באר שבע",
+  "injuredBodyPart": "ברך ימין",
+  "signature": "נחתם על ידי נציג",
+  "formFillingDate": {
+    "day": 9,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 4,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "פרטי",
+  "natureOfAccident": "פגיעה במהלך ספורט"
+}

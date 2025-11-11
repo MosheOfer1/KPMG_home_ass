@@ -1,0 +1,44 @@
+{
+  "lastName": "מזרחי",
+  "firstName": "נעם",
+  "idNumber": "410468959",
+  "dateOfBirth": {
+    "day": 23,
+    "month": 8,
+    "year": 1991
+  },
+  "address": {
+    "street": "דיזנגוף",
+    "houseNumber": 65,
+    "entrance": "ב",
+    "apartment": 29,
+    "city": "רעננה",
+    "postalCode": "1774698"
+  },
+  "landlinePhone": "0573148448",
+  "mobilePhone": "0546969916",
+  "dateOfInjury": {
+    "day": 26,
+    "month": 10,
+    "year": 2025
+  },
+  "timeOfInjury": "09:36",
+  "accidentLocation": "בבית הספר",
+  "accidentDescription": "תאונת דרכים קלה במהלך פעילות יומיומית",
+  "accidentAddress": "רח' אלנבי 196, ראשון לציון",
+  "injuredBodyPart": "קרסול שמאל",
+  "signature": "חתימה אלקטרונית",
+  "formFillingDate": {
+    "day": 24,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 30,
+    "month": 10,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "מאוחדת",
+  "natureOfAccident": "תאונת דרכים קלה"
+}

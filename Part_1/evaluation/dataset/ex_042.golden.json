@@ -1,0 +1,44 @@
+{
+  "lastName": "ברדוגו",
+  "firstName": "דוד",
+  "idNumber": "027980502",
+  "dateOfBirth": {
+    "day": 6,
+    "month": 2,
+    "year": 1971
+  },
+  "address": {
+    "street": "יהודה הלוי",
+    "houseNumber": 104,
+    "entrance": "ד",
+    "apartment": 44,
+    "city": "רעננה",
+    "postalCode": "7896570"
+  },
+  "landlinePhone": "0581454163",
+  "mobilePhone": "0553206658",
+  "dateOfInjury": {
+    "day": 5,
+    "month": 9,
+    "year": 2025
+  },
+  "timeOfInjury": "16:34",
+  "accidentLocation": "מקום העבודה",
+  "accidentDescription": "התחשמלות קלה במהלך פעילות יומיומית",
+  "accidentAddress": "רח' ויצמן 30, פתח תקווה",
+  "injuredBodyPart": "גב תחתון",
+  "signature": "חתימה ממוחשבת",
+  "formFillingDate": {
+    "day": 6,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 6,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "מאוחדת",
+  "natureOfAccident": "התחשמלות קלה"
+}

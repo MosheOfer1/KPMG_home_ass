@@ -1,0 +1,44 @@
+{
+  "lastName": "חדד",
+  "firstName": "אלון",
+  "idNumber": "884546233",
+  "dateOfBirth": {
+    "day": 17,
+    "month": 1,
+    "year": 1971
+  },
+  "address": {
+    "street": "אבן גבירול",
+    "houseNumber": 7,
+    "entrance": "ד",
+    "apartment": 17,
+    "city": "ירושלים",
+    "postalCode": "7008871"
+  },
+  "landlinePhone": "0579055085",
+  "mobilePhone": "0564489077",
+  "dateOfInjury": {
+    "day": 26,
+    "month": 8,
+    "year": 2025
+  },
+  "timeOfInjury": "07:54",
+  "accidentLocation": "בבית",
+  "accidentDescription": "חתך ביד במהלך עבודה",
+  "accidentAddress": "רח' ויצמן 166, ראשון לציון",
+  "injuredBodyPart": "מרפק שמאל",
+  "signature": "חתימת נבדק",
+  "formFillingDate": {
+    "day": 12,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 8,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "פרטי",
+  "natureOfAccident": "חתך ביד"
+}

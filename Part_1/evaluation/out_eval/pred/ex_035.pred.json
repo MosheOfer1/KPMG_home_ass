@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "254246057",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "17",
+    "month": "05",
+    "year": "1978"
+  },
+  "address": {
+    "street": "אבן גבירול",
+    "houseNumber": "33",
+    "entrance": "ב",
+    "apartment": "7",
+    "city": "רעננה",
+    "postalCode": "",
+    "poBox": ""
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0503767404",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "22",
+    "month": "10",
+    "year": "2025"
+  },
+  "timeOfInjury": "14:39",
+  "accidentLocation": "בדרך לעבודה",
+  "accidentAddress": "רח׳ ויצמן 1, אשדוד",
+  "accidentDescription": "מכה בראש",
+  "injuredBodyPart": "רגל שמאל",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "05",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "11",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

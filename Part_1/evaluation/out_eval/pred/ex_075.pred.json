@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "788551847",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "11",
+    "month": "08",
+    "year": "1986"
+  },
+  "address": {
+    "street": "שדרות חן",
+    "houseNumber": "70",
+    "entrance": "ב",
+    "apartment": "51",
+    "city": "חיפה",
+    "postalCode": "7194140",
+    "poBox": ""
+  },
+  "landlinePhone": "0573665538",
+  "mobilePhone": "0541604410",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "14",
+    "month": "08",
+    "year": "2025"
+  },
+  "timeOfInjury": "02:12",
+  "accidentLocation": "במדרגות הבניין",
+  "accidentAddress": "רח' הרצל 98, באר שבע",
+  "accidentDescription": "התחשמלות קלה בעת ירידה במדרגות",
+  "injuredBodyPart": "יד ימין",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "11",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "02",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מכבי",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

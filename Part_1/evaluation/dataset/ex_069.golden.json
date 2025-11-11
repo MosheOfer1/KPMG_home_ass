@@ -1,0 +1,44 @@
+{
+  "lastName": "אליהו",
+  "firstName": "עומר",
+  "idNumber": "681180236",
+  "dateOfBirth": {
+    "day": 28,
+    "month": 10,
+    "year": 1997
+  },
+  "address": {
+    "street": "דיזנגוף",
+    "houseNumber": 5,
+    "entrance": "ד",
+    "apartment": 20,
+    "city": "באר שבע",
+    "postalCode": "5257097"
+  },
+  "landlinePhone": "0587471654",
+  "mobilePhone": "0524220422",
+  "dateOfInjury": {
+    "day": 23,
+    "month": 10,
+    "year": 2025
+  },
+  "timeOfInjury": "18:35",
+  "accidentLocation": "במדרגות הבניין",
+  "accidentDescription": "נפילה ממדרגות",
+  "accidentAddress": "רח' הרצל 44, ירושלים",
+  "injuredBodyPart": "צוואר",
+  "signature": "חתימה רפואית",
+  "formFillingDate": {
+    "day": 3,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 27,
+    "month": 10,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "ללא",
+  "natureOfAccident": "נפילה ממדרגות"
+}

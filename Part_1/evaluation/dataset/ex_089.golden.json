@@ -1,0 +1,44 @@
+{
+  "lastName": "אליהו",
+  "firstName": "נעמה",
+  "idNumber": "543330319",
+  "dateOfBirth": {
+    "day": 27,
+    "month": 10,
+    "year": 1973
+  },
+  "address": {
+    "street": "בן גוריון",
+    "houseNumber": 59,
+    "entrance": "א",
+    "apartment": 26,
+    "city": "רעננה",
+    "postalCode": "5608756"
+  },
+  "landlinePhone": "0510929768",
+  "mobilePhone": "0548356149",
+  "dateOfInjury": {
+    "day": 24,
+    "month": 8,
+    "year": 2025
+  },
+  "timeOfInjury": "14:31",
+  "accidentLocation": "בדרך הביתה",
+  "accidentDescription": "התחשמלות קלה בעת ירידה במדרגות",
+  "accidentAddress": "רח' החשמונאים 117, ירושלים",
+  "injuredBodyPart": "שכם ימין",
+  "signature": "חתימה רפואית",
+  "formFillingDate": {
+    "day": 17,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 31,
+    "month": 10,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "מכבי",
+  "natureOfAccident": "התחשמלות קלה"
+}

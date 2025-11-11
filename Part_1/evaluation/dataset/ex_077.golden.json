@@ -1,0 +1,44 @@
+{
+  "lastName": "מזרחי",
+  "firstName": "אלון",
+  "idNumber": "900046438",
+  "dateOfBirth": {
+    "day": 2,
+    "month": 10,
+    "year": 2002
+  },
+  "address": {
+    "street": "יהודה הלוי",
+    "houseNumber": 103,
+    "entrance": "ב",
+    "apartment": 34,
+    "city": "רעננה",
+    "postalCode": "1812503"
+  },
+  "landlinePhone": "0593557033",
+  "mobilePhone": "0588414924",
+  "dateOfInjury": {
+    "day": 14,
+    "month": 9,
+    "year": 2025
+  },
+  "timeOfInjury": "15:11",
+  "accidentLocation": "בבית הספר",
+  "accidentDescription": "תאונת דרכים קלה במהלך עבודה",
+  "accidentAddress": "רח' אבן גבירול 173, רעננה",
+  "injuredBodyPart": "קרסול שמאל",
+  "signature": "חתימה ממוחשבת",
+  "formFillingDate": {
+    "day": 13,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 10,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "מכבי",
+  "natureOfAccident": "תאונת דרכים קלה"
+}

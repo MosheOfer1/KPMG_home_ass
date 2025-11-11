@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "626106072",
+  "gender": "נקבה",
+  "dateOfBirth": {
+    "day": "23",
+    "month": "09",
+    "year": "1986"
+  },
+  "address": {
+    "street": "הרצל",
+    "houseNumber": "49",
+    "entrance": "",
+    "apartment": "11",
+    "city": "ראשון לציון",
+    "poBox": "",
+    "postalCode": "9304502"
+  },
+  "landlinePhone": "0549488213",
+  "mobilePhone": "056569017994",
+  "jobType": "עצמאי",
+  "dateOfInjury": {
+    "day": "23",
+    "month": "10",
+    "year": "2025"
+  },
+  "timeOfInjury": "14:43",
+  "accidentLocation": "בחוף הים",
+  "accidentAddress": "רח׳ יהודה הלוי 97, ירושלים",
+  "accidentDescription": "מכה בראש בעת ירידה במדרגות",
+  "injuredBodyPart": "יד ימין",
+  "signature": "חתימהX",
+  "formFillingDate": {
+    "day": "08",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "31",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "לאומית",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

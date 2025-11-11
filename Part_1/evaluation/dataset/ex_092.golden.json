@@ -1,0 +1,44 @@
+{
+  "lastName": "יעקב",
+  "firstName": "הילה",
+  "idNumber": "305147484",
+  "dateOfBirth": {
+    "day": 9,
+    "month": 1,
+    "year": 1996
+  },
+  "address": {
+    "street": "דיזנגוף",
+    "houseNumber": 101,
+    "entrance": "ב",
+    "apartment": 33,
+    "city": "רעננה",
+    "postalCode": "6343557"
+  },
+  "landlinePhone": "0537368229",
+  "mobilePhone": "0544104032",
+  "dateOfInjury": {
+    "day": 25,
+    "month": 10,
+    "year": 2025
+  },
+  "timeOfInjury": "19:15",
+  "accidentLocation": "במגרש הספורט",
+  "accidentDescription": "חתך ביד",
+  "accidentAddress": "רח' אבן גבירול 151, הרצליה",
+  "injuredBodyPart": "ברך ימין",
+  "signature": "נחתם על ידי נציג",
+  "formFillingDate": {
+    "day": 4,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 8,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "מכבי",
+  "natureOfAccident": "חתך ביד"
+}

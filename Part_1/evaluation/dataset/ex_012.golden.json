@@ -1,0 +1,44 @@
+{
+  "lastName": "לוי",
+  "firstName": "אורי",
+  "idNumber": "052534636",
+  "dateOfBirth": {
+    "day": 26,
+    "month": 12,
+    "year": 1992
+  },
+  "address": {
+    "street": "שדרות חן",
+    "houseNumber": 104,
+    "entrance": "",
+    "apartment": 47,
+    "city": "תל אביב",
+    "postalCode": "8722077"
+  },
+  "landlinePhone": "0592756222",
+  "mobilePhone": "0520951655",
+  "dateOfInjury": {
+    "day": 20,
+    "month": 9,
+    "year": 2025
+  },
+  "timeOfInjury": "20:28",
+  "accidentLocation": "בגן הציבורי",
+  "accidentDescription": "חתך ביד במהלך פעילות יומיומית",
+  "accidentAddress": "רח' דיזנגוף 141, אשדוד",
+  "injuredBodyPart": "יד ימין",
+  "signature": "חתימה אלקטרונית",
+  "formFillingDate": {
+    "day": 13,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 11,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "פרטי",
+  "natureOfAccident": "חתך ביד"
+}

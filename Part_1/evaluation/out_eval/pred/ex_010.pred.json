@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "525499237",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "26",
+    "month": "03",
+    "year": "1973"
+  },
+  "address": {
+    "apartment": "49",
+    "city": "ראשון לציון",
+    "entrance": "10",
+    "houseNumber": "",
+    "poBox": "",
+    "postalCode": "0642624",
+    "street": "יהודה הלוי"
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0501407189",
+  "jobType": "עצמאי",
+  "dateOfInjury": {
+    "day": "01",
+    "month": "11",
+    "year": "2025"
+  },
+  "timeOfInjury": "04:27",
+  "accidentLocation": "בכביש",
+  "accidentAddress": "רח׳ החשמונאים 561, פתח תקווה",
+  "accidentDescription": "התחשמלות קלה",
+  "injuredBodyPart": "שכם ימין",
+  "signature": "חתימהX",
+  "formFillingDate": {
+    "day": "04",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "31",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מאוחדת",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

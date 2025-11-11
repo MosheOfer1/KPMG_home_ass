@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "835044420",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "24",
+    "month": "08",
+    "year": "1995"
+  },
+  "address": {
+    "street": "שדרות חן",
+    "houseNumber": "12",
+    "entrance": "ד",
+    "apartment": "35",
+    "city": "תל אביב",
+    "postalCode": "8843597",
+    "poBox": ""
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0589014407",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "26",
+    "month": "10",
+    "year": "2025"
+  },
+  "timeOfInjury": "05:22",
+  "accidentLocation": "בחוף הים",
+  "accidentAddress": "רח׳ החשמונאים 051, באר שבע",
+  "accidentDescription": "נפילה מאופניים במהלך עבודה",
+  "injuredBodyPart": "יד ימין",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "17",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "30",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

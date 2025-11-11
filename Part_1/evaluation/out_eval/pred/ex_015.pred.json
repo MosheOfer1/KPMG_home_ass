@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "712167171",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "19",
+    "month": "11",
+    "year": "1978"
+  },
+  "address": {
+    "street": "אלנבי",
+    "houseNumber": "23",
+    "entrance": "א",
+    "apartment": "60",
+    "city": "פתח תקווה",
+    "postalCode": "9371638",
+    "poBox": ""
+  },
+  "landlinePhone": "0563245080",
+  "mobilePhone": "0563245080",
+  "jobType": "self-employed",
+  "dateOfInjury": {
+    "day": "12",
+    "month": "01",
+    "year": "2025"
+  },
+  "timeOfInjury": "09:34",
+  "accidentLocation": "בדרך לעבודה",
+  "accidentAddress": "רח׳ ז׳בוטינסקי 14, הרצליה",
+  "accidentDescription": "מכה בראש בעת ירידה במדרגות",
+  "injuredBodyPart": "יד ימין",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "05",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "27",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מאוחדת",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

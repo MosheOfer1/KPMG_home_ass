@@ -1,0 +1,44 @@
+{
+  "lastName": "מזרחי",
+  "firstName": "הילה",
+  "idNumber": "635187685",
+  "dateOfBirth": {
+    "day": 1,
+    "month": 3,
+    "year": 1986
+  },
+  "address": {
+    "street": "אלנבי",
+    "houseNumber": 35,
+    "entrance": "",
+    "apartment": 36,
+    "city": "נתניה",
+    "postalCode": "4584958"
+  },
+  "landlinePhone": "0597670773",
+  "mobilePhone": "0594903150",
+  "dateOfInjury": {
+    "day": 12,
+    "month": 9,
+    "year": 2025
+  },
+  "timeOfInjury": "05:15",
+  "accidentLocation": "בדרך לעבודה",
+  "accidentDescription": "החלקה בבית בעת ירידה במדרגות",
+  "accidentAddress": "רח' ויצמן 104, באר שבע",
+  "injuredBodyPart": "צוואר",
+  "signature": "חתימת מטופל",
+  "formFillingDate": {
+    "day": 16,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 9,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "מאוחדת",
+  "natureOfAccident": "החלקה בבית"
+}

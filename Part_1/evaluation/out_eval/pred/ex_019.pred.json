@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "548906865",
+  "gender": "female",
+  "dateOfBirth": {
+    "day": "17",
+    "month": "04",
+    "year": "2001"
+  },
+  "address": {
+    "street": "דיזנגוף",
+    "houseNumber": "2",
+    "entrance": "ב",
+    "apartment": "44",
+    "city": "באר שבע",
+    "postalCode": "2948040",
+    "poBox": ""
+  },
+  "landlinePhone": "0520927348",
+  "mobilePhone": "0520927348",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "16",
+    "month": "08",
+    "year": "2025"
+  },
+  "timeOfInjury": "03:58",
+  "accidentLocation": "בדרך הביתה",
+  "accidentAddress": "רח׳ דיזנגוף 61, הרצליה",
+  "accidentDescription": "פציעה בעבודה בעת ירידה במדרגות",
+  "injuredBodyPart": "ברך ימין",
+  "signature": "חתימה ממוחשבת",
+  "formFillingDate": {
+    "day": "28",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "07",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "כללית",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

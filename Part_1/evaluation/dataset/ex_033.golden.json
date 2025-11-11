@@ -1,0 +1,44 @@
+{
+  "lastName": "גולן",
+  "firstName": "שירה",
+  "idNumber": "244793275",
+  "dateOfBirth": {
+    "day": 19,
+    "month": 11,
+    "year": 1995
+  },
+  "address": {
+    "street": "בן גוריון",
+    "houseNumber": 84,
+    "entrance": "א",
+    "apartment": 57,
+    "city": "חיפה",
+    "postalCode": "0863606"
+  },
+  "landlinePhone": "0507562433",
+  "mobilePhone": "0520040833",
+  "dateOfInjury": {
+    "day": 24,
+    "month": 8,
+    "year": 2025
+  },
+  "timeOfInjury": "05:45",
+  "accidentLocation": "מקום העבודה",
+  "accidentDescription": "תאונת דרכים קלה",
+  "accidentAddress": "רח' הרצל 13, ירושלים",
+  "injuredBodyPart": "רגל ימין",
+  "signature": "נחתם על ידי נציג",
+  "formFillingDate": {
+    "day": 26,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 7,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "ללא",
+  "natureOfAccident": "תאונת דרכים קלה"
+}

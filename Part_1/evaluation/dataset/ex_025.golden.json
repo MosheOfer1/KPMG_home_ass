@@ -1,0 +1,44 @@
+{
+  "lastName": "לוי",
+  "firstName": "טל",
+  "idNumber": "905839272",
+  "dateOfBirth": {
+    "day": 2,
+    "month": 3,
+    "year": 1995
+  },
+  "address": {
+    "street": "יהודה הלוי",
+    "houseNumber": 108,
+    "entrance": "א",
+    "apartment": 55,
+    "city": "נתניה",
+    "postalCode": "4098831"
+  },
+  "landlinePhone": "0571011053",
+  "mobilePhone": "0581136810",
+  "dateOfInjury": {
+    "day": 21,
+    "month": 10,
+    "year": 2025
+  },
+  "timeOfInjury": "05:21",
+  "accidentLocation": "במדרגות הבניין",
+  "accidentDescription": "מכה בראש במהלך עבודה",
+  "accidentAddress": "רח' ז'בוטינסקי 146, רעננה",
+  "injuredBodyPart": "מרפק שמאל",
+  "signature": "חתימה רפואית",
+  "formFillingDate": {
+    "day": 24,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 27,
+    "month": 10,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "מאוחדת",
+  "natureOfAccident": "מכה בראש"
+}

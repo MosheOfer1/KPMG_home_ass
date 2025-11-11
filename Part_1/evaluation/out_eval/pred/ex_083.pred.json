@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "997623672",
+  "gender": "נקבה",
+  "dateOfBirth": {
+    "day": "15",
+    "month": "11",
+    "year": "1988"
+  },
+  "address": {
+    "apartment": "47",
+    "city": "אשדוד",
+    "entrance": "ב",
+    "houseNumber": "93",
+    "poBox": "",
+    "postalCode": "7462867",
+    "street": "שדרות חן"
+  },
+  "landlinePhone": "050006602",
+  "mobilePhone": "0559831906",
+  "jobType": "אחר",
+  "dateOfInjury": {
+    "day": "27",
+    "month": "11",
+    "year": "2025"
+  },
+  "timeOfInjury": "23:37",
+  "accidentLocation": "בגן הציבורי",
+  "accidentAddress": "רח׳ החשמונאים 83, הרצליה",
+  "accidentDescription": "פציעה בעבודה במהלך פעילות יומיומית",
+  "injuredBodyPart": "שכם ימין",
+  "signature": "חתימהX",
+  "formFillingDate": {
+    "day": "01",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "07",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מכבי",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

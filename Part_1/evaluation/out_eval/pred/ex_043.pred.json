@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "24817838",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "27",
+    "month": "08",
+    "year": "1993"
+  },
+  "address": {
+    "apartment": "34",
+    "city": "פתח תקווה",
+    "entrance": "ד",
+    "houseNumber": "34",
+    "poBox": "",
+    "postalCode": "9709090",
+    "street": "יהודה הלוי"
+  },
+  "landlinePhone": "0539818283",
+  "mobilePhone": "6573151196",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "14",
+    "month": "08",
+    "year": "2025"
+  },
+  "timeOfInjury": "00:13",
+  "accidentLocation": "בדרך הביתה",
+  "accidentAddress": "רח׳ יהודה הלוי 95, תל אביב",
+  "accidentDescription": "החלקה בבית בעת ירידה במדרגות",
+  "injuredBodyPart": "צוואר",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "22",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "10",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

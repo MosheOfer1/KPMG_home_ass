@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "412373455",
+  "gender": "female",
+  "dateOfBirth": {
+    "day": "05",
+    "month": "10",
+    "year": "1999"
+  },
+  "address": {
+    "street": "אלנבי",
+    "houseNumber": "23",
+    "entrance": "ד",
+    "apartment": "42",
+    "city": "ירושלים",
+    "postalCode": "2713276",
+    "poBox": ""
+  },
+  "landlinePhone": "0597097927",
+  "mobilePhone": "0532044556",
+  "jobType": "עצמאי",
+  "dateOfInjury": {
+    "day": "15",
+    "month": "09",
+    "year": "2025"
+  },
+  "timeOfInjury": "14:27",
+  "accidentLocation": "בדרך לעבודה",
+  "accidentAddress": "רח׳ החשמונאים 321, הרצליה",
+  "accidentDescription": "נפילה מאופניים במהלך עבודה",
+  "injuredBodyPart": "יד ימין",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "13",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "30",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "לאומית",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "lastName": "אליהו",
+  "firstName": "עומר",
+  "idNumber": "923385793",
+  "dateOfBirth": {
+    "day": 17,
+    "month": 6,
+    "year": 1975
+  },
+  "address": {
+    "street": "אבן גבירול",
+    "houseNumber": 27,
+    "entrance": "",
+    "apartment": 34,
+    "city": "הרצליה",
+    "postalCode": "7102449"
+  },
+  "landlinePhone": "0524754806",
+  "mobilePhone": "0586673004",
+  "dateOfInjury": {
+    "day": 7,
+    "month": 9,
+    "year": 2025
+  },
+  "timeOfInjury": "19:24",
+  "accidentLocation": "בדרך הביתה",
+  "accidentDescription": "התחשמלות קלה",
+  "accidentAddress": "רח' החשמונאים 6, הרצליה",
+  "injuredBodyPart": "ברך ימין",
+  "signature": "חתימת מטופל",
+  "formFillingDate": {
+    "day": 31,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 8,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "פרטי",
+  "natureOfAccident": "התחשמלות קלה"
+}

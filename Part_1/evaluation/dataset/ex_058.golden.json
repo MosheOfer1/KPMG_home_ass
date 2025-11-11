@@ -1,0 +1,44 @@
+{
+  "lastName": "פרץ",
+  "firstName": "נועה",
+  "idNumber": "107489113",
+  "dateOfBirth": {
+    "day": 14,
+    "month": 6,
+    "year": 2001
+  },
+  "address": {
+    "street": "החשמונאים",
+    "houseNumber": 67,
+    "entrance": "א",
+    "apartment": 7,
+    "city": "תל אביב",
+    "postalCode": "8463138"
+  },
+  "landlinePhone": "0500144938",
+  "mobilePhone": "0550267923",
+  "dateOfInjury": {
+    "day": 21,
+    "month": 9,
+    "year": 2025
+  },
+  "timeOfInjury": "03:58",
+  "accidentLocation": "במגרש הספורט",
+  "accidentDescription": "מכה בראש בעת ירידה במדרגות",
+  "accidentAddress": "רח' דיזנגוף 5, פתח תקווה",
+  "injuredBodyPart": "ברך ימין",
+  "signature": "נחתם על ידי נציג",
+  "formFillingDate": {
+    "day": 3,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 4,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "לאומית",
+  "natureOfAccident": "מכה בראש"
+}

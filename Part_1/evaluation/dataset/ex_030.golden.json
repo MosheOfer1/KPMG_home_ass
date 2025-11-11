@@ -1,0 +1,44 @@
+{
+  "lastName": "מזרחי",
+  "firstName": "יוסי",
+  "idNumber": "544099332",
+  "dateOfBirth": {
+    "day": 12,
+    "month": 3,
+    "year": 1993
+  },
+  "address": {
+    "street": "אלנבי",
+    "houseNumber": 41,
+    "entrance": "ד",
+    "apartment": 9,
+    "city": "הרצליה",
+    "postalCode": "9183328"
+  },
+  "landlinePhone": "0522157511",
+  "mobilePhone": "0509760181",
+  "dateOfInjury": {
+    "day": 7,
+    "month": 11,
+    "year": 2025
+  },
+  "timeOfInjury": "20:19",
+  "accidentLocation": "בדרך הביתה",
+  "accidentDescription": "חתך ביד בעת ירידה במדרגות",
+  "accidentAddress": "רח' בן גוריון 83, באר שבע",
+  "injuredBodyPart": "גב תחתון",
+  "signature": "חתימת מטופל",
+  "formFillingDate": {
+    "day": 6,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 27,
+    "month": 10,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "מכבי",
+  "natureOfAccident": "חתך ביד"
+}

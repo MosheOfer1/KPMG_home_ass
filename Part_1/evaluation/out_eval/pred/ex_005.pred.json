@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "076056494",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "26",
+    "month": "08",
+    "year": "1993"
+  },
+  "address": {
+    "apartment": "17",
+    "city": "נתניה",
+    "entrance": "66",
+    "houseNumber": "",
+    "poBox": "",
+    "postalCode": "3570349",
+    "street": "אבן גבירול"
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0580993446",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "01",
+    "month": "10",
+    "year": "2025"
+  },
+  "timeOfInjury": "17:34",
+  "accidentLocation": "בדרך הביתה",
+  "accidentAddress": "רח׳ אלנבי 66, הרצליה",
+  "accidentDescription": "התחשמלות קלה במהלך עבודה",
+  "injuredBodyPart": "גב תחתון",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "20",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "10",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מכבי",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "lastName": "אוחנה",
+  "firstName": "שירה",
+  "idNumber": "157914266",
+  "dateOfBirth": {
+    "day": 20,
+    "month": 11,
+    "year": 1988
+  },
+  "address": {
+    "street": "שדרות חן",
+    "houseNumber": 20,
+    "entrance": "א",
+    "apartment": 7,
+    "city": "חיפה",
+    "postalCode": "3795356"
+  },
+  "landlinePhone": "0508454414",
+  "mobilePhone": "0517873560",
+  "dateOfInjury": {
+    "day": 3,
+    "month": 9,
+    "year": 2025
+  },
+  "timeOfInjury": "06:41",
+  "accidentLocation": "בגן הציבורי",
+  "accidentDescription": "פגיעה במהלך ספורט במהלך פעילות יומיומית",
+  "accidentAddress": "רח' ויצמן 80, ראשון לציון",
+  "injuredBodyPart": "מרפק שמאל",
+  "signature": "נחתם על ידי נציג",
+  "formFillingDate": {
+    "day": 20,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 3,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "מאוחדת",
+  "natureOfAccident": "פגיעה במהלך ספורט"
+}

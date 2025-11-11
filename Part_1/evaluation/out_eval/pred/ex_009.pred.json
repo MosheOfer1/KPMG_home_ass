@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "892988549",
+  "gender": "female",
+  "dateOfBirth": {
+    "day": "21",
+    "month": "12",
+    "year": "1991"
+  },
+  "address": {
+    "street": "ויצמן",
+    "houseNumber": "70",
+    "entrance": "ב",
+    "apartment": "13",
+    "city": "באר שבע",
+    "postalCode": "2260423",
+    "poBox": ""
+  },
+  "landlinePhone": "0556908885",
+  "mobilePhone": "0576778397",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "10",
+    "month": "1",
+    "year": "2025"
+  },
+  "timeOfInjury": "10:03",
+  "accidentLocation": "במדרגות הבניין",
+  "accidentAddress": "רח' בן גוריון 191, פתח תקווה",
+  "accidentDescription": "החלקה בבית בעת ירידה במדרגות",
+  "injuredBodyPart": "יד ימין",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "4",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "9",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מאוחדת",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

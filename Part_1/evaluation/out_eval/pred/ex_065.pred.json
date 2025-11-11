@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "115289457",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "17",
+    "month": "12",
+    "year": "1983"
+  },
+  "address": {
+    "apartment": "52",
+    "city": "נתניה",
+    "entrance": "א",
+    "houseNumber": "31",
+    "poBox": "",
+    "postalCode": "4823390",
+    "street": "בן גוריון"
+  },
+  "landlinePhone": "0558697178",
+  "mobilePhone": "0538874715",
+  "jobType": "עצמאי",
+  "dateOfInjury": {
+    "day": "29",
+    "month": "09",
+    "year": "2025"
+  },
+  "timeOfInjury": "03:24",
+  "accidentLocation": "בבית הספר",
+  "accidentAddress": "רח׳ שדרות חן 371, הרצליה",
+  "accidentDescription": "התחשמלות קלה במהלך עבודה",
+  "injuredBodyPart": "רגל שמאל",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "05",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "09",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "לאומית",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

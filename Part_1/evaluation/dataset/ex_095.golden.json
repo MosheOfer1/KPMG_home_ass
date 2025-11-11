@@ -1,0 +1,44 @@
+{
+  "lastName": "ברדוגו",
+  "firstName": "מיכל",
+  "idNumber": "705455487",
+  "dateOfBirth": {
+    "day": 28,
+    "month": 3,
+    "year": 1992
+  },
+  "address": {
+    "street": "אלנבי",
+    "houseNumber": 62,
+    "entrance": "ב",
+    "apartment": 44,
+    "city": "ראשון לציון",
+    "postalCode": "1360694"
+  },
+  "landlinePhone": "0574098814",
+  "mobilePhone": "0525241226",
+  "dateOfInjury": {
+    "day": 4,
+    "month": 10,
+    "year": 2025
+  },
+  "timeOfInjury": "04:17",
+  "accidentLocation": "בבית הספר",
+  "accidentDescription": "נפילה ממדרגות במהלך עבודה",
+  "accidentAddress": "רח' הרצל 182, פתח תקווה",
+  "injuredBodyPart": "יד ימין",
+  "signature": "חתימת נבדק",
+  "formFillingDate": {
+    "day": 31,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 8,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "לאומית",
+  "natureOfAccident": "נפילה ממדרגות"
+}

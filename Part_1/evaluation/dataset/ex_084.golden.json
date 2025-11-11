@@ -1,0 +1,44 @@
+{
+  "lastName": "מזרחי",
+  "firstName": "מיכל",
+  "idNumber": "671909188",
+  "dateOfBirth": {
+    "day": 3,
+    "month": 10,
+    "year": 1971
+  },
+  "address": {
+    "street": "אלנבי",
+    "houseNumber": 114,
+    "entrance": "ג",
+    "apartment": 39,
+    "city": "חיפה",
+    "postalCode": "0474946"
+  },
+  "landlinePhone": "0540396667",
+  "mobilePhone": "0550794940",
+  "dateOfInjury": {
+    "day": 22,
+    "month": 8,
+    "year": 2025
+  },
+  "timeOfInjury": "14:26",
+  "accidentLocation": "בחוף הים",
+  "accidentDescription": "חבלה בגב בעת ירידה במדרגות",
+  "accidentAddress": "רח' דיזנגוף 160, נתניה",
+  "injuredBodyPart": "רגל שמאל",
+  "signature": "נחתם על ידי נציג",
+  "formFillingDate": {
+    "day": 6,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 6,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "מאוחדת",
+  "natureOfAccident": "חבלה בגב"
+}

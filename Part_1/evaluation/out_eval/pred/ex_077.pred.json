@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "900046438",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "02",
+    "month": "10",
+    "year": "2002"
+  },
+  "address": {
+    "street": "יהודה הלוי",
+    "houseNumber": "103",
+    "entrance": "ב",
+    "apartment": "34",
+    "city": "רעננה",
+    "postalCode": "1812503",
+    "poBox": ""
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0593557033",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "01",
+    "month": "10",
+    "year": "2025"
+  },
+  "timeOfInjury": "15:11",
+  "accidentLocation": "בבית הספר",
+  "accidentAddress": "רח׳ אבן גבירול 371, רעננה",
+  "accidentDescription": "תאונת דרכים קלה במהלך עבודה",
+  "injuredBodyPart": "קרסול שמאל",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "13",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "10",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מכבי",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

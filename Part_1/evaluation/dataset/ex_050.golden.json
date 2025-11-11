@@ -1,0 +1,44 @@
+{
+  "lastName": "בן דוד",
+  "firstName": "אדם",
+  "idNumber": "622613043",
+  "dateOfBirth": {
+    "day": 20,
+    "month": 4,
+    "year": 2000
+  },
+  "address": {
+    "street": "בן גוריון",
+    "houseNumber": 46,
+    "entrance": "ב",
+    "apartment": 39,
+    "city": "חיפה",
+    "postalCode": "9950048"
+  },
+  "landlinePhone": "0532393689",
+  "mobilePhone": "0535218439",
+  "dateOfInjury": {
+    "day": 25,
+    "month": 8,
+    "year": 2025
+  },
+  "timeOfInjury": "03:26",
+  "accidentLocation": "בכביש",
+  "accidentDescription": "פגיעה במהלך ספורט במהלך עבודה",
+  "accidentAddress": "רח' יהודה הלוי 131, ירושלים",
+  "injuredBodyPart": "קרסול שמאל",
+  "signature": "נחתם על ידי נציג",
+  "formFillingDate": {
+    "day": 4,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 8,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "כללית",
+  "natureOfAccident": "פגיעה במהלך ספורט"
+}

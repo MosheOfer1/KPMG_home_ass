@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "681180236",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "28",
+    "month": "10",
+    "year": "1997"
+  },
+  "address": {
+    "apartment": "20",
+    "city": "באר שבע",
+    "entrance": "ד",
+    "houseNumber": "5",
+    "poBox": "",
+    "postalCode": "5257097",
+    "street": "דיזנגוף"
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0587477654",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "23",
+    "month": "10",
+    "year": "2025"
+  },
+  "timeOfInjury": "18:35",
+  "accidentLocation": "במדרגות הבניין",
+  "accidentAddress": "רח׳ הרצל 44, ירושלים",
+  "accidentDescription": "נפילה ממדרגות",
+  "injuredBodyPart": "צוואר",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "03",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "27",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "selected"
+  }
+}

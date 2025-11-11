@@ -1,0 +1,44 @@
+{
+  "lastName": "בן דוד",
+  "firstName": "נעם",
+  "idNumber": "296810391",
+  "dateOfBirth": {
+    "day": 10,
+    "month": 1,
+    "year": 1994
+  },
+  "address": {
+    "street": "יהודה הלוי",
+    "houseNumber": 87,
+    "entrance": "א",
+    "apartment": 50,
+    "city": "ירושלים",
+    "postalCode": "7594013"
+  },
+  "landlinePhone": "0513553277",
+  "mobilePhone": "0565403267",
+  "dateOfInjury": {
+    "day": 9,
+    "month": 9,
+    "year": 2025
+  },
+  "timeOfInjury": "08:29",
+  "accidentLocation": "מקום העבודה",
+  "accidentDescription": "פגיעה במהלך ספורט במהלך פעילות יומיומית",
+  "accidentAddress": "רח' דיזנגוף 151, אשדוד",
+  "injuredBodyPart": "רגל שמאל",
+  "signature": "חתימת מטופל",
+  "formFillingDate": {
+    "day": 6,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 6,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "פרטי",
+  "natureOfAccident": "פגיעה במהלך ספורט"
+}

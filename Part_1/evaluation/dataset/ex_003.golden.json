@@ -1,0 +1,44 @@
+{
+  "lastName": "פרץ",
+  "firstName": "דוד",
+  "idNumber": "959749330",
+  "dateOfBirth": {
+    "day": 19,
+    "month": 8,
+    "year": 1974
+  },
+  "address": {
+    "street": "בן גוריון",
+    "houseNumber": 119,
+    "entrance": "",
+    "apartment": 5,
+    "city": "הרצליה",
+    "postalCode": "5192827"
+  },
+  "landlinePhone": "0598169803",
+  "mobilePhone": "0566766699",
+  "dateOfInjury": {
+    "day": 20,
+    "month": 8,
+    "year": 2025
+  },
+  "timeOfInjury": "15:50",
+  "accidentLocation": "בחוף הים",
+  "accidentDescription": "מכה בראש במהלך עבודה",
+  "accidentAddress": "רח' ויצמן 127, פתח תקווה",
+  "injuredBodyPart": "יד ימין",
+  "signature": "חתימה ממוחשבת",
+  "formFillingDate": {
+    "day": 9,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 10,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "מאוחדת",
+  "natureOfAccident": "מכה בראש"
+}

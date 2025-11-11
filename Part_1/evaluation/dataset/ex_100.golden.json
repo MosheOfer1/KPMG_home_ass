@@ -1,0 +1,44 @@
+{
+  "lastName": "שלום",
+  "firstName": "דוד",
+  "idNumber": "248227174",
+  "dateOfBirth": {
+    "day": 28,
+    "month": 8,
+    "year": 1990
+  },
+  "address": {
+    "street": "החשמונאים",
+    "houseNumber": 35,
+    "entrance": "ב",
+    "apartment": 5,
+    "city": "תל אביב",
+    "postalCode": "6221220"
+  },
+  "landlinePhone": "0509910534",
+  "mobilePhone": "0532880245",
+  "dateOfInjury": {
+    "day": 25,
+    "month": 8,
+    "year": 2025
+  },
+  "timeOfInjury": "15:54",
+  "accidentLocation": "בגן הציבורי",
+  "accidentDescription": "החלקה בבית בעת ירידה במדרגות",
+  "accidentAddress": "רח' יהודה הלוי 4, רעננה",
+  "injuredBodyPart": "יד ימין",
+  "signature": "חתימה אלקטרונית",
+  "formFillingDate": {
+    "day": 19,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 3,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "מכבי",
+  "natureOfAccident": "החלקה בבית"
+}

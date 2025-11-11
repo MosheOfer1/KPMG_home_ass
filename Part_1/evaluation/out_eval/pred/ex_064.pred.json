@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "501391927",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "19",
+    "month": "12",
+    "year": "1976"
+  },
+  "address": {
+    "street": "אלנבי",
+    "houseNumber": "94",
+    "entrance": "ב",
+    "apartment": "30",
+    "city": "ראשון לציון",
+    "postalCode": "1153245",
+    "poBox": ""
+  },
+  "landlinePhone": "0592346846",
+  "mobilePhone": "0585865175",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "11",
+    "month": "01",
+    "year": "2025"
+  },
+  "timeOfInjury": "07:23",
+  "accidentLocation": "בדרך הביתה",
+  "accidentAddress": "רח׳ ז'בוטינסקי 761, ירושלים",
+  "accidentDescription": "חבלה בגב במהלך עבודה",
+  "injuredBodyPart": "מרפק שמאל",
+  "signature": "שם המבקש נחתם על ידי נציג",
+  "formFillingDate": {
+    "day": "12",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "06",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מאוחדת",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

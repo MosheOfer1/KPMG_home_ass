@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "296810391",
+  "gender": "female",
+  "dateOfBirth": {
+    "day": "10",
+    "month": "01",
+    "year": "1994"
+  },
+  "address": {
+    "street": "יהודה הלוי",
+    "houseNumber": "87",
+    "entrance": "א",
+    "apartment": "50",
+    "city": "ירושלים",
+    "postalCode": "7594013",
+    "poBox": ""
+  },
+  "landlinePhone": "0513553277",
+  "mobilePhone": "0565403267",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "09",
+    "month": "09",
+    "year": "2025"
+  },
+  "timeOfInjury": "08:29",
+  "accidentLocation": "מקום העבודה",
+  "accidentAddress": "רח׳ דיזנגוף 151, אשדוד",
+  "accidentDescription": "פגיעה במהלך ספורט במהלך פעילות יומיומית",
+  "injuredBodyPart": "רגל שמאל",
+  "signature": "חתימהX",
+  "formFillingDate": {
+    "day": "06",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "06",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "selected"
+  }
+}

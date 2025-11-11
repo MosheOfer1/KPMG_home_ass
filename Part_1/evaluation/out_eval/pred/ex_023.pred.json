@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "754294636",
+  "gender": "female",
+  "dateOfBirth": {
+    "day": "20",
+    "month": "06",
+    "year": "1988"
+  },
+  "address": {
+    "apartment": "51",
+    "city": "ירושלים",
+    "entrance": "64",
+    "houseNumber": "",
+    "poBox": "",
+    "postalCode": "7511693",
+    "street": "ז׳בוטינסקי"
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0518900998",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "01",
+    "month": "11",
+    "year": "2025"
+  },
+  "timeOfInjury": "19:45",
+  "accidentLocation": "במדרגות הבניין",
+  "accidentAddress": "רח׳ החשמונאים 86, אשדוד",
+  "accidentDescription": "פגיעה במהלך ספורט במהלך עבודה",
+  "injuredBodyPart": "רגל שמאל",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "01",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "07",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "כללית",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

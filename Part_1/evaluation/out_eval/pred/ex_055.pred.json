@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "330107842",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "27",
+    "month": "08",
+    "year": "1995"
+  },
+  "address": {
+    "street": "הרצל",
+    "houseNumber": "60",
+    "entrance": "",
+    "apartment": "8",
+    "city": "חיפה",
+    "postalCode": "4253218",
+    "poBox": ""
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0510482901",
+  "jobType": "עצמאי",
+  "dateOfInjury": {
+    "day": "10",
+    "month": "09",
+    "year": "2025"
+  },
+  "timeOfInjury": "13:43",
+  "accidentLocation": "במגרש הספורט",
+  "accidentAddress": "רח׳ דיזנגוף 331, רעננה",
+  "accidentDescription": "נפילה ממדרגות במהלך עבודה",
+  "injuredBodyPart": "צוואר",
+  "signature": "חתימהX",
+  "formFillingDate": {
+    "day": "30",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "06",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "כללית",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

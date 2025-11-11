@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "123771621",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "09",
+    "month": "05",
+    "year": "1979"
+  },
+  "address": {
+    "apartment": "33",
+    "city": "אשדוד",
+    "entrance": "א",
+    "houseNumber": "52",
+    "poBox": "",
+    "postalCode": "1618558",
+    "street": "בן גוריון"
+  },
+  "landlinePhone": "051752771",
+  "mobilePhone": "0598591775",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "02",
+    "month": "09",
+    "year": "2025"
+  },
+  "timeOfInjury": "07:10",
+  "accidentLocation": "בבית",
+  "accidentAddress": "רח׳ החשמונאים 641, תל אביב",
+  "accidentDescription": "חבלה בגב בעת ירידה במדרגות",
+  "injuredBodyPart": "ברך ימין",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "25",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "27",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

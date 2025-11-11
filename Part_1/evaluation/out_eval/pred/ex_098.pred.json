@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "441639707",
+  "gender": "female",
+  "dateOfBirth": {
+    "day": "24",
+    "month": "05",
+    "year": "1971"
+  },
+  "address": {
+    "street": "שדרות חן",
+    "houseNumber": "25",
+    "entrance": "ג",
+    "apartment": "58",
+    "city": "ירושלים",
+    "postalCode": "2314032",
+    "poBox": ""
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0577023057",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "06",
+    "month": "09",
+    "year": "2025"
+  },
+  "timeOfInjury": "07:41",
+  "accidentLocation": "בגן הציבורי",
+  "accidentAddress": "רח׳ ז'בוטינסקי 911, חיפה",
+  "accidentDescription": "התחשמלות קלה במהלך עבודה",
+  "injuredBodyPart": "צוואר",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "25",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "07",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "כללית",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

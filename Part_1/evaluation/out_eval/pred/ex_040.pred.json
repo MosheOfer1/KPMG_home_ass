@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "394718199",
+  "gender": "female",
+  "dateOfBirth": {
+    "day": "13",
+    "month": "11",
+    "year": "2000"
+  },
+  "address": {
+    "apartment": "56",
+    "city": "ירושלים",
+    "entrance": "א",
+    "houseNumber": "77",
+    "poBox": "",
+    "postalCode": "8037451",
+    "street": "ויצמן"
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0513473963",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "11",
+    "month": "08",
+    "year": "2025"
+  },
+  "timeOfInjury": "05:33",
+  "accidentLocation": "בכביש",
+  "accidentAddress": "רח׳ אבן גבירול 981, ירושלים",
+  "accidentDescription": "מכה בראש במהלך עבודה",
+  "injuredBodyPart": "מרפק שמאל",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "05",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "28",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מכבי",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

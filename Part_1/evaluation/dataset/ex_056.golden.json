@@ -1,0 +1,44 @@
+{
+  "lastName": "מזרחי",
+  "firstName": "אורי",
+  "idNumber": "008811120",
+  "dateOfBirth": {
+    "day": 10,
+    "month": 10,
+    "year": 1998
+  },
+  "address": {
+    "street": "דיזנגוף",
+    "houseNumber": 40,
+    "entrance": "א",
+    "apartment": 2,
+    "city": "ראשון לציון",
+    "postalCode": "4011311"
+  },
+  "landlinePhone": "0598311222",
+  "mobilePhone": "0576393261",
+  "dateOfInjury": {
+    "day": 24,
+    "month": 10,
+    "year": 2025
+  },
+  "timeOfInjury": "10:15",
+  "accidentLocation": "במגרש הספורט",
+  "accidentDescription": "חבלה בגב בעת ירידה במדרגות",
+  "accidentAddress": "רח' ז'בוטינסקי 64, ירושלים",
+  "injuredBodyPart": "גב תחתון",
+  "signature": "חתימת נבדק",
+  "formFillingDate": {
+    "day": 26,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 3,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "לאומית",
+  "natureOfAccident": "חבלה בגב"
+}

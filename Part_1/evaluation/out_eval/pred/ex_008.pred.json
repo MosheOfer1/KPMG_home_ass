@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "920597609",
+  "gender": "female",
+  "dateOfBirth": {
+    "day": "12",
+    "month": "01",
+    "year": "1985"
+  },
+  "address": {
+    "apartment": "11",
+    "city": "ירושלים",
+    "entrance": "ג",
+    "houseNumber": "36",
+    "poBox": "",
+    "postalCode": "0736331",
+    "street": "דיזנגוף"
+  },
+  "landlinePhone": "059789348",
+  "mobilePhone": "056564048",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "14",
+    "month": "09",
+    "year": "2025"
+  },
+  "timeOfInjury": "05:36",
+  "accidentLocation": "בדרך הביתה",
+  "accidentAddress": "רח׳ יהודה הלוי 091, אשדוד",
+  "accidentDescription": "נפילה מאופניים בעת ירידה במדרגות",
+  "injuredBodyPart": "יד ימין",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "10",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "27",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מכבי",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

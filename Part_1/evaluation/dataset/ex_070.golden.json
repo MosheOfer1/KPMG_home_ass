@@ -1,0 +1,44 @@
+{
+  "lastName": "פרץ",
+  "firstName": "הילה",
+  "idNumber": "902824097",
+  "dateOfBirth": {
+    "day": 4,
+    "month": 9,
+    "year": 1976
+  },
+  "address": {
+    "street": "דיזנגוף",
+    "houseNumber": 44,
+    "entrance": "",
+    "apartment": 1,
+    "city": "תל אביב",
+    "postalCode": "8222873"
+  },
+  "landlinePhone": "0549802158",
+  "mobilePhone": "0583046306",
+  "dateOfInjury": {
+    "day": 19,
+    "month": 10,
+    "year": 2025
+  },
+  "timeOfInjury": "06:57",
+  "accidentLocation": "במגרש הספורט",
+  "accidentDescription": "התחשמלות קלה בעת ירידה במדרגות",
+  "accidentAddress": "רח' הרצל 133, הרצליה",
+  "injuredBodyPart": "רגל ימין",
+  "signature": "חתימת מטופל",
+  "formFillingDate": {
+    "day": 9,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 8,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "מאוחדת",
+  "natureOfAccident": "התחשמלות קלה"
+}

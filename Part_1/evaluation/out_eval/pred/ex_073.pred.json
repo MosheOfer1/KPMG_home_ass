@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "962211805",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "03",
+    "month": "01",
+    "year": "1985"
+  },
+  "address": {
+    "street": "יהודה הלוי",
+    "houseNumber": "101",
+    "entrance": "ג",
+    "apartment": "59",
+    "city": "נתניה",
+    "postalCode": "5887899",
+    "poBox": ""
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0517349313",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "28",
+    "month": "10",
+    "year": "2025"
+  },
+  "timeOfInjury": "17:44",
+  "accidentLocation": "במגרש הספורט",
+  "accidentAddress": "רח׳ הרצל 251, באר שבע",
+  "accidentDescription": "חתך ביד",
+  "injuredBodyPart": "ברך ימין",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "14",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "28",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

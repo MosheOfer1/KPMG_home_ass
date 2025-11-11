@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "995026688",
+  "gender": "female",
+  "dateOfBirth": {
+    "day": "02",
+    "month": "09",
+    "year": "2000"
+  },
+  "address": {
+    "apartment": "16",
+    "city": "נתניה",
+    "entrance": "ב",
+    "houseNumber": "98",
+    "poBox": "",
+    "postalCode": "8331501",
+    "street": "החשמונאים"
+  },
+  "landlinePhone": "0550895381",
+  "mobilePhone": "6582134942",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "26",
+    "month": "08",
+    "year": "2025"
+  },
+  "timeOfInjury": "00:11",
+  "accidentLocation": "מקום העבודה",
+  "accidentAddress": "רח׳ שדרות חן 471, ירושלים",
+  "accidentDescription": "נפילה מאופניים",
+  "injuredBodyPart": "מרפק שמאל",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "27",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "07",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "כללית",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "אבחנות רפואיות"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "065550871",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "09",
+    "month": "02",
+    "year": "1993"
+  },
+  "address": {
+    "apartment": "39",
+    "city": "חיפה",
+    "entrance": "ב",
+    "houseNumber": "4",
+    "poBox": "",
+    "postalCode": "5885548",
+    "street": "אבן גבירול"
+  },
+  "landlinePhone": "0565312174",
+  "mobilePhone": "0544954313",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "22",
+    "month": "08",
+    "year": "2025"
+  },
+  "timeOfInjury": "03:35",
+  "accidentLocation": "בגן הציבורי",
+  "accidentAddress": "רח׳ הרצל 09, רעננה",
+  "accidentDescription": "מכה בראש במהלך פעילות יומיומית",
+  "injuredBodyPart": "שכם ימין",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "20",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "27",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "לאומית",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

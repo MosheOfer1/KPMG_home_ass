@@ -1,0 +1,44 @@
+{
+  "lastName": "כהן",
+  "firstName": "נעם",
+  "idNumber": "065550871",
+  "dateOfBirth": {
+    "day": 9,
+    "month": 2,
+    "year": 1993
+  },
+  "address": {
+    "street": "אבן גבירול",
+    "houseNumber": 4,
+    "entrance": "ב",
+    "apartment": 39,
+    "city": "חיפה",
+    "postalCode": "5885548"
+  },
+  "landlinePhone": "0565372174",
+  "mobilePhone": "0544954313",
+  "dateOfInjury": {
+    "day": 22,
+    "month": 8,
+    "year": 2025
+  },
+  "timeOfInjury": "03:35",
+  "accidentLocation": "בגן הציבורי",
+  "accidentDescription": "מכה בראש במהלך פעילות יומיומית",
+  "accidentAddress": "רח' הרצל 90, רעננה",
+  "injuredBodyPart": "שכם ימין",
+  "signature": "חתימת נבדק",
+  "formFillingDate": {
+    "day": 20,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 27,
+    "month": 10,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "לאומית",
+  "natureOfAccident": "מכה בראש"
+}

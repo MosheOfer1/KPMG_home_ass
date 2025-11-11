@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "075039776",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "20",
+    "month": "04",
+    "year": "1988"
+  },
+  "address": {
+    "apartment": "58",
+    "city": "ראשון לציון",
+    "entrance": "ד",
+    "houseNumber": "59",
+    "poBox": "",
+    "postalCode": "1132891",
+    "street": "בן גוריון"
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0521463671",
+  "jobType": "self-employed",
+  "dateOfInjury": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "timeOfInjury": "11:36",
+  "accidentLocation": "בגן הציבורי",
+  "accidentAddress": "רח׳ בן גוריון 33, ראשון לציון",
+  "accidentDescription": "פציעה בעבודה בעת ירידה במדרגות",
+  "injuredBodyPart": "גב תחתון",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "15",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "03",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "כללית",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "אבחנות רפואיות"
+  }
+}

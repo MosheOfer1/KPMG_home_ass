@@ -1,0 +1,20 @@
+INFO:     Will watch for changes in these directories: ['/home/moshe/Documents/GitHub/KPMG_home_ass/Part_2']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [875706] using StatReload
+INFO:     Started server process [875708]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:34062 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43734 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60994 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32770 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59566 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34466 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57362 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57366 - "POST /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38096 - "POST /chat HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [875708]
+INFO:     Stopping reloader process [875706]

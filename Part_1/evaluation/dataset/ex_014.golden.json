@@ -1,0 +1,44 @@
+{
+  "lastName": "דנינו",
+  "firstName": "מיכל",
+  "idNumber": "731174792",
+  "dateOfBirth": {
+    "day": 21,
+    "month": 1,
+    "year": 1991
+  },
+  "address": {
+    "street": "ויצמן",
+    "houseNumber": 56,
+    "entrance": "ג",
+    "apartment": 27,
+    "city": "חיפה",
+    "postalCode": "2869310"
+  },
+  "landlinePhone": "0549734658",
+  "mobilePhone": "0596052229",
+  "dateOfInjury": {
+    "day": 11,
+    "month": 11,
+    "year": 2025
+  },
+  "timeOfInjury": "12:07",
+  "accidentLocation": "בדרך לעבודה",
+  "accidentDescription": "פגיעה במהלך ספורט",
+  "accidentAddress": "רח' דיזנגוף 150, רעננה",
+  "injuredBodyPart": "קרסול שמאל",
+  "signature": "חתימת מטופל",
+  "formFillingDate": {
+    "day": 18,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 6,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "פרטי",
+  "natureOfAccident": "פגיעה במהלך ספורט"
+}

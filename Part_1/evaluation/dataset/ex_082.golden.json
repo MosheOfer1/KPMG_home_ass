@@ -1,0 +1,44 @@
+{
+  "lastName": "שלום",
+  "firstName": "עומר",
+  "idNumber": "396034249",
+  "dateOfBirth": {
+    "day": 9,
+    "month": 7,
+    "year": 1984
+  },
+  "address": {
+    "street": "החשמונאים",
+    "houseNumber": 28,
+    "entrance": "א",
+    "apartment": 50,
+    "city": "נתניה",
+    "postalCode": "6277997"
+  },
+  "landlinePhone": "0516421691",
+  "mobilePhone": "0543784600",
+  "dateOfInjury": {
+    "day": 21,
+    "month": 9,
+    "year": 2025
+  },
+  "timeOfInjury": "08:02",
+  "accidentLocation": "בדרך הביתה",
+  "accidentDescription": "נפילה ממדרגות בעת ירידה במדרגות",
+  "accidentAddress": "רח' ז'בוטינסקי 95, אשדוד",
+  "injuredBodyPart": "יד ימין",
+  "signature": "נחתם על ידי נציג",
+  "formFillingDate": {
+    "day": 8,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 1,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "מאוחדת",
+  "natureOfAccident": "נפילה ממדרגות"
+}

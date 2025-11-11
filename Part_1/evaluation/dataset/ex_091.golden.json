@@ -1,0 +1,44 @@
+{
+  "lastName": "אליהו",
+  "firstName": "טל",
+  "idNumber": "522901988",
+  "dateOfBirth": {
+    "day": 15,
+    "month": 11,
+    "year": 1982
+  },
+  "address": {
+    "street": "ז'בוטינסקי",
+    "houseNumber": 7,
+    "entrance": "ג",
+    "apartment": 38,
+    "city": "ראשון לציון",
+    "postalCode": "6605223"
+  },
+  "landlinePhone": "0522818475",
+  "mobilePhone": "0523231347",
+  "dateOfInjury": {
+    "day": 1,
+    "month": 10,
+    "year": 2025
+  },
+  "timeOfInjury": "17:08",
+  "accidentLocation": "בכביש",
+  "accidentDescription": "תאונת דרכים קלה",
+  "accidentAddress": "רח' ז'בוטינסקי 150, ירושלים",
+  "injuredBodyPart": "יד ימין",
+  "signature": "חתימה רפואית",
+  "formFillingDate": {
+    "day": 10,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 30,
+    "month": 10,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "מאוחדת",
+  "natureOfAccident": "תאונת דרכים קלה"
+}

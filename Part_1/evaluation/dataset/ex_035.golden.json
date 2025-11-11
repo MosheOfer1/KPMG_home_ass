@@ -1,0 +1,44 @@
+{
+  "lastName": "יעקב",
+  "firstName": "ליאן",
+  "idNumber": "254246057",
+  "dateOfBirth": {
+    "day": 17,
+    "month": 5,
+    "year": 1978
+  },
+  "address": {
+    "street": "אבן גבירול",
+    "houseNumber": 33,
+    "entrance": "ב",
+    "apartment": 7,
+    "city": "רעננה",
+    "postalCode": "0511239"
+  },
+  "landlinePhone": "0503767404",
+  "mobilePhone": "0596729532",
+  "dateOfInjury": {
+    "day": 22,
+    "month": 10,
+    "year": 2025
+  },
+  "timeOfInjury": "14:39",
+  "accidentLocation": "בדרך לעבודה",
+  "accidentDescription": "מכה בראש",
+  "accidentAddress": "רח' ויצמן 1, אשדוד",
+  "injuredBodyPart": "רגל שמאל",
+  "signature": "חתימת נבדק",
+  "formFillingDate": {
+    "day": 5,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 11,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "פרטי",
+  "natureOfAccident": "מכה בראש"
+}

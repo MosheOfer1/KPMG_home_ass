@@ -1,0 +1,44 @@
+{
+  "lastName": "סבן",
+  "firstName": "אורי",
+  "idNumber": "134476122",
+  "dateOfBirth": {
+    "day": 21,
+    "month": 5,
+    "year": 1977
+  },
+  "address": {
+    "street": "שדרות חן",
+    "houseNumber": 10,
+    "entrance": "ג",
+    "apartment": 28,
+    "city": "ירושלים",
+    "postalCode": "6673689"
+  },
+  "landlinePhone": "0564522034",
+  "mobilePhone": "0529955918",
+  "dateOfInjury": {
+    "day": 27,
+    "month": 10,
+    "year": 2025
+  },
+  "timeOfInjury": "01:00",
+  "accidentLocation": "בחוף הים",
+  "accidentDescription": "נפילה ממדרגות במהלך פעילות יומיומית",
+  "accidentAddress": "רח' הרצל 166, רעננה",
+  "injuredBodyPart": "יד ימין",
+  "signature": "חתימה ממוחשבת",
+  "formFillingDate": {
+    "day": 1,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 5,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "לאומית",
+  "natureOfAccident": "נפילה ממדרגות"
+}

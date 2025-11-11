@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "157914266",
+  "gender": "Female",
+  "dateOfBirth": {
+    "day": "20",
+    "month": "11",
+    "year": "1988"
+  },
+  "address": {
+    "apartment": "7",
+    "city": "Haifa",
+    "entrance": "A",
+    "houseNumber": "20",
+    "poBox": "",
+    "postalCode": "3795356",
+    "street": "Sderot Hen"
+  },
+  "landlinePhone": "0508454414",
+  "mobilePhone": "0517873560",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "03",
+    "month": "09",
+    "year": "2025"
+  },
+  "timeOfInjury": "06:41",
+  "accidentLocation": "Public park",
+  "accidentAddress": "Rehov Weizmann 08, Rishon Lezion",
+  "accidentDescription": "Injury during sports activity during daily routine",
+  "injuredBodyPart": "Left elbow",
+  "signature": "Signed by representative",
+  "formFillingDate": {
+    "day": "20",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "03",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "Meuhedet",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

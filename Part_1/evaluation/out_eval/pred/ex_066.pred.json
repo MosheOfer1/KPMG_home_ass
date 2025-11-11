@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "458752864",
+  "gender": "נקבה",
+  "dateOfBirth": {
+    "day": "22",
+    "month": "10",
+    "year": "1973"
+  },
+  "address": {
+    "apartment": "9",
+    "city": "באר שבע",
+    "entrance": "ב",
+    "houseNumber": "50",
+    "poBox": "",
+    "postalCode": "4754083",
+    "street": "ויצמן"
+  },
+  "landlinePhone": "0527026374",
+  "mobilePhone": "0516914344",
+  "jobType": "עצמאי",
+  "dateOfInjury": {
+    "day": "22",
+    "month": "08",
+    "year": "2025"
+  },
+  "timeOfInjury": "13:50",
+  "accidentLocation": "במדרגות הבניין",
+  "accidentAddress": "רח׳ ויצמן 831, אשדוד",
+  "accidentDescription": "חתך ביד במהלך פעילות יומיומית",
+  "injuredBodyPart": "יד שמאל",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "21",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "04",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "כללית",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

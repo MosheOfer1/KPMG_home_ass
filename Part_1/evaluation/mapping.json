@@ -1,0 +1,53 @@
+{
+  "font_path": "None",
+  "font_size": 11,
+  "fields": {
+    "lastName":        { "page": 1, "x": 420, "y_top": 140 },
+    "firstName":       { "page": 1, "x": 420, "y_top": 165 },
+    "idNumber":        { "page": 1, "x": 420, "y_top": 190 },
+    "gender_male":     { "page": 1, "x": 140, "y_top": 190, "type": "checkbox" },
+    "gender_female":   { "page": 1, "x": 100, "y_top": 190, "type": "checkbox" },
+
+    "dob_day":         { "page": 1, "x": 540, "y_top": 215 },
+    "dob_month":       { "page": 1, "x": 500, "y_top": 215 },
+    "dob_year":        { "page": 1, "x": 450, "y_top": 215 },
+
+    "address_street":  { "page": 1, "x": 470, "y_top": 245 },
+    "address_house":   { "page": 1, "x": 380, "y_top": 245 },
+    "address_entr":    { "page": 1, "x": 320, "y_top": 245 },
+    "address_apt":     { "page": 1, "x": 260, "y_top": 245 },
+    "address_city":    { "page": 1, "x": 180, "y_top": 245 },
+    "address_zip":     { "page": 1, "x": 110, "y_top": 245 },
+
+    "landlinePhone":   { "page": 1, "x": 470, "y_top": 290 },
+    "mobilePhone":     { "page": 1, "x": 250, "y_top": 290 },
+
+    "injury_day":      { "page": 1, "x": 540, "y_top": 345 },
+    "injury_month":    { "page": 1, "x": 500, "y_top": 345 },
+    "injury_year":     { "page": 1, "x": 450, "y_top": 345 },
+    "injury_time":     { "page": 1, "x": 300, "y_top": 345 },
+    "jobType":         { "page": 1, "x": 130, "y_top": 345 },
+
+    "accidentLocation": { "page": 1, "x": 470, "y_top": 380 },
+    "acc_street":       { "page": 1, "x": 470, "y_top": 405 },
+    "acc_house":        { "page": 1, "x": 380, "y_top": 405 },
+    "acc_city":         { "page": 1, "x": 180, "y_top": 405 },
+    "acc_zip":          { "page": 1, "x": 110, "y_top": 405 },
+
+    "accidentDescription": { "page": 1, "x": 520, "y_top": 445, "width": 430, "lines": 3 },
+    "injuredBodyPart":     { "page": 1, "x": 520, "y_top": 495, "width": 430 },
+
+    "signature":       { "page": 1, "x": 480, "y_top": 545 },
+    "receipt_day":     { "page": 1, "x": 540, "y_top": 590 },
+    "receipt_month":   { "page": 1, "x": 500, "y_top": 590 },
+    "receipt_year":    { "page": 1, "x": 450, "y_top": 590 },
+    "fill_day":        { "page": 1, "x": 540, "y_top": 615 },
+    "fill_month":      { "page": 1, "x": 500, "y_top": 615 },
+    "fill_year":       { "page": 1, "x": 450, "y_top": 615 },
+
+    "fund_member":     { "page": 1, "x": 520, "y_top": 660, "type": "checkbox" },
+    "fund_name":       { "page": 1, "x": 450, "y_top": 660 },
+    "natureOfAccident":  { "page": 1, "x": 520, "y_top": 690, "width": 430, "lines": 2 },
+    "medicalDiagnoses":  { "page": 1, "x": 520, "y_top": 720, "width": 430, "lines": 2 }
+  }
+}

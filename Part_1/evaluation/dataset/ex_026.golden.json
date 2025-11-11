@@ -1,0 +1,44 @@
+{
+  "lastName": "בן דוד",
+  "firstName": "אלון",
+  "idNumber": "995026688",
+  "dateOfBirth": {
+    "day": 2,
+    "month": 9,
+    "year": 2000
+  },
+  "address": {
+    "street": "החשמונאים",
+    "houseNumber": 98,
+    "entrance": "ב",
+    "apartment": 16,
+    "city": "נתניה",
+    "postalCode": "8331501"
+  },
+  "landlinePhone": "0550895381",
+  "mobilePhone": "0582132942",
+  "dateOfInjury": {
+    "day": 26,
+    "month": 8,
+    "year": 2025
+  },
+  "timeOfInjury": "00:11",
+  "accidentLocation": "מקום העבודה",
+  "accidentDescription": "נפילה מאופניים",
+  "accidentAddress": "רח' שדרות חן 174, ירושלים",
+  "injuredBodyPart": "מרפק שמאל",
+  "signature": "חתימה ידנית",
+  "formFillingDate": {
+    "day": 27,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 7,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "כללית",
+  "natureOfAccident": "נפילה מאופניים"
+}

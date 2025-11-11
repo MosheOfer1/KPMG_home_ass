@@ -1,0 +1,44 @@
+{
+  "lastName": "חדד",
+  "firstName": "מיכל",
+  "idNumber": "548906865",
+  "dateOfBirth": {
+    "day": 17,
+    "month": 4,
+    "year": 2001
+  },
+  "address": {
+    "street": "דיזנגוף",
+    "houseNumber": 2,
+    "entrance": "ב",
+    "apartment": 44,
+    "city": "באר שבע",
+    "postalCode": "2948040"
+  },
+  "landlinePhone": "0520921348",
+  "mobilePhone": "0587445194",
+  "dateOfInjury": {
+    "day": 16,
+    "month": 8,
+    "year": 2025
+  },
+  "timeOfInjury": "03:58",
+  "accidentLocation": "בדרך הביתה",
+  "accidentDescription": "פציעה בעבודה בעת ירידה במדרגות",
+  "accidentAddress": "רח' דיזנגוף 16, הרצליה",
+  "injuredBodyPart": "ברך ימין",
+  "signature": "חתימה ממוחשבת",
+  "formFillingDate": {
+    "day": 28,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 7,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "כללית",
+  "natureOfAccident": "פציעה בעבודה"
+}

@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "30514748",
+  "gender": "female",
+  "dateOfBirth": {
+    "day": "09",
+    "month": "01",
+    "year": "1996"
+  },
+  "address": {
+    "apartment": "33",
+    "city": "רעננה",
+    "entrance": "ב",
+    "houseNumber": "101",
+    "poBox": "",
+    "postalCode": "6343557",
+    "street": "דיזנגוף"
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0537368",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "25",
+    "month": "10",
+    "year": "2025"
+  },
+  "timeOfInjury": "19:15",
+  "accidentLocation": "במגרש הספורט",
+  "accidentAddress": "רח׳ אבן גבירול 151, הרצליה",
+  "accidentDescription": "חתך ביד",
+  "injuredBodyPart": "ברך ימין",
+  "signature": "נחתם על ידי נציג",
+  "formFillingDate": {
+    "day": "04",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "08",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מכבי",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "lastName": "גולן",
+  "firstName": "ליאן",
+  "idNumber": "248178388",
+  "dateOfBirth": {
+    "day": 27,
+    "month": 8,
+    "year": 1993
+  },
+  "address": {
+    "street": "יהודה הלוי",
+    "houseNumber": 34,
+    "entrance": "ד",
+    "apartment": 34,
+    "city": "פתח תקווה",
+    "postalCode": "9709090"
+  },
+  "landlinePhone": "0539818283",
+  "mobilePhone": "0573151196",
+  "dateOfInjury": {
+    "day": 14,
+    "month": 8,
+    "year": 2025
+  },
+  "timeOfInjury": "00:13",
+  "accidentLocation": "בדרך הביתה",
+  "accidentDescription": "החלקה בבית בעת ירידה במדרגות",
+  "accidentAddress": "רח' יהודה הלוי 59, תל אביב",
+  "injuredBodyPart": "צוואר",
+  "signature": "חתימה ידנית",
+  "formFillingDate": {
+    "day": 22,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 10,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "ללא",
+  "natureOfAccident": "החלקה בבית"
+}

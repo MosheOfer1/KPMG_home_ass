@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "320878745",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "14",
+    "month": "10",
+    "year": "1974"
+  },
+  "address": {
+    "apartment": "9",
+    "city": "רעננה",
+    "entrance": "ד",
+    "houseNumber": "24",
+    "poBox": "",
+    "postalCode": "4020865",
+    "street": "בן גוריון"
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0509108548",
+  "jobType": "self-employed",
+  "dateOfInjury": {
+    "day": "26",
+    "month": "10",
+    "year": "2025"
+  },
+  "timeOfInjury": "15:58",
+  "accidentLocation": "בדרך הביתה",
+  "accidentAddress": "רח׳ אבן גבירול 571, ראשון לציון",
+  "accidentDescription": "חבלה בגב במהלך עבודה",
+  "injuredBodyPart": "גב תחתון",
+  "signature": "signed by representative",
+  "formFillingDate": {
+    "day": "28",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "31",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מאוחדת",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

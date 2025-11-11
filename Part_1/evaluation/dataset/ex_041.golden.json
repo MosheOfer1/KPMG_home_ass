@@ -1,0 +1,44 @@
+{
+  "lastName": "ברדוגו",
+  "firstName": "אלון",
+  "idNumber": "734947735",
+  "dateOfBirth": {
+    "day": 13,
+    "month": 9,
+    "year": 1985
+  },
+  "address": {
+    "street": "בן גוריון",
+    "houseNumber": 31,
+    "entrance": "ד",
+    "apartment": 13,
+    "city": "ירושלים",
+    "postalCode": "4142003"
+  },
+  "landlinePhone": "0528821561",
+  "mobilePhone": "0528921548",
+  "dateOfInjury": {
+    "day": 13,
+    "month": 9,
+    "year": 2025
+  },
+  "timeOfInjury": "23:22",
+  "accidentLocation": "בדרך לעבודה",
+  "accidentDescription": "פגיעה במהלך ספורט במהלך פעילות יומיומית",
+  "accidentAddress": "רח' ויצמן 109, פתח תקווה",
+  "injuredBodyPart": "ברך ימין",
+  "signature": "חתימת נבדק",
+  "formFillingDate": {
+    "day": 8,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 9,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "מאוחדת",
+  "natureOfAccident": "פגיעה במהלך ספורט"
+}

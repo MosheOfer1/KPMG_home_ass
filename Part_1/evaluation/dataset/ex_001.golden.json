@@ -1,0 +1,44 @@
+{
+  "lastName": "כהן",
+  "firstName": "אורי",
+  "idNumber": "320878745",
+  "dateOfBirth": {
+    "day": 14,
+    "month": 10,
+    "year": 1974
+  },
+  "address": {
+    "street": "בן גוריון",
+    "houseNumber": 24,
+    "entrance": "ד",
+    "apartment": 9,
+    "city": "רעננה",
+    "postalCode": "4020865"
+  },
+  "landlinePhone": "0509168548",
+  "mobilePhone": "0559598132",
+  "dateOfInjury": {
+    "day": 26,
+    "month": 10,
+    "year": 2025
+  },
+  "timeOfInjury": "15:58",
+  "accidentLocation": "בדרך הביתה",
+  "accidentDescription": "חבלה בגב במהלך עבודה",
+  "accidentAddress": "רח' אבן גבירול 175, ראשון לציון",
+  "injuredBodyPart": "גב תחתון",
+  "signature": "נחתם על ידי נציג",
+  "formFillingDate": {
+    "day": 28,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 31,
+    "month": 10,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "מאוחדת",
+  "natureOfAccident": "חבלה בגב"
+}

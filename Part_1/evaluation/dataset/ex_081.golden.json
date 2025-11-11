@@ -1,0 +1,44 @@
+{
+  "lastName": "כהן",
+  "firstName": "עומר",
+  "idNumber": "536672446",
+  "dateOfBirth": {
+    "day": 24,
+    "month": 9,
+    "year": 1987
+  },
+  "address": {
+    "street": "אלנבי",
+    "houseNumber": 109,
+    "entrance": "א",
+    "apartment": 24,
+    "city": "רעננה",
+    "postalCode": "3131578"
+  },
+  "landlinePhone": "0567106211",
+  "mobilePhone": "0567336879",
+  "dateOfInjury": {
+    "day": 31,
+    "month": 8,
+    "year": 2025
+  },
+  "timeOfInjury": "14:18",
+  "accidentLocation": "בגן הציבורי",
+  "accidentDescription": "פגיעה במהלך ספורט בעת ירידה במדרגות",
+  "accidentAddress": "רח' אבן גבירול 176, ראשון לציון",
+  "injuredBodyPart": "רגל שמאל",
+  "signature": "חתימת נבדק",
+  "formFillingDate": {
+    "day": 11,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 3,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "מכבי",
+  "natureOfAccident": "פגיעה במהלך ספורט"
+}

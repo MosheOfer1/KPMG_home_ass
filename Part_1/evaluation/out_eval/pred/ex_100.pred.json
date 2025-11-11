@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "248227174",
+  "gender": "female",
+  "dateOfBirth": {
+    "day": "28",
+    "month": "08",
+    "year": "1990"
+  },
+  "address": {
+    "street": "החשמונאים",
+    "houseNumber": "35",
+    "entrance": "ב",
+    "apartment": "5",
+    "city": "תל אביב",
+    "postalCode": "6221220",
+    "poBox": ""
+  },
+  "landlinePhone": "0509910534",
+  "mobilePhone": "0532889245",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "25",
+    "month": "08",
+    "year": "2025"
+  },
+  "timeOfInjury": "15:54",
+  "accidentLocation": "בגן הציבורי",
+  "accidentAddress": "רח׳ יהודה הלוי 4, רעננה",
+  "accidentDescription": "החלקה בבית בעת ירידה במדרגות",
+  "injuredBodyPart": "יד ימין",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "19",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "03",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מכבי",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

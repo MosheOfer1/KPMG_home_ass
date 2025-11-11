@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "544099332",
+  "gender": "female",
+  "dateOfBirth": {
+    "day": "12",
+    "month": "03",
+    "year": "1993"
+  },
+  "address": {
+    "apartment": "9",
+    "city": "הרצליה",
+    "entrance": "ד",
+    "houseNumber": "41",
+    "poBox": "",
+    "postalCode": "9183328",
+    "street": "אלנבי"
+  },
+  "landlinePhone": "0522157511",
+  "mobilePhone": "0565097607",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "07",
+    "month": "11",
+    "year": "2025"
+  },
+  "timeOfInjury": "20:19",
+  "accidentLocation": "בדרך הביתה",
+  "accidentAddress": "רח׳ בן גוריון 38, באר שבע",
+  "accidentDescription": "חתך ביד בעת ירידה במדרגות",
+  "injuredBodyPart": "גב תחתון",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "06",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "27",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מכבי",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

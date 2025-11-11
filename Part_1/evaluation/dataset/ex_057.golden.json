@@ -1,0 +1,44 @@
+{
+  "lastName": "יעקב",
+  "firstName": "רועי",
+  "idNumber": "075039776",
+  "dateOfBirth": {
+    "day": 20,
+    "month": 4,
+    "year": 1988
+  },
+  "address": {
+    "street": "בן גוריון",
+    "houseNumber": 59,
+    "entrance": "ד",
+    "apartment": 58,
+    "city": "ראשון לציון",
+    "postalCode": "1132891"
+  },
+  "landlinePhone": "0521463671",
+  "mobilePhone": "0594239624",
+  "dateOfInjury": {
+    "day": 1,
+    "month": 9,
+    "year": 2025
+  },
+  "timeOfInjury": "11:36",
+  "accidentLocation": "בגן הציבורי",
+  "accidentDescription": "פציעה בעבודה בעת ירידה במדרגות",
+  "accidentAddress": "רח' בן גוריון 33, ראשון לציון",
+  "injuredBodyPart": "גב תחתון",
+  "signature": "חתימה אלקטרונית",
+  "formFillingDate": {
+    "day": 15,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 3,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "כללית",
+  "natureOfAccident": "פציעה בעבודה"
+}

@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "107489113",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "14",
+    "month": "06",
+    "year": "2001"
+  },
+  "address": {
+    "apartment": "7",
+    "city": "תל אביב",
+    "entrance": "א",
+    "houseNumber": "67",
+    "poBox": "",
+    "postalCode": "8463138",
+    "street": "החשמונאים"
+  },
+  "landlinePhone": "",
+  "mobilePhone": "055026792",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "21",
+    "month": "09",
+    "year": "2025"
+  },
+  "timeOfInjury": "03:58",
+  "accidentLocation": "במגרש הספורט",
+  "accidentAddress": "רח׳ דיזנגוף 5, פתח תקווה",
+  "accidentDescription": "מכה בראש בעת ירידה במדרגות",
+  "injuredBodyPart": "ברך ימין",
+  "signature": "שם המבקש נחתם על ידי נציג",
+  "formFillingDate": {
+    "day": "03",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "04",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "לאומית",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

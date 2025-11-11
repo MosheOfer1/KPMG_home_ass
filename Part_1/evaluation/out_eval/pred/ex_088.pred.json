@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "410468959",
+  "gender": "נקבה",
+  "dateOfBirth": {
+    "day": "23",
+    "month": "08",
+    "year": "1991"
+  },
+  "address": {
+    "apartment": "29",
+    "city": "רעננה",
+    "entrance": "ב",
+    "houseNumber": "65",
+    "poBox": "",
+    "postalCode": "1774698",
+    "street": "דיזנגוף"
+  },
+  "landlinePhone": "0573148448",
+  "mobilePhone": "0546969916",
+  "jobType": "עצמאי",
+  "dateOfInjury": {
+    "day": "26",
+    "month": "10",
+    "year": "2025"
+  },
+  "timeOfInjury": "09:36",
+  "accidentLocation": "בבית הספר",
+  "accidentAddress": "רח׳ אלנבי 691, ראשון לציון",
+  "accidentDescription": "תאונת דרכים קלה במהלך פעילות יומיומית",
+  "injuredBodyPart": "קרסול שמאל",
+  "signature": "חתימהX",
+  "formFillingDate": {
+    "day": "24",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "30",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מאוחדת",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

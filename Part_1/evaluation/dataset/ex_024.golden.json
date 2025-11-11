@@ -1,0 +1,44 @@
+{
+  "lastName": "שלום",
+  "firstName": "דוד",
+  "idNumber": "528730678",
+  "dateOfBirth": {
+    "day": 4,
+    "month": 9,
+    "year": 1994
+  },
+  "address": {
+    "street": "יהודה הלוי",
+    "houseNumber": 13,
+    "entrance": "",
+    "apartment": 36,
+    "city": "תל אביב",
+    "postalCode": "9404197"
+  },
+  "landlinePhone": "0537340694",
+  "mobilePhone": "0504575102",
+  "dateOfInjury": {
+    "day": 10,
+    "month": 11,
+    "year": 2025
+  },
+  "timeOfInjury": "12:40",
+  "accidentLocation": "בבית הספר",
+  "accidentDescription": "פגיעה במהלך ספורט במהלך עבודה",
+  "accidentAddress": "רח' אלנבי 117, תל אביב",
+  "injuredBodyPart": "רגל שמאל",
+  "signature": "חתימת מטופל",
+  "formFillingDate": {
+    "day": 21,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 7,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "מאוחדת",
+  "natureOfAccident": "פגיעה במהלך ספורט"
+}

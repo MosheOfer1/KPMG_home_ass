@@ -1,0 +1,44 @@
+{
+  "lastName": "פרץ",
+  "firstName": "ליאן",
+  "idNumber": "920597609",
+  "dateOfBirth": {
+    "day": 12,
+    "month": 1,
+    "year": 1985
+  },
+  "address": {
+    "street": "דיזנגוף",
+    "houseNumber": 36,
+    "entrance": "ג",
+    "apartment": 11,
+    "city": "ירושלים",
+    "postalCode": "0736331"
+  },
+  "landlinePhone": "0597893248",
+  "mobilePhone": "0564048418",
+  "dateOfInjury": {
+    "day": 14,
+    "month": 9,
+    "year": 2025
+  },
+  "timeOfInjury": "05:36",
+  "accidentLocation": "בדרך הביתה",
+  "accidentDescription": "נפילה מאופניים בעת ירידה במדרגות",
+  "accidentAddress": "רח' יהודה הלוי 190, אשדוד",
+  "injuredBodyPart": "יד ימין",
+  "signature": "חתימת נבדק",
+  "formFillingDate": {
+    "day": 10,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 27,
+    "month": 10,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "מכבי",
+  "natureOfAccident": "נפילה מאופניים"
+}

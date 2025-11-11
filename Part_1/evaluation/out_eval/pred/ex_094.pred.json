@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "640611187",
+  "gender": "נקבה",
+  "dateOfBirth": {
+    "day": "20",
+    "month": "10",
+    "year": "1977"
+  },
+  "address": {
+    "street": "דיזנגוף",
+    "houseNumber": "86",
+    "entrance": "ב",
+    "apartment": "41",
+    "city": "פתח תקווה",
+    "postalCode": "8728856",
+    "poBox": ""
+  },
+  "landlinePhone": "652340579",
+  "mobilePhone": "0538357621",
+  "jobType": "עצמאי",
+  "dateOfInjury": {
+    "day": "01",
+    "month": "10",
+    "year": "2025"
+  },
+  "timeOfInjury": "18:59",
+  "accidentLocation": "במדרגות הבניין",
+  "accidentAddress": "רח׳ החשמונאים 231, פתח תקווה",
+  "accidentDescription": "חבלה בגב",
+  "injuredBodyPart": "יד ימין",
+  "signature": "חתימהX",
+  "formFillingDate": {
+    "day": "25",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "29",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "כללית",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "lastName": "גולן",
+  "firstName": "נעם",
+  "idNumber": "978796871",
+  "dateOfBirth": {
+    "day": 1,
+    "month": 10,
+    "year": 1974
+  },
+  "address": {
+    "street": "יהודה הלוי",
+    "houseNumber": 15,
+    "entrance": "א",
+    "apartment": 3,
+    "city": "אשדוד",
+    "postalCode": "0383923"
+  },
+  "landlinePhone": "0582833903",
+  "mobilePhone": "0534608394",
+  "dateOfInjury": {
+    "day": 29,
+    "month": 8,
+    "year": 2025
+  },
+  "timeOfInjury": "19:53",
+  "accidentLocation": "בדרך לעבודה",
+  "accidentDescription": "חתך ביד במהלך פעילות יומיומית",
+  "accidentAddress": "רח' בן גוריון 162, אשדוד",
+  "injuredBodyPart": "מרפק שמאל",
+  "signature": "חתימת נבדק",
+  "formFillingDate": {
+    "day": 18,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 7,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "מאוחדת",
+  "natureOfAccident": "חתך ביד"
+}

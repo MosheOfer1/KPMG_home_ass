@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "305390292",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "16",
+    "month": "04",
+    "year": "1985"
+  },
+  "address": {
+    "street": "ויצמן",
+    "houseNumber": "100",
+    "entrance": "",
+    "apartment": "18",
+    "city": "נתניה",
+    "poBox": "",
+    "postalCode": "7435960"
+  },
+  "landlinePhone": "0568150759",
+  "mobilePhone": "0565794785",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "29",
+    "month": "10",
+    "year": "2025"
+  },
+  "timeOfInjury": "06:36",
+  "accidentLocation": "בדרך לעבודה",
+  "accidentAddress": "רח׳ החשמונאים 341, תל אביב",
+  "accidentDescription": "התחשמלות קלה בעת ירידה במדרגות",
+  "injuredBodyPart": "גב תחתון",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "09",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "29",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "selected"
+  }
+}

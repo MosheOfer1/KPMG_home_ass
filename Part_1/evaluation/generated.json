@@ -1,0 +1,44 @@
+{
+  "lastName": "דנינו",
+  "firstName": "נועה",
+  "idNumber": "082207399",
+  "dateOfBirth": {
+    "day": 23,
+    "month": 3,
+    "year": 1996
+  },
+  "address": {
+    "street": "יהודה הלוי",
+    "houseNumber": 118,
+    "entrance": "",
+    "apartment": 32,
+    "city": "ראשון לציון",
+    "postalCode": "4378572"
+  },
+  "landlinePhone": "0524751841",
+  "mobilePhone": "0597666764",
+  "dateOfInjury": {
+    "day": 31,
+    "month": 10,
+    "year": 2025
+  },
+  "timeOfInjury": "06:49",
+  "accidentLocation": "בגן הציבורי",
+  "accidentDescription": "נפילה ממדרגות במהלך עבודה",
+  "accidentAddress": "רח' הרצל 170, באר שבע",
+  "injuredBodyPart": "גב תחתון",
+  "signature": "חתימה ממוחשבת",
+  "formFillingDate": {
+    "day": 16,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 8,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "ללא",
+  "natureOfAccident": "נפילה ממדרגות"
+}

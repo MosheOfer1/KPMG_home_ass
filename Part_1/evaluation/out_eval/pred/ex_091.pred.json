@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "522901988",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "15",
+    "month": "11",
+    "year": "1982"
+  },
+  "address": {
+    "street": "ז׳בוטינסקי",
+    "houseNumber": "7",
+    "entrance": "ג",
+    "apartment": "38",
+    "city": "ראשון לציון",
+    "poBox": "",
+    "postalCode": "6605223"
+  },
+  "landlinePhone": "0522818475",
+  "mobilePhone": "0523231347",
+  "jobType": "עצמאי",
+  "dateOfInjury": {
+    "day": "01",
+    "month": "10",
+    "year": "2025"
+  },
+  "timeOfInjury": "17:08",
+  "accidentLocation": "בכביש",
+  "accidentAddress": "רח׳ ז'בוטינסקי 051, ירושלים",
+  "accidentDescription": "תאונת דרכים קלה",
+  "injuredBodyPart": "יד ימין",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "10",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "30",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מאוחדת",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

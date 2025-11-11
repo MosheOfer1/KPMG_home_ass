@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "824703365",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "03",
+    "month": "09",
+    "year": "1996"
+  },
+  "address": {
+    "street": "בן גוריון",
+    "houseNumber": "71",
+    "entrance": "א",
+    "apartment": "48",
+    "city": "רעננה",
+    "postalCode": "7969062",
+    "poBox": ""
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0552799185",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "04",
+    "month": "09",
+    "year": "2025"
+  },
+  "timeOfInjury": "04:00",
+  "accidentLocation": "במדרגות הבניין",
+  "accidentAddress": "רח' ויצמן 92, אשדוד",
+  "accidentDescription": "מכה בראש",
+  "injuredBodyPart": "ברך ימין",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "04",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "01",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מאוחדת",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "833354177",
+  "gender": "Female",
+  "dateOfBirth": {
+    "day": "15",
+    "month": "02",
+    "year": "1982"
+  },
+  "address": {
+    "street": "הרצל",
+    "houseNumber": "58",
+    "entrance": "103",
+    "apartment": "",
+    "city": "הרצליה",
+    "poBox": "",
+    "postalCode": "0228085"
+  },
+  "landlinePhone": "",
+  "mobilePhone": "055301968",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "14",
+    "month": "10",
+    "year": "2025"
+  },
+  "timeOfInjury": "19:19",
+  "accidentLocation": "במגרש הספורט",
+  "accidentAddress": "רח׳ אלנבי 07, חיפה",
+  "accidentDescription": "חתך ביד במהלך פעילות יומיומית",
+  "injuredBodyPart": "גב תחתון",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "16",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "27",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מאוחדת",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

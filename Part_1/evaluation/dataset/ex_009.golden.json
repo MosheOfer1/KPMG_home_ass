@@ -1,0 +1,44 @@
+{
+  "lastName": "פרץ",
+  "firstName": "ליאן",
+  "idNumber": "892988549",
+  "dateOfBirth": {
+    "day": 21,
+    "month": 12,
+    "year": 1991
+  },
+  "address": {
+    "street": "ויצמן",
+    "houseNumber": 70,
+    "entrance": "ב",
+    "apartment": 13,
+    "city": "באר שבע",
+    "postalCode": "2260423"
+  },
+  "landlinePhone": "0556908885",
+  "mobilePhone": "0576778397",
+  "dateOfInjury": {
+    "day": 10,
+    "month": 10,
+    "year": 2025
+  },
+  "timeOfInjury": "10:03",
+  "accidentLocation": "במדרגות הבניין",
+  "accidentDescription": "החלקה בבית בעת ירידה במדרגות",
+  "accidentAddress": "רח' בן גוריון 191, פתח תקווה",
+  "injuredBodyPart": "יד ימין",
+  "signature": "חתימת מטופל",
+  "formFillingDate": {
+    "day": 9,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 4,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "מאוחדת",
+  "natureOfAccident": "החלקה בבית"
+}

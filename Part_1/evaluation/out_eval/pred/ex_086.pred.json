@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "677041313",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "05",
+    "month": "11",
+    "year": "1986"
+  },
+  "address": {
+    "street": "הרצל",
+    "houseNumber": "19",
+    "entrance": "ב",
+    "apartment": "6",
+    "city": "ירושלים",
+    "postalCode": "5468448",
+    "poBox": ""
+  },
+  "landlinePhone": "051854085",
+  "mobilePhone": "0515896141",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "23",
+    "month": "08",
+    "year": "2025"
+  },
+  "timeOfInjury": "20:41",
+  "accidentLocation": "במדרגות הבניין",
+  "accidentAddress": "רח׳ הרצל 961, תל אביב",
+  "accidentDescription": "התחשמלות קלה במהלך עבודה",
+  "injuredBodyPart": "קרסול שמאל",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "25",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "11",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "lastName": "סבן",
+  "firstName": "נעמה",
+  "idNumber": "754294636",
+  "dateOfBirth": {
+    "day": 20,
+    "month": 6,
+    "year": 1988
+  },
+  "address": {
+    "street": "ז'בוטינסקי",
+    "houseNumber": 64,
+    "entrance": "",
+    "apartment": 51,
+    "city": "ירושלים",
+    "postalCode": "7511693"
+  },
+  "landlinePhone": "0518960898",
+  "mobilePhone": "0505567642",
+  "dateOfInjury": {
+    "day": 18,
+    "month": 8,
+    "year": 2025
+  },
+  "timeOfInjury": "19:45",
+  "accidentLocation": "במדרגות הבניין",
+  "accidentDescription": "פגיעה במהלך ספורט במהלך עבודה",
+  "accidentAddress": "רח' החשמונאים 68, אשדוד",
+  "injuredBodyPart": "רגל שמאל",
+  "signature": "חתימה רפואית",
+  "formFillingDate": {
+    "day": 1,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 7,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "כללית",
+  "natureOfAccident": "פגיעה במהלך ספורט"
+}

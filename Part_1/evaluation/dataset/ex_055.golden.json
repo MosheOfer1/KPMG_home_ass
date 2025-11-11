@@ -1,0 +1,44 @@
+{
+  "lastName": "לוי",
+  "firstName": "טל",
+  "idNumber": "330107842",
+  "dateOfBirth": {
+    "day": 27,
+    "month": 8,
+    "year": 1995
+  },
+  "address": {
+    "street": "הרצל",
+    "houseNumber": 60,
+    "entrance": "",
+    "apartment": 8,
+    "city": "חיפה",
+    "postalCode": "4253218"
+  },
+  "landlinePhone": "0510482901",
+  "mobilePhone": "0521439472",
+  "dateOfInjury": {
+    "day": 10,
+    "month": 9,
+    "year": 2025
+  },
+  "timeOfInjury": "13:43",
+  "accidentLocation": "במגרש הספורט",
+  "accidentDescription": "נפילה ממדרגות במהלך עבודה",
+  "accidentAddress": "רח' דיזנגוף 133, רעננה",
+  "injuredBodyPart": "צוואר",
+  "signature": "חתימה אלקטרונית",
+  "formFillingDate": {
+    "day": 30,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 6,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "כללית",
+  "natureOfAccident": "נפילה ממדרגות"
+}

@@ -1,0 +1,44 @@
+{
+  "lastName": "סבן",
+  "firstName": "נעם",
+  "idNumber": "873613045",
+  "dateOfBirth": {
+    "day": 18,
+    "month": 5,
+    "year": 1974
+  },
+  "address": {
+    "street": "ז'בוטינסקי",
+    "houseNumber": 1,
+    "entrance": "ג",
+    "apartment": 59,
+    "city": "ירושלים",
+    "postalCode": "5382300"
+  },
+  "landlinePhone": "0514600171",
+  "mobilePhone": "0526288168",
+  "dateOfInjury": {
+    "day": 1,
+    "month": 10,
+    "year": 2025
+  },
+  "timeOfInjury": "06:20",
+  "accidentLocation": "בדרך הביתה",
+  "accidentDescription": "מכה בראש בעת ירידה במדרגות",
+  "accidentAddress": "רח' שדרות חן 28, פתח תקווה",
+  "injuredBodyPart": "ברך ימין",
+  "signature": "חתימה רפואית",
+  "formFillingDate": {
+    "day": 13,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 28,
+    "month": 10,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "ללא",
+  "natureOfAccident": "מכה בראש"
+}

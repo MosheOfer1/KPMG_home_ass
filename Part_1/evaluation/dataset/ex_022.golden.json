@@ -1,0 +1,44 @@
+{
+  "lastName": "לוי",
+  "firstName": "ליאן",
+  "idNumber": "626106072",
+  "dateOfBirth": {
+    "day": 23,
+    "month": 9,
+    "year": 1986
+  },
+  "address": {
+    "street": "הרצל",
+    "houseNumber": 49,
+    "entrance": "",
+    "apartment": 11,
+    "city": "ראשון לציון",
+    "postalCode": "9304502"
+  },
+  "landlinePhone": "0549488213",
+  "mobilePhone": "0569017994",
+  "dateOfInjury": {
+    "day": 23,
+    "month": 10,
+    "year": 2025
+  },
+  "timeOfInjury": "14:43",
+  "accidentLocation": "בחוף הים",
+  "accidentDescription": "מכה בראש בעת ירידה במדרגות",
+  "accidentAddress": "רח' יהודה הלוי 79, ירושלים",
+  "injuredBodyPart": "יד ימין",
+  "signature": "חתימה רפואית",
+  "formFillingDate": {
+    "day": 8,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 31,
+    "month": 10,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "לאומית",
+  "natureOfAccident": "מכה בראש"
+}

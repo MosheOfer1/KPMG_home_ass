@@ -1,0 +1,44 @@
+{
+  "lastName": "גולן",
+  "firstName": "טל",
+  "idNumber": "997298217",
+  "dateOfBirth": {
+    "day": 14,
+    "month": 5,
+    "year": 2000
+  },
+  "address": {
+    "street": "אלנבי",
+    "houseNumber": 19,
+    "entrance": "ב",
+    "apartment": 30,
+    "city": "תל אביב",
+    "postalCode": "5126978"
+  },
+  "landlinePhone": "0566577911",
+  "mobilePhone": "0500654881",
+  "dateOfInjury": {
+    "day": 18,
+    "month": 10,
+    "year": 2025
+  },
+  "timeOfInjury": "14:45",
+  "accidentLocation": "בכביש",
+  "accidentDescription": "החלקה בבית בעת ירידה במדרגות",
+  "accidentAddress": "רח' הרצל 80, באר שבע",
+  "injuredBodyPart": "רגל ימין",
+  "signature": "חתימת נבדק",
+  "formFillingDate": {
+    "day": 1,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 29,
+    "month": 10,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "מאוחדת",
+  "natureOfAccident": "החלקה בבית"
+}

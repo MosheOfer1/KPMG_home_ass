@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "408764129",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "18",
+    "month": "10",
+    "year": "1995"
+  },
+  "address": {
+    "street": "הרצל",
+    "houseNumber": "20",
+    "entrance": "",
+    "apartment": "8",
+    "city": "הרצליה",
+    "postalCode": "8064814",
+    "poBox": ""
+  },
+  "landlinePhone": "0576006095",
+  "mobilePhone": "0592443594",
+  "jobType": "self-employed",
+  "dateOfInjury": {
+    "day": "10",
+    "month": "11",
+    "year": "2025"
+  },
+  "timeOfInjury": "04:12",
+  "accidentLocation": "בדרך הביתה",
+  "accidentAddress": "רח׳ ויצמן 71, הרצליה",
+  "accidentDescription": "התחשמלות קלה במהלך פעילות יומיומית",
+  "injuredBodyPart": "רגל ימין",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "09",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "10",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

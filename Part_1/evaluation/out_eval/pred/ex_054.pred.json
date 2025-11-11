@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "764835772",
+  "gender": "נקבה",
+  "dateOfBirth": {
+    "day": "06",
+    "month": "04",
+    "year": "1980"
+  },
+  "address": {
+    "street": "דיזנגוף",
+    "houseNumber": "76",
+    "entrance": "ג",
+    "apartment": "5",
+    "city": "רעננה",
+    "postalCode": "7142628",
+    "poBox": ""
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0506104701",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "11",
+    "month": "04",
+    "year": "2025"
+  },
+  "timeOfInjury": "00:11",
+  "accidentLocation": "מקום העבודה",
+  "accidentAddress": "רח׳ דיזנגוף 79, ראשון לציון",
+  "accidentDescription": "נפילה ממדרגות",
+  "injuredBodyPart": "גב תחתון",
+  "signature": "חתימהX",
+  "formFillingDate": {
+    "day": "19",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "28",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מאוחדת",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "134476122",
+  "gender": "נקבה",
+  "dateOfBirth": {
+    "day": "21",
+    "month": "05",
+    "year": "1977"
+  },
+  "address": {
+    "apartment": "28",
+    "city": "ירושלים",
+    "entrance": "ג",
+    "houseNumber": "10",
+    "poBox": "",
+    "postalCode": "6673689",
+    "street": "שדרות חן"
+  },
+  "landlinePhone": "0564522034",
+  "mobilePhone": "0529955918",
+  "jobType": "עצמאי",
+  "dateOfInjury": {
+    "day": "01",
+    "month": "11",
+    "year": "2025"
+  },
+  "timeOfInjury": "01:00",
+  "accidentLocation": "בחוף הים",
+  "accidentAddress": "רח׳ הרצל 661, רעננה",
+  "accidentDescription": "נפילה ממדרגות במהלך פעילות יומיומית",
+  "injuredBodyPart": "יד ימין",
+  "signature": "חתימה ממוחשבת",
+  "formFillingDate": {
+    "day": "01",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "05",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "לאומית",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "808934569",
+  "gender": "female",
+  "dateOfBirth": {
+    "day": "28",
+    "month": "03",
+    "year": "1998"
+  },
+  "address": {
+    "apartment": "6",
+    "city": "באר שבע",
+    "entrance": "א",
+    "houseNumber": "99",
+    "poBox": "",
+    "postalCode": "0077703",
+    "street": "יהודה הלוי"
+  },
+  "landlinePhone": "05042176",
+  "mobilePhone": "05652616480",
+  "jobType": "self-employed",
+  "dateOfInjury": {
+    "day": "20",
+    "month": "08",
+    "year": "2025"
+  },
+  "timeOfInjury": "22:53",
+  "accidentLocation": "מקום העבודה",
+  "accidentAddress": "רח׳ יהודה הלוי 69, פתח תקווה",
+  "accidentDescription": "מכה בראש במהלך פעילות יומיומית",
+  "injuredBodyPart": "גב תחתון",
+  "signature": "signed by representative",
+  "formFillingDate": {
+    "day": "15",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "28",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "כללית",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

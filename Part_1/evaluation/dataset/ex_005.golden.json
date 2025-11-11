@@ -1,0 +1,44 @@
+{
+  "lastName": "סבן",
+  "firstName": "יוסי",
+  "idNumber": "076056494",
+  "dateOfBirth": {
+    "day": 26,
+    "month": 8,
+    "year": 1993
+  },
+  "address": {
+    "street": "אבן גבירול",
+    "houseNumber": 66,
+    "entrance": "",
+    "apartment": 17,
+    "city": "נתניה",
+    "postalCode": "3570349"
+  },
+  "landlinePhone": "0580903446",
+  "mobilePhone": "0538575704",
+  "dateOfInjury": {
+    "day": 1,
+    "month": 10,
+    "year": 2025
+  },
+  "timeOfInjury": "17:34",
+  "accidentLocation": "בדרך הביתה",
+  "accidentDescription": "התחשמלות קלה במהלך עבודה",
+  "accidentAddress": "רח' אלנבי 66, הרצליה",
+  "injuredBodyPart": "גב תחתון",
+  "signature": "חתימת מטופל",
+  "formFillingDate": {
+    "day": 20,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 10,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "מכבי",
+  "natureOfAccident": "התחשמלות קלה"
+}

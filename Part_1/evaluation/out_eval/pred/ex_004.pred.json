@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "018501720",
+  "gender": "female",
+  "dateOfBirth": {
+    "day": "13",
+    "month": "10",
+    "year": "1979"
+  },
+  "address": {
+    "apartment": "32",
+    "city": "פתח תקווה",
+    "entrance": "ג",
+    "houseNumber": "107",
+    "poBox": "",
+    "postalCode": "7628658",
+    "street": "דיזנגוף"
+  },
+  "landlinePhone": "0506916047",
+  "mobilePhone": "0506916047",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "31",
+    "month": "08",
+    "year": "2025"
+  },
+  "timeOfInjury": "03:22",
+  "accidentLocation": "במדרגות הבניין",
+  "accidentAddress": "רח׳ שדרות חן 031, אשדוד",
+  "accidentDescription": "תאונת דרכים קלה במהלך פעילות יומיומית",
+  "injuredBodyPart": "שכם ימין",
+  "signature": "חתימה אלקטרונית",
+  "formFillingDate": {
+    "day": "05",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "06",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מאוחדת",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

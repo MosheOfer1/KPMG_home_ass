@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "698899508",
+  "gender": "נקבה",
+  "dateOfBirth": {
+    "day": "08",
+    "month": "02",
+    "year": "1978"
+  },
+  "address": {
+    "street": "שדרות חן",
+    "houseNumber": "120",
+    "entrance": "א",
+    "apartment": "21",
+    "city": "הרצליה",
+    "postalCode": "5096470",
+    "poBox": ""
+  },
+  "landlinePhone": "0588092863",
+  "mobilePhone": "0579398943",
+  "jobType": "עצמאי",
+  "dateOfInjury": {
+    "day": "01",
+    "month": "09",
+    "year": "2025"
+  },
+  "timeOfInjury": "20:30",
+  "accidentLocation": "בבית",
+  "accidentAddress": "רח׳ ז׳בוטינסקי 67, חיפה",
+  "accidentDescription": "נפילה ממדרגות במהלך פעילות יומיומית",
+  "injuredBodyPart": "ברך ימין",
+  "signature": "שם המבקש נחתם על ידי נציג",
+  "formFillingDate": {
+    "day": "17",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "05",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "כללית",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

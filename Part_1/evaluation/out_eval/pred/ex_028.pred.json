@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "302750883",
+  "gender": "נקבה",
+  "dateOfBirth": {
+    "day": "10",
+    "month": "02",
+    "year": "1991"
+  },
+  "address": {
+    "apartment": "7",
+    "city": "ירושלים",
+    "entrance": "",
+    "houseNumber": "30",
+    "poBox": "",
+    "postalCode": "9871741",
+    "street": "ז׳בוטינסקי"
+  },
+  "landlinePhone": "0559724004",
+  "mobilePhone": "0533881767",
+  "jobType": "עצמאי",
+  "dateOfInjury": {
+    "day": "21",
+    "month": "09",
+    "year": "2025"
+  },
+  "timeOfInjury": "13:10",
+  "accidentLocation": "במגרש הספורט",
+  "accidentAddress": "רח׳ אלנבי 561, רעננה",
+  "accidentDescription": "מכה בראש במהלך פעילות יומיומית",
+  "injuredBodyPart": "צוואר",
+  "signature": "חתימהX",
+  "formFillingDate": {
+    "day": "17",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "11",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "לאומית",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

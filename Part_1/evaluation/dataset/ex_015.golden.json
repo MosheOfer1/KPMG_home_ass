@@ -1,0 +1,44 @@
+{
+  "lastName": "כהן",
+  "firstName": "יוסי",
+  "idNumber": "712167171",
+  "dateOfBirth": {
+    "day": 19,
+    "month": 11,
+    "year": 1978
+  },
+  "address": {
+    "street": "אלנבי",
+    "houseNumber": 23,
+    "entrance": "א",
+    "apartment": 60,
+    "city": "פתח תקווה",
+    "postalCode": "9371638"
+  },
+  "landlinePhone": "0563245080",
+  "mobilePhone": "0535380707",
+  "dateOfInjury": {
+    "day": 12,
+    "month": 10,
+    "year": 2025
+  },
+  "timeOfInjury": "09:34",
+  "accidentLocation": "בדרך לעבודה",
+  "accidentDescription": "מכה בראש בעת ירידה במדרגות",
+  "accidentAddress": "רח' ז'בוטינסקי 41, הרצליה",
+  "injuredBodyPart": "יד ימין",
+  "signature": "חתימת מטופל",
+  "formFillingDate": {
+    "day": 5,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 27,
+    "month": 10,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "מאוחדת",
+  "natureOfAccident": "מכה בראש"
+}

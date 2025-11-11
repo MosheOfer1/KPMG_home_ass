@@ -1,0 +1,44 @@
+{
+  "lastName": "סבן",
+  "firstName": "אדם",
+  "idNumber": "199516259",
+  "dateOfBirth": {
+    "day": 6,
+    "month": 4,
+    "year": 1998
+  },
+  "address": {
+    "street": "יהודה הלוי",
+    "houseNumber": 10,
+    "entrance": "א",
+    "apartment": 53,
+    "city": "חיפה",
+    "postalCode": "7307671"
+  },
+  "landlinePhone": "0519019115",
+  "mobilePhone": "0546843612",
+  "dateOfInjury": {
+    "day": 18,
+    "month": 8,
+    "year": 2025
+  },
+  "timeOfInjury": "08:25",
+  "accidentLocation": "בדרך הביתה",
+  "accidentDescription": "חבלה בגב בעת ירידה במדרגות",
+  "accidentAddress": "רח' יהודה הלוי 194, תל אביב",
+  "injuredBodyPart": "צוואר",
+  "signature": "חתימת מטופל",
+  "formFillingDate": {
+    "day": 19,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 1,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "מאוחדת",
+  "natureOfAccident": "חבלה בגב"
+}

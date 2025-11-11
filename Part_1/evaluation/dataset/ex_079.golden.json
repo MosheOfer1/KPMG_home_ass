@@ -1,0 +1,44 @@
+{
+  "lastName": "ברדוגו",
+  "firstName": "עומר",
+  "idNumber": "245529215",
+  "dateOfBirth": {
+    "day": 18,
+    "month": 7,
+    "year": 1994
+  },
+  "address": {
+    "street": "יהודה הלוי",
+    "houseNumber": 105,
+    "entrance": "",
+    "apartment": 28,
+    "city": "אשדוד",
+    "postalCode": "6354498"
+  },
+  "landlinePhone": "0543604803",
+  "mobilePhone": "0513437713",
+  "dateOfInjury": {
+    "day": 13,
+    "month": 8,
+    "year": 2025
+  },
+  "timeOfInjury": "00:09",
+  "accidentLocation": "מקום העבודה",
+  "accidentDescription": "החלקה בבית",
+  "accidentAddress": "רח' שדרות חן 140, חיפה",
+  "injuredBodyPart": "מרפק שמאל",
+  "signature": "חתימה ממוחשבת",
+  "formFillingDate": {
+    "day": 1,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 6,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "מכבי",
+  "natureOfAccident": "החלקה בבית"
+}

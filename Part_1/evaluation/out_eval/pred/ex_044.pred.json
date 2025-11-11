@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "840884060",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "23",
+    "month": "09",
+    "year": "1996"
+  },
+  "address": {
+    "street": "ז׳בוטינסקי",
+    "houseNumber": "104",
+    "entrance": "ג",
+    "apartment": "2",
+    "city": "אשדוד",
+    "postalCode": "8475838",
+    "poBox": ""
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0517027PB8",
+  "jobType": "self-employed",
+  "dateOfInjury": {
+    "day": "01",
+    "month": "11",
+    "year": "2025"
+  },
+  "timeOfInjury": "12:06",
+  "accidentLocation": "מקום העבודה",
+  "accidentAddress": "רח׳ הרצל 7, רעננה",
+  "accidentDescription": "נפילה ממדרגות בעת ירידה במדרגות",
+  "injuredBodyPart": "צוואר",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "10",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "01",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "כללית",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "selected"
+  }
+}

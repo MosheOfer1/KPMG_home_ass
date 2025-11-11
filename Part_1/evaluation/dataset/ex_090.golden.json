@@ -1,0 +1,44 @@
+{
+  "lastName": "אוחנה",
+  "firstName": "טל",
+  "idNumber": "866258637",
+  "dateOfBirth": {
+    "day": 27,
+    "month": 5,
+    "year": 1982
+  },
+  "address": {
+    "street": "ויצמן",
+    "houseNumber": 37,
+    "entrance": "א",
+    "apartment": 50,
+    "city": "ראשון לציון",
+    "postalCode": "1687752"
+  },
+  "landlinePhone": "0543532804",
+  "mobilePhone": "0576051821",
+  "dateOfInjury": {
+    "day": 10,
+    "month": 10,
+    "year": 2025
+  },
+  "timeOfInjury": "16:30",
+  "accidentLocation": "בבית",
+  "accidentDescription": "חתך ביד במהלך עבודה",
+  "accidentAddress": "רח' אבן גבירול 101, אשדוד",
+  "injuredBodyPart": "רגל ימין",
+  "signature": "חתימה רפואית",
+  "formFillingDate": {
+    "day": 6,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 28,
+    "month": 10,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "מאוחדת",
+  "natureOfAccident": "חתך ביד"
+}

@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "008811120",
+  "gender": "Female",
+  "dateOfBirth": {
+    "day": "10",
+    "month": "10",
+    "year": "1998"
+  },
+  "address": {
+    "street": "Dizengoff",
+    "houseNumber": "40",
+    "entrance": "A",
+    "apartment": "2",
+    "city": "Rishon Lezion",
+    "poBox": "",
+    "postalCode": "4011311"
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0598317RR2",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "26",
+    "month": "10",
+    "year": "2025"
+  },
+  "timeOfInjury": "10:15",
+  "accidentLocation": "Sports field",
+  "accidentAddress": "Zhabotinsky St. 46, Jerusalem",
+  "accidentDescription": "Back injury while descending stairs",
+  "injuredBodyPart": "Lower back",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "26",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "03",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "Leumit",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "464386931",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "10",
+    "month": "08",
+    "year": "1989"
+  },
+  "address": {
+    "street": "אלנבי",
+    "houseNumber": "13",
+    "entrance": "א",
+    "apartment": "5",
+    "city": "רעננה",
+    "postalCode": "5897804",
+    "poBox": ""
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0598346038",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "30",
+    "month": "08",
+    "year": "2025"
+  },
+  "timeOfInjury": "03:38",
+  "accidentLocation": "בגן הציבורי",
+  "accidentAddress": "רח' הרצל 38, נתניה",
+  "accidentDescription": "החלקה בבית במהלך פעילות יומיומית",
+  "injuredBodyPart": "רגל ימין",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "10",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "31",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מכבי",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

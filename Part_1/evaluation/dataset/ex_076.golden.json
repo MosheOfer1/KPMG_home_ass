@@ -1,0 +1,44 @@
+{
+  "lastName": "מזרחי",
+  "firstName": "רועי",
+  "idNumber": "163981027",
+  "dateOfBirth": {
+    "day": 1,
+    "month": 8,
+    "year": 1983
+  },
+  "address": {
+    "street": "אלנבי",
+    "houseNumber": 2,
+    "entrance": "ב",
+    "apartment": 51,
+    "city": "פתח תקווה",
+    "postalCode": "7393305"
+  },
+  "landlinePhone": "0500898883",
+  "mobilePhone": "0505269849",
+  "dateOfInjury": {
+    "day": 25,
+    "month": 9,
+    "year": 2025
+  },
+  "timeOfInjury": "10:12",
+  "accidentLocation": "בדרך הביתה",
+  "accidentDescription": "מכה בראש",
+  "accidentAddress": "רח' יהודה הלוי 121, באר שבע",
+  "injuredBodyPart": "יד שמאל",
+  "signature": "חתימה ממוחשבת",
+  "formFillingDate": {
+    "day": 19,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 9,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "מאוחדת",
+  "natureOfAccident": "מכה בראש"
+}

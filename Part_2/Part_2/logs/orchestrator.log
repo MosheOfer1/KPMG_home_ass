@@ -1,0 +1,24 @@
+INFO:     Will watch for changes in these directories: ['/home/moshe/Documents/GitHub/KPMG_home_ass/Part_2']
+INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+INFO:     Started reloader process [875687] using StatReload
+INFO:     Started server process [875689]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:59856 - "GET /health HTTP/1.1" 200 OK
+INFO: HTTP Request: POST https://aoai-candidates-east-us-2.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-10-21 "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:45212 - "POST /v1/chat HTTP/1.1" 200 OK
+INFO: HTTP Request: POST https://aoai-candidates-east-us-2.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-10-21 "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:58300 - "POST /v1/chat HTTP/1.1" 200 OK
+INFO: HTTP Request: POST https://aoai-candidates-east-us-2.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-10-21 "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:58300 - "POST /v1/chat HTTP/1.1" 200 OK
+INFO: HTTP Request: POST https://aoai-candidates-east-us-2.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-10-21 "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:43080 - "POST /v1/chat HTTP/1.1" 200 OK
+INFO: HTTP Request: POST https://aoai-candidates-east-us-2.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-10-21 "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:50084 - "POST /v1/chat HTTP/1.1" 200 OK
+INFO: HTTP Request: POST https://aoai-candidates-east-us-2.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-10-21 "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:45070 - "POST /v1/chat HTTP/1.1" 200 OK
+INFO: HTTP Request: POST https://aoai-candidates-east-us-2.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-10-21 "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:45084 - "POST /v1/chat HTTP/1.1" 200 OK
+INFO: HTTP Request: POST https://aoai-candidates-east-us-2.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-10-21 "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:56062 - "POST /v1/chat HTTP/1.1" 200 OK
+INFO:     Shutting down

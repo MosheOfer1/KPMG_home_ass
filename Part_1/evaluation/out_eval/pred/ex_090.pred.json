@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "866258637",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "27",
+    "month": "05",
+    "year": "1982"
+  },
+  "address": {
+    "apartment": "50",
+    "city": "ראשון לציון",
+    "entrance": "א",
+    "houseNumber": "37",
+    "poBox": "",
+    "postalCode": "1687752",
+    "street": "ויצמן"
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0543532804",
+  "jobType": "עצמאי",
+  "dateOfInjury": {
+    "day": "10",
+    "month": "10",
+    "year": "2025"
+  },
+  "timeOfInjury": "16:30",
+  "accidentLocation": "בבית",
+  "accidentAddress": "רח׳ אבן גבירול 101, אשדוד",
+  "accidentDescription": "חתך ביד במהלך עבודה",
+  "injuredBodyPart": "רגל ימין",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "06",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "28",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מאוחדת",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

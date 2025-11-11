@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "873613045",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "18",
+    "month": "05",
+    "year": "1974"
+  },
+  "address": {
+    "apartment": "59",
+    "city": "ירושלים",
+    "entrance": "ג",
+    "houseNumber": "1",
+    "poBox": "",
+    "postalCode": "5382300",
+    "street": "ז׳בוטינסקי"
+  },
+  "landlinePhone": "051460071",
+  "mobilePhone": "052628876",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "01",
+    "month": "10",
+    "year": "2025"
+  },
+  "timeOfInjury": "06:20",
+  "accidentLocation": "בדרך הביתה",
+  "accidentAddress": "רח׳ שדרות חן 82, פתח תקווה",
+  "accidentDescription": "מכה בראש בעת ירידה במדרגות",
+  "injuredBodyPart": "ברך ימין",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "13",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "28",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

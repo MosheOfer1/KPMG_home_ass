@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "543330329",
+  "gender": "Female",
+  "dateOfBirth": {
+    "day": "27",
+    "month": "10",
+    "year": "1973"
+  },
+  "address": {
+    "street": "בן גוריון",
+    "houseNumber": "59",
+    "entrance": "א",
+    "apartment": "26",
+    "city": "רעננה",
+    "postalCode": "5608756",
+    "poBox": ""
+  },
+  "landlinePhone": "0510929768",
+  "mobilePhone": "0548356749",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "24",
+    "month": "08",
+    "year": "2025"
+  },
+  "timeOfInjury": "14:31",
+  "accidentLocation": "בדרך הביתה",
+  "accidentAddress": "רח׳ החשמונאים 711, ירושלים",
+  "accidentDescription": "התחשמלות קלה בעת ירידה במדרגות",
+  "injuredBodyPart": "שכם ימין",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "17",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "31",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מכבי",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

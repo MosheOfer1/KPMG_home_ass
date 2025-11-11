@@ -1,0 +1,44 @@
+{
+  "lastName": "כהן",
+  "firstName": "אדם",
+  "idNumber": "764835772",
+  "dateOfBirth": {
+    "day": 6,
+    "month": 4,
+    "year": 1980
+  },
+  "address": {
+    "street": "דיזנגוף",
+    "houseNumber": 76,
+    "entrance": "ג",
+    "apartment": 5,
+    "city": "רעננה",
+    "postalCode": "7142628"
+  },
+  "landlinePhone": "0506104701",
+  "mobilePhone": "0505820182",
+  "dateOfInjury": {
+    "day": 14,
+    "month": 8,
+    "year": 2025
+  },
+  "timeOfInjury": "00:11",
+  "accidentLocation": "מקום העבודה",
+  "accidentDescription": "נפילה ממדרגות",
+  "accidentAddress": "רח' דיזנגוף 97, ראשון לציון",
+  "injuredBodyPart": "גב תחתון",
+  "signature": "חתימת מטופל",
+  "formFillingDate": {
+    "day": 19,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 28,
+    "month": 10,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "מאוחדת",
+  "natureOfAccident": "נפילה ממדרגות"
+}

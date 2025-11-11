@@ -1,0 +1,44 @@
+{
+  "lastName": "ברדוגו",
+  "firstName": "ליאן",
+  "idNumber": "347509480",
+  "dateOfBirth": {
+    "day": 24,
+    "month": 9,
+    "year": 1977
+  },
+  "address": {
+    "street": "יהודה הלוי",
+    "houseNumber": 93,
+    "entrance": "ג",
+    "apartment": 59,
+    "city": "פתח תקווה",
+    "postalCode": "9730132"
+  },
+  "landlinePhone": "0552843095",
+  "mobilePhone": "0541925802",
+  "dateOfInjury": {
+    "day": 10,
+    "month": 9,
+    "year": 2025
+  },
+  "timeOfInjury": "07:44",
+  "accidentLocation": "בדרך הביתה",
+  "accidentDescription": "נפילה מאופניים במהלך פעילות יומיומית",
+  "accidentAddress": "רח' הרצל 34, פתח תקווה",
+  "injuredBodyPart": "יד שמאל",
+  "signature": "חתימה ידנית",
+  "formFillingDate": {
+    "day": 10,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 30,
+    "month": 10,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "כללית",
+  "natureOfAccident": "נפילה מאופניים"
+}

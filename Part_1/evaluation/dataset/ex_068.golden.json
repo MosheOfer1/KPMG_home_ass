@@ -1,0 +1,44 @@
+{
+  "lastName": "לוי",
+  "firstName": "עומר",
+  "idNumber": "370407289",
+  "dateOfBirth": {
+    "day": 22,
+    "month": 9,
+    "year": 1974
+  },
+  "address": {
+    "street": "יהודה הלוי",
+    "houseNumber": 82,
+    "entrance": "ב",
+    "apartment": 60,
+    "city": "תל אביב",
+    "postalCode": "1958056"
+  },
+  "landlinePhone": "0520196407",
+  "mobilePhone": "0565694269",
+  "dateOfInjury": {
+    "day": 14,
+    "month": 9,
+    "year": 2025
+  },
+  "timeOfInjury": "19:00",
+  "accidentLocation": "בדרך הביתה",
+  "accidentDescription": "חבלה בגב",
+  "accidentAddress": "רח' דיזנגוף 86, נתניה",
+  "injuredBodyPart": "רגל ימין",
+  "signature": "חתימה ממוחשבת",
+  "formFillingDate": {
+    "day": 28,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 10,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "פרטי",
+  "natureOfAccident": "חבלה בגב"
+}

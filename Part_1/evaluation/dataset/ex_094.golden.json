@@ -1,0 +1,44 @@
+{
+  "lastName": "לוי",
+  "firstName": "יוסי",
+  "idNumber": "640611187",
+  "dateOfBirth": {
+    "day": 20,
+    "month": 10,
+    "year": 1977
+  },
+  "address": {
+    "street": "דיזנגוף",
+    "houseNumber": 86,
+    "entrance": "ב",
+    "apartment": 41,
+    "city": "פתח תקווה",
+    "postalCode": "8728856"
+  },
+  "landlinePhone": "0538351621",
+  "mobilePhone": "0523405798",
+  "dateOfInjury": {
+    "day": 1,
+    "month": 10,
+    "year": 2025
+  },
+  "timeOfInjury": "18:59",
+  "accidentLocation": "במדרגות הבניין",
+  "accidentDescription": "חבלה בגב",
+  "accidentAddress": "רח' החשמונאים 132, פתח תקווה",
+  "injuredBodyPart": "יד ימין",
+  "signature": "חתימת מטופל",
+  "formFillingDate": {
+    "day": 25,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 29,
+    "month": 10,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "כללית",
+  "natureOfAccident": "חבלה בגב"
+}

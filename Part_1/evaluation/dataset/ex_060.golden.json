@@ -1,0 +1,44 @@
+{
+  "lastName": "סבן",
+  "firstName": "אדם",
+  "idNumber": "824703365",
+  "dateOfBirth": {
+    "day": 3,
+    "month": 9,
+    "year": 1996
+  },
+  "address": {
+    "street": "בן גוריון",
+    "houseNumber": 71,
+    "entrance": "א",
+    "apartment": 48,
+    "city": "רעננה",
+    "postalCode": "7969062"
+  },
+  "landlinePhone": "0552799185",
+  "mobilePhone": "0592703458",
+  "dateOfInjury": {
+    "day": 4,
+    "month": 9,
+    "year": 2025
+  },
+  "timeOfInjury": "04:00",
+  "accidentLocation": "במדרגות הבניין",
+  "accidentDescription": "מכה בראש",
+  "accidentAddress": "רח' ויצמן 29, אשדוד",
+  "injuredBodyPart": "ברך ימין",
+  "signature": "חתימה אלקטרונית",
+  "formFillingDate": {
+    "day": 4,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 1,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "מאוחדת",
+  "natureOfAccident": "מכה בראש"
+}

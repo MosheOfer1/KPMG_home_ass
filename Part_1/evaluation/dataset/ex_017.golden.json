@@ -1,0 +1,44 @@
+{
+  "lastName": "שלום",
+  "firstName": "עומר",
+  "idNumber": "816366919",
+  "dateOfBirth": {
+    "day": 19,
+    "month": 2,
+    "year": 1986
+  },
+  "address": {
+    "street": "שדרות חן",
+    "houseNumber": 89,
+    "entrance": "",
+    "apartment": 32,
+    "city": "רעננה",
+    "postalCode": "9702316"
+  },
+  "landlinePhone": "0596693756",
+  "mobilePhone": "0564918384",
+  "dateOfInjury": {
+    "day": 5,
+    "month": 9,
+    "year": 2025
+  },
+  "timeOfInjury": "00:17",
+  "accidentLocation": "בדרך הביתה",
+  "accidentDescription": "מכה בראש במהלך עבודה",
+  "accidentAddress": "רח' יהודה הלוי 194, ירושלים",
+  "injuredBodyPart": "יד ימין",
+  "signature": "חתימת מטופל",
+  "formFillingDate": {
+    "day": 8,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 6,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "כללית",
+  "natureOfAccident": "מכה בראש"
+}

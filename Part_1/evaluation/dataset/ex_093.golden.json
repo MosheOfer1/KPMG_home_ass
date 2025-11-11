@@ -1,0 +1,44 @@
+{
+  "lastName": "לוי",
+  "firstName": "אדם",
+  "idNumber": "698899508",
+  "dateOfBirth": {
+    "day": 8,
+    "month": 2,
+    "year": 1978
+  },
+  "address": {
+    "street": "שדרות חן",
+    "houseNumber": 120,
+    "entrance": "א",
+    "apartment": 21,
+    "city": "הרצליה",
+    "postalCode": "5096470"
+  },
+  "landlinePhone": "0588092863",
+  "mobilePhone": "0579398043",
+  "dateOfInjury": {
+    "day": 1,
+    "month": 9,
+    "year": 2025
+  },
+  "timeOfInjury": "20:30",
+  "accidentLocation": "בבית",
+  "accidentDescription": "נפילה ממדרגות במהלך פעילות יומיומית",
+  "accidentAddress": "רח' ז'בוטינסקי 76, חיפה",
+  "injuredBodyPart": "ברך ימין",
+  "signature": "נחתם על ידי נציג",
+  "formFillingDate": {
+    "day": 17,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 5,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "כללית",
+  "natureOfAccident": "נפילה ממדרגות"
+}

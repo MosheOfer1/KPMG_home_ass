@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "009171590",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "22",
+    "month": "11",
+    "year": "1996"
+  },
+  "address": {
+    "street": "שדרות חן",
+    "houseNumber": "97",
+    "entrance": "ד",
+    "apartment": "17",
+    "city": "חיפה",
+    "postalCode": "8573269",
+    "poBox": ""
+  },
+  "landlinePhone": "0548082410",
+  "mobilePhone": "0550475501",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "30",
+    "month": "09",
+    "year": "2025"
+  },
+  "timeOfInjury": "06:43",
+  "accidentLocation": "בכביש",
+  "accidentAddress": "רח׳ שדרות חן 2, תל אביב",
+  "accidentDescription": "החלקה בבית במהלך עבודה",
+  "injuredBodyPart": "יד שמאל",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "26",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "29",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מכבי",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "396034249",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "09",
+    "month": "07",
+    "year": "1984"
+  },
+  "address": {
+    "street": "החשמונאים",
+    "houseNumber": "28",
+    "entrance": "א",
+    "apartment": "50",
+    "city": "נתניה",
+    "postalCode": "6277997",
+    "poBox": ""
+  },
+  "landlinePhone": "0516427691",
+  "mobilePhone": "0543784600",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "01",
+    "month": "11",
+    "year": "2025"
+  },
+  "timeOfInjury": "08:02",
+  "accidentLocation": "בדרך הביתה",
+  "accidentAddress": "רח׳ ז׳בוטינסקי 59, אשדוד",
+  "accidentDescription": "נפילה ממדרגות בעת ירידה במדרגות",
+  "injuredBodyPart": "יד ימין",
+  "signature": "שם המבקש נחתם על ידי נציג",
+  "formFillingDate": {
+    "day": "08",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "01",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מאוחדת",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

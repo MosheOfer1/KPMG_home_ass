@@ -1,0 +1,44 @@
+{
+  "lastName": "לוי",
+  "firstName": "שירה",
+  "idNumber": "458752864",
+  "dateOfBirth": {
+    "day": 22,
+    "month": 10,
+    "year": 1973
+  },
+  "address": {
+    "street": "ויצמן",
+    "houseNumber": 50,
+    "entrance": "ב",
+    "apartment": 9,
+    "city": "באר שבע",
+    "postalCode": "4754083"
+  },
+  "landlinePhone": "0527026374",
+  "mobilePhone": "0516914344",
+  "dateOfInjury": {
+    "day": 22,
+    "month": 8,
+    "year": 2025
+  },
+  "timeOfInjury": "13:50",
+  "accidentLocation": "במדרגות הבניין",
+  "accidentDescription": "חתך ביד במהלך פעילות יומיומית",
+  "accidentAddress": "רח' ויצמן 138, אשדוד",
+  "injuredBodyPart": "יד שמאל",
+  "signature": "חתימת מטופל",
+  "formFillingDate": {
+    "day": 21,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 4,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "כללית",
+  "natureOfAccident": "חתך ביד"
+}

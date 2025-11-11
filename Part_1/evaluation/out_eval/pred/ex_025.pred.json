@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "905839272",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "02",
+    "month": "03",
+    "year": "1995"
+  },
+  "address": {
+    "street": "יהודה הלוי",
+    "houseNumber": "108",
+    "entrance": "א",
+    "apartment": "55",
+    "city": "נתניה",
+    "postalCode": "4098831",
+    "poBox": ""
+  },
+  "landlinePhone": "0571017053",
+  "mobilePhone": "6581136810",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "21",
+    "month": "10",
+    "year": "2025"
+  },
+  "timeOfInjury": "05:21",
+  "accidentLocation": "במדרגות הבניין",
+  "accidentAddress": "רח׳ ז'בוטינסקי 641, רעננה",
+  "accidentDescription": "מכה בראש במהלך עבודה",
+  "injuredBodyPart": "מרפק שמאל",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "24",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "27",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מאוחדת",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

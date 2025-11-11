@@ -1,0 +1,103 @@
+[
+  {
+    "id": "genetic-maccabi-gold",
+    "user_input": "כמה אחוז הנחה יש לי בשביל בדיקות סקר גנטיות?",
+    "profile_overrides": { "hmo_name": "MACCABI", "membership_tier": "GOLD", "locale": "HE" },
+    "expectations": [
+      { "fn": "expect_type_and_basics" },
+      { "fn": "expect_words", "args": ["הנחה", "בדיקות", "גנטיות"] },
+      { "fn": "expect_percent_rough", "args": [90] },
+      { "fn": "expect_citations_are_files" }
+    ]
+  },
+  {
+    "id": "speech-meuhedet-silver",
+    "user_input": "האם יש הנחה בטיפול בהפרעות דיבור במסלול כסף במאוחדת?",
+    "profile_overrides": { "hmo_name": "MEUHEDET", "membership_tier": "SILVER", "locale": "HE" },
+    "expectations": [
+      { "fn": "expect_type_and_basics" },
+      { "fn": "expect_words", "args": ["טיפול", "הפרעות דיבור", "הנחה"] },
+      { "fn": "expect_citations_are_files" }
+    ]
+  },
+  {
+    "id": "opto-clalit-gold",
+    "user_input": "בדיקות ראייה – כמה זה עולה?",
+    "profile_overrides": { "hmo_name": "CLALIT", "membership_tier": "GOLD", "locale": "HE" },
+    "expectations": [
+      { "fn": "expect_type_and_basics" },
+      { "fn": "expect_words", "args": ["בדיקה", "ראייה", "חינם"] },
+      { "fn": "expect_citations_are_files" }
+    ]
+  },
+  {
+    "id": "dental-maccabi-bronze",
+    "user_input": "מה העלות של סתימות במסלול ארד במכבי?",
+    "profile_overrides": { "hmo_name": "MACCABI", "membership_tier": "BRONZE", "locale": "HE" },
+    "expectations": [
+      { "fn": "expect_type_and_basics" },
+      { "fn": "expect_words", "args": ["סתימות", "עלות", "הנחה"] },
+      { "fn": "expect_citations_are_files" }
+    ]
+  },
+  {
+    "id": "chinese-acupuncture-clalit-gold",
+    "user_input": "מה כוללת ההטבה בדיקור סיני בכללית זהב?",
+    "profile_overrides": { "hmo_name": "CLALIT", "membership_tier": "GOLD", "locale": "HE" },
+    "expectations": [
+      { "fn": "expect_type_and_basics" },
+      { "fn": "expect_words", "args": ["דיקור", "סיני", "הטבה"] },
+      { "fn": "expect_citations_are_files" }
+    ]
+  },
+  {
+    "id": "physio-meuhedet-gold",
+    "user_input": "יש החזר על טיפולי פיזיותרפיה במאוחדת זהב?",
+    "profile_overrides": { "hmo_name": "MEUHEDET", "membership_tier": "GOLD", "locale": "HE" },
+    "expectations": [
+      { "fn": "expect_type_and_basics" },
+      { "fn": "expect_words", "args": ["פיזיותרפיה", "החזר", "הנחה"] },
+      { "fn": "expect_citations_are_files" }
+    ]
+  },
+  {
+    "id": "dietitian-clalit-silver",
+    "user_input": "מה ההנחה על פגישת תזונאית בכללית כסף?",
+    "profile_overrides": { "hmo_name": "CLALIT", "membership_tier": "SILVER", "locale": "HE" },
+    "expectations": [
+      { "fn": "expect_type_and_basics" },
+      { "fn": "expect_words", "args": ["תזונאית", "פגישה", "הנחה"] },
+      { "fn": "expect_citations_are_files" }
+    ]
+  },
+  {
+    "id": "alt-medicine-maccabi-gold",
+    "user_input": "מהן ההטבות לרפואה משלימה במכבי זהב?",
+    "profile_overrides": { "hmo_name": "MACCABI", "membership_tier": "GOLD", "locale": "HE" },
+    "expectations": [
+      { "fn": "expect_type_and_basics" },
+      { "fn": "expect_words", "args": ["רפואה משלימה", "הטבה", "מסלול"] },
+      { "fn": "expect_citations_are_files" }
+    ]
+  },
+  {
+    "id": "speech-clalit-bronze",
+    "user_input": "כמה משלמים על טיפול בגמגום בכללית ארד?",
+    "profile_overrides": { "hmo_name": "CLALIT", "membership_tier": "BRONZE", "locale": "HE" },
+    "expectations": [
+      { "fn": "expect_type_and_basics" },
+      { "fn": "expect_words", "args": ["גמגום", "טיפול", "עלות"] },
+      { "fn": "expect_citations_are_files" }
+    ]
+  },
+  {
+    "id": "english-check-maccabi-gold",
+    "user_input": "What benefits do I have for physiotherapy in Maccabi Gold?",
+    "profile_overrides": { "hmo_name": "MACCABI", "membership_tier": "GOLD", "locale": "EN" },
+    "expectations": [
+      { "fn": "expect_type_and_basics" },
+      { "fn": "expect_words", "args": ["physiotherapy", "discount", "benefit"] },
+      { "fn": "expect_citations_are_files" }
+    ]
+  }
+]

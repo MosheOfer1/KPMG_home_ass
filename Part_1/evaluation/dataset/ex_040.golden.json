@@ -1,0 +1,44 @@
+{
+  "lastName": "דנינו",
+  "firstName": "דוד",
+  "idNumber": "394718199",
+  "dateOfBirth": {
+    "day": 13,
+    "month": 11,
+    "year": 2000
+  },
+  "address": {
+    "street": "ויצמן",
+    "houseNumber": 77,
+    "entrance": "א",
+    "apartment": 56,
+    "city": "ירושלים",
+    "postalCode": "8037451"
+  },
+  "landlinePhone": "0513473963",
+  "mobilePhone": "0563617144",
+  "dateOfInjury": {
+    "day": 18,
+    "month": 8,
+    "year": 2025
+  },
+  "timeOfInjury": "05:33",
+  "accidentLocation": "בכביש",
+  "accidentDescription": "מכה בראש במהלך עבודה",
+  "accidentAddress": "רח' אבן גבירול 189, ירושלים",
+  "injuredBodyPart": "מרפק שמאל",
+  "signature": "חתימת מטופל",
+  "formFillingDate": {
+    "day": 5,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 28,
+    "month": 10,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "מכבי",
+  "natureOfAccident": "מכה בראש"
+}

@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "816366919",
+  "gender": "female",
+  "dateOfBirth": {
+    "day": "19",
+    "month": "02",
+    "year": "1986"
+  },
+  "address": {
+    "apartment": "32",
+    "city": "רעננה",
+    "entrance": "89",
+    "houseNumber": "",
+    "poBox": "",
+    "postalCode": "9702316",
+    "street": "שדרות חן"
+  },
+  "landlinePhone": "0565649183",
+  "mobilePhone": "0596693756",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "05",
+    "month": "09",
+    "year": "2025"
+  },
+  "timeOfInjury": "00:17",
+  "accidentLocation": "בדרך הביתה",
+  "accidentAddress": "רח׳ יהודה הלוי 491, ירושלים",
+  "accidentDescription": "מכה בראש במהלך עבודה",
+  "injuredBodyPart": "יד ימין",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "08",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "06",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "כללית",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

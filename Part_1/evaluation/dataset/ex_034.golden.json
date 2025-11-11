@@ -1,0 +1,44 @@
+{
+  "lastName": "בן דוד",
+  "firstName": "עומר",
+  "idNumber": "808934569",
+  "dateOfBirth": {
+    "day": 28,
+    "month": 3,
+    "year": 1998
+  },
+  "address": {
+    "street": "יהודה הלוי",
+    "houseNumber": 99,
+    "entrance": "א",
+    "apartment": 6,
+    "city": "באר שבע",
+    "postalCode": "0077703"
+  },
+  "landlinePhone": "0504211620",
+  "mobilePhone": "0562616480",
+  "dateOfInjury": {
+    "day": 20,
+    "month": 8,
+    "year": 2025
+  },
+  "timeOfInjury": "22:53",
+  "accidentLocation": "מקום העבודה",
+  "accidentDescription": "מכה בראש במהלך פעילות יומיומית",
+  "accidentAddress": "רח' יהודה הלוי 96, פתח תקווה",
+  "injuredBodyPart": "גב תחתון",
+  "signature": "נחתם על ידי נציג",
+  "formFillingDate": {
+    "day": 15,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 28,
+    "month": 10,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "כללית",
+  "natureOfAccident": "מכה בראש"
+}

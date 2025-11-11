@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "163981927",
+  "gender": "נקבה",
+  "dateOfBirth": {
+    "day": "01",
+    "month": "08",
+    "year": "1983"
+  },
+  "address": {
+    "street": "אלנבי",
+    "houseNumber": "51",
+    "entrance": "ב",
+    "apartment": "2",
+    "city": "פתח תקווה",
+    "postalCode": "7393305",
+    "poBox": ""
+  },
+  "landlinePhone": "0500898883",
+  "mobilePhone": "0505269849",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "25",
+    "month": "09",
+    "year": "2025"
+  },
+  "timeOfInjury": "10:12",
+  "accidentLocation": "בדרך הביתה",
+  "accidentAddress": "רח׳ יהודה הלוי 121, באר שבע",
+  "accidentDescription": "מכה בראש",
+  "injuredBodyPart": "יד שמאל",
+  "signature": "חתימהX",
+  "formFillingDate": {
+    "day": "19",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "09",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מאוחדת",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

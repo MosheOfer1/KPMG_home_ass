@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "070561632",
+  "gender": "female",
+  "dateOfBirth": {
+    "day": "28",
+    "month": "11",
+    "year": "1989"
+  },
+  "address": {
+    "apartment": "51",
+    "city": "באר שבע",
+    "entrance": "ג",
+    "houseNumber": "117",
+    "poBox": "",
+    "postalCode": "3240384",
+    "street": "בן גוריון"
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0578537",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "03",
+    "month": "11",
+    "year": "2025"
+  },
+  "timeOfInjury": "04:47",
+  "accidentLocation": "בגן הציבורי",
+  "accidentAddress": "רח' ויצמן 081, תל אביב",
+  "accidentDescription": "התחשמלות קלה בעת ירידה במדרגות",
+  "injuredBodyPart": "רגל שמאל",
+  "signature": "שם המבקש נחתם על ידי נציג",
+  "formFillingDate": {
+    "day": "21",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "29",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "לאומית",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

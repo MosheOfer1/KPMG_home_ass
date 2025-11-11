@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "731174792",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "21",
+    "month": "01",
+    "year": "1991"
+  },
+  "address": {
+    "street": "ויצמן",
+    "houseNumber": "56",
+    "entrance": "ג",
+    "apartment": "27",
+    "city": "חיפה",
+    "postalCode": "2869310",
+    "poBox": ""
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0549734658",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "11",
+    "month": "01",
+    "year": "2025"
+  },
+  "timeOfInjury": "12:07",
+  "accidentLocation": "בדרך לעבודה",
+  "accidentAddress": "רח׳ דיזנגוף 051, רעננה",
+  "accidentDescription": "פגיעה במהלך ספורט",
+  "injuredBodyPart": "קרסול שמאל",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "18",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "06",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "lastName": "שלום",
+  "firstName": "עומר",
+  "idNumber": "032570491",
+  "dateOfBirth": {
+    "day": 21,
+    "month": 1,
+    "year": 1986
+  },
+  "address": {
+    "street": "אבן גבירול",
+    "houseNumber": 29,
+    "entrance": "ד",
+    "apartment": 60,
+    "city": "ראשון לציון",
+    "postalCode": "9700144"
+  },
+  "landlinePhone": "0516746286",
+  "mobilePhone": "0596590472",
+  "dateOfInjury": {
+    "day": 27,
+    "month": 9,
+    "year": 2025
+  },
+  "timeOfInjury": "08:10",
+  "accidentLocation": "בבית",
+  "accidentDescription": "נפילה ממדרגות בעת ירידה במדרגות",
+  "accidentAddress": "רח' יהודה הלוי 190, רעננה",
+  "injuredBodyPart": "גב תחתון",
+  "signature": "חתימה ידנית",
+  "formFillingDate": {
+    "day": 22,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 1,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "כללית",
+  "natureOfAccident": "נפילה ממדרגות"
+}

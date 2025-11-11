@@ -1,0 +1,44 @@
+{
+  "lastName": "בן דוד",
+  "firstName": "שירה",
+  "idNumber": "855286868",
+  "dateOfBirth": {
+    "day": 5,
+    "month": 10,
+    "year": 1989
+  },
+  "address": {
+    "street": "יהודה הלוי",
+    "houseNumber": 38,
+    "entrance": "ד",
+    "apartment": 19,
+    "city": "ירושלים",
+    "postalCode": "9168493"
+  },
+  "landlinePhone": "0594222213",
+  "mobilePhone": "0592046248",
+  "dateOfInjury": {
+    "day": 8,
+    "month": 9,
+    "year": 2025
+  },
+  "timeOfInjury": "09:28",
+  "accidentLocation": "בבית הספר",
+  "accidentDescription": "חבלה בגב בעת ירידה במדרגות",
+  "accidentAddress": "רח' הרצל 171, באר שבע",
+  "injuredBodyPart": "צוואר",
+  "signature": "נחתם על ידי נציג",
+  "formFillingDate": {
+    "day": 27,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 5,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "מכבי",
+  "natureOfAccident": "חבלה בגב"
+}

@@ -1,0 +1,44 @@
+{
+  "lastName": "מזרחי",
+  "firstName": "יוסי",
+  "idNumber": "788551847",
+  "dateOfBirth": {
+    "day": 11,
+    "month": 8,
+    "year": 1986
+  },
+  "address": {
+    "street": "שדרות חן",
+    "houseNumber": 70,
+    "entrance": "ב",
+    "apartment": 51,
+    "city": "חיפה",
+    "postalCode": "7194140"
+  },
+  "landlinePhone": "0573665538",
+  "mobilePhone": "0541602410",
+  "dateOfInjury": {
+    "day": 14,
+    "month": 8,
+    "year": 2025
+  },
+  "timeOfInjury": "02:12",
+  "accidentLocation": "במדרגות הבניין",
+  "accidentDescription": "התחשמלות קלה בעת ירידה במדרגות",
+  "accidentAddress": "רח' הרצל 89, באר שבע",
+  "injuredBodyPart": "יד ימין",
+  "signature": "חתימה רפואית",
+  "formFillingDate": {
+    "day": 11,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 2,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "מכבי",
+  "natureOfAccident": "התחשמלות קלה"
+}

@@ -1,0 +1,141 @@
+{
+  "per_field": [
+    {
+      "field": "lastName",
+      "n": 100,
+      "correct": 0,
+      "accuracy": 0.0,
+      "avg_similarity": 0.034
+    },
+    {
+      "field": "firstName",
+      "n": 100,
+      "correct": 0,
+      "accuracy": 0.0,
+      "avg_similarity": 0.0018
+    },
+    {
+      "field": "idNumber",
+      "n": 100,
+      "correct": 84,
+      "accuracy": 0.84,
+      "avg_similarity": 0.9644
+    },
+    {
+      "field": "gender",
+      "n": 100,
+      "correct": 16,
+      "accuracy": 0.16,
+      "avg_similarity": 0.16
+    },
+    {
+      "field": "landlinePhone",
+      "n": 100,
+      "correct": 39,
+      "accuracy": 0.39,
+      "avg_similarity": 0.5521
+    },
+    {
+      "field": "mobilePhone",
+      "n": 100,
+      "correct": 20,
+      "accuracy": 0.2,
+      "avg_similarity": 0.6904
+    },
+    {
+      "field": "timeOfInjury",
+      "n": 100,
+      "correct": 100,
+      "accuracy": 1.0,
+      "avg_similarity": 1.0
+    },
+    {
+      "field": "accidentLocation",
+      "n": 100,
+      "correct": 98,
+      "accuracy": 0.98,
+      "avg_similarity": 0.9817
+    },
+    {
+      "field": "accidentDescription",
+      "n": 100,
+      "correct": 98,
+      "accuracy": 0.98,
+      "avg_similarity": 0.9824
+    },
+    {
+      "field": "accidentAddress",
+      "n": 100,
+      "correct": 2,
+      "accuracy": 0.02,
+      "avg_similarity": 0.8959
+    },
+    {
+      "field": "injuredBodyPart",
+      "n": 100,
+      "correct": 98,
+      "accuracy": 0.98,
+      "avg_similarity": 0.9822
+    },
+    {
+      "field": "signature",
+      "n": 100,
+      "correct": 6,
+      "accuracy": 0.06,
+      "avg_similarity": 0.2353
+    },
+    {
+      "field": "healthFundMember",
+      "n": 100,
+      "correct": 0,
+      "accuracy": 0.0,
+      "avg_similarity": 0.0
+    },
+    {
+      "field": "natureOfAccident",
+      "n": 100,
+      "correct": 0,
+      "accuracy": 0.0,
+      "avg_similarity": 0.0
+    },
+    {
+      "field": "dateOfBirth",
+      "n": 100,
+      "correct": 100,
+      "accuracy": 1.0,
+      "avg_similarity": 1.0
+    },
+    {
+      "field": "dateOfInjury",
+      "n": 100,
+      "correct": 71,
+      "accuracy": 0.71,
+      "avg_similarity": 0.84
+    },
+    {
+      "field": "formFillingDate",
+      "n": 100,
+      "correct": 95,
+      "accuracy": 0.95,
+      "avg_similarity": 0.9733
+    },
+    {
+      "field": "formReceiptDateAtClinic",
+      "n": 100,
+      "correct": 95,
+      "accuracy": 0.95,
+      "avg_similarity": 0.9633
+    },
+    {
+      "field": "address",
+      "n": 100,
+      "correct": 78,
+      "accuracy": 0.78,
+      "avg_similarity": 0.941
+    }
+  ],
+  "overall": {
+    "n_examples": 100,
+    "full_exact_match_rate": 0.0
+  }
+}

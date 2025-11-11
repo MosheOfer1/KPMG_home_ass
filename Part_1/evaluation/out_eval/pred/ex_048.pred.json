@@ -1,0 +1,45 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "636498321",
+  "gender": "female",
+  "dateOfBirth": {
+    "day": "09",
+    "month": "01",
+    "year": "1997"
+  },
+  "address": {
+    "street": "הרצל",
+    "houseNumber": "95",
+    "entrance": "א",
+    "apartment": "16",
+    "city": "הרצליה",
+    "postalCode": "7703696",
+    "poBox": ""
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0580346634",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "13",
+    "month": "10",
+    "year": "2025"
+  },
+  "timeOfInjury": "13:42",
+  "accidentLocation": "בדרך לעבודה",
+  "accidentAddress": "רח׳ החשמונאים 29, פתח תקווה",
+  "accidentDescription": "חתך ביד",
+  "injuredBodyPart": "מרפק שמאל",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "05",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": "",
+  "medicalInstitutionFields": {
+    "healthFundMember": "",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "אבחנות רפואיות"
+  }
+}

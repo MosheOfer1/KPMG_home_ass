@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "835984237",
+  "gender": "female",
+  "dateOfBirth": {
+    "day": "02",
+    "month": "06",
+    "year": "1972"
+  },
+  "address": {
+    "apartment": "45",
+    "city": "ראשון לציון",
+    "entrance": "ד",
+    "houseNumber": "111",
+    "poBox": "",
+    "postalCode": "8268168",
+    "street": "הרצל"
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0565647673",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "25",
+    "month": "09",
+    "year": "2025"
+  },
+  "timeOfInjury": "06:47",
+  "accidentLocation": "בגן הציבורי",
+  "accidentAddress": "רח׳ ויצמן 1, באר שבע",
+  "accidentDescription": "החלקה בבית בעת ירידה במדרגות",
+  "injuredBodyPart": "ברך ימין",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "28",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "06",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מאוחדת",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

@@ -1,0 +1,19 @@
+INFO:     Will watch for changes in these directories: ['/home/moshe/Documents/GitHub/KPMG_home_ass/Part_2']
+INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+INFO:     Started reloader process [868986] using StatReload
+INFO:     Started server process [868992]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'Part_2/fronted/ui_gradio.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [868992]
+INFO:     Started server process [869922]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [869922]
+INFO:     Stopping reloader process [868986]

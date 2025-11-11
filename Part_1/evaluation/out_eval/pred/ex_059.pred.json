@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "199516259",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "06",
+    "month": "04",
+    "year": "1998"
+  },
+  "address": {
+    "street": "יהודה הלוי",
+    "houseNumber": "10",
+    "entrance": "א",
+    "apartment": "53",
+    "city": "חיפה",
+    "postalCode": "7307671",
+    "poBox": ""
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0519019115",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "1",
+    "month": "",
+    "year": ""
+  },
+  "timeOfInjury": "08:25",
+  "accidentLocation": "בדרך הביתה",
+  "accidentAddress": "רח׳ יהודה הלוי 491, תל אביב",
+  "accidentDescription": "חבלה בגב בעת ירידה במדרגות",
+  "injuredBodyPart": "צוואר",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "19",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "01",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מאוחדת",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

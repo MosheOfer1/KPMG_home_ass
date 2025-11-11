@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "671909188",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "03",
+    "month": "10",
+    "year": "1971"
+  },
+  "address": {
+    "apartment": "39",
+    "city": "חיפה",
+    "entrance": "ג",
+    "houseNumber": "114",
+    "poBox": "",
+    "postalCode": "0474946",
+    "street": "אלנבי"
+  },
+  "landlinePhone": "8540396667",
+  "mobilePhone": "6550794940",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "22",
+    "month": "08",
+    "year": "2025"
+  },
+  "timeOfInjury": "14:26",
+  "accidentLocation": "בחוף הים",
+  "accidentAddress": "רח׳ דיזנגוף 061, נתניה",
+  "accidentDescription": "חבלה בגב בעת ירידה במדרגות",
+  "injuredBodyPart": "רגל שמאל",
+  "signature": "שם המבקש נחתם על ידי נציג",
+  "formFillingDate": {
+    "day": "06",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "06",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מאוחדת",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

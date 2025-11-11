@@ -1,0 +1,44 @@
+{
+  "lastName": "ברדוגו",
+  "firstName": "נעם",
+  "idNumber": "962211895",
+  "dateOfBirth": {
+    "day": 3,
+    "month": 1,
+    "year": 1985
+  },
+  "address": {
+    "street": "יהודה הלוי",
+    "houseNumber": 101,
+    "entrance": "ג",
+    "apartment": 59,
+    "city": "נתניה",
+    "postalCode": "5887899"
+  },
+  "landlinePhone": "0517349313",
+  "mobilePhone": "0559470478",
+  "dateOfInjury": {
+    "day": 28,
+    "month": 10,
+    "year": 2025
+  },
+  "timeOfInjury": "17:44",
+  "accidentLocation": "במגרש הספורט",
+  "accidentDescription": "חתך ביד",
+  "accidentAddress": "רח' הרצל 152, באר שבע",
+  "injuredBodyPart": "ברך ימין",
+  "signature": "חתימת מטופל",
+  "formFillingDate": {
+    "day": 14,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 28,
+    "month": 10,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "פרטי",
+  "natureOfAccident": "חתך ביד"
+}

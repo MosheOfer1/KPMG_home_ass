@@ -1,0 +1,44 @@
+{
+  "lastName": "דנינו",
+  "firstName": "אדם",
+  "idNumber": "285518222",
+  "dateOfBirth": {
+    "day": 2,
+    "month": 1,
+    "year": 1998
+  },
+  "address": {
+    "street": "אבן גבירול",
+    "houseNumber": 57,
+    "entrance": "א",
+    "apartment": 31,
+    "city": "באר שבע",
+    "postalCode": "1951382"
+  },
+  "landlinePhone": "0521774981",
+  "mobilePhone": "0591412821",
+  "dateOfInjury": {
+    "day": 25,
+    "month": 8,
+    "year": 2025
+  },
+  "timeOfInjury": "13:33",
+  "accidentLocation": "בדרך לעבודה",
+  "accidentDescription": "נפילה מאופניים במהלך פעילות יומיומית",
+  "accidentAddress": "רח' אבן גבירול 197, נתניה",
+  "injuredBodyPart": "יד שמאל",
+  "signature": "חתימה רפואית",
+  "formFillingDate": {
+    "day": 11,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 9,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "כללית",
+  "natureOfAccident": "נפילה מאופניים"
+}

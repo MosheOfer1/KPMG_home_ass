@@ -1,0 +1,44 @@
+{
+  "lastName": "לוי",
+  "firstName": "שירה",
+  "idNumber": "083790681",
+  "dateOfBirth": {
+    "day": 3,
+    "month": 5,
+    "year": 1999
+  },
+  "address": {
+    "street": "יהודה הלוי",
+    "houseNumber": 109,
+    "entrance": "ד",
+    "apartment": 14,
+    "city": "נתניה",
+    "postalCode": "3823229"
+  },
+  "landlinePhone": "0551317396",
+  "mobilePhone": "0507462153",
+  "dateOfInjury": {
+    "day": 29,
+    "month": 8,
+    "year": 2025
+  },
+  "timeOfInjury": "17:55",
+  "accidentLocation": "בגן הציבורי",
+  "accidentDescription": "חתך ביד במהלך עבודה",
+  "accidentAddress": "רח' בן גוריון 13, ראשון לציון",
+  "injuredBodyPart": "יד ימין",
+  "signature": "נחתם על ידי נציג",
+  "formFillingDate": {
+    "day": 20,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 3,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "מכבי",
+  "natureOfAccident": "חתך ביד"
+}

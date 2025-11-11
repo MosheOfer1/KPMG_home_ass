@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "884546233",
+  "gender": "Female",
+  "dateOfBirth": {
+    "day": "17",
+    "month": "01",
+    "year": "1971"
+  },
+  "address": {
+    "apartment": "17",
+    "city": "ירושלים",
+    "entrance": "ד",
+    "houseNumber": "7",
+    "poBox": "",
+    "postalCode": "7008871",
+    "street": "אבן גבירול"
+  },
+  "landlinePhone": "0579055085",
+  "mobilePhone": "0564489977",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "26",
+    "month": "08",
+    "year": "2025"
+  },
+  "timeOfInjury": "07:54",
+  "accidentLocation": "בבית",
+  "accidentAddress": "רח' ויצמן 661, ראשון לציון",
+  "accidentDescription": "חתך ביד במהלך עבודה",
+  "injuredBodyPart": "מרפק שמאל",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "12",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "08",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "lastName": "פרץ",
+  "firstName": "אורי",
+  "idNumber": "677041313",
+  "dateOfBirth": {
+    "day": 5,
+    "month": 11,
+    "year": 1986
+  },
+  "address": {
+    "street": "הרצל",
+    "houseNumber": 19,
+    "entrance": "ב",
+    "apartment": 6,
+    "city": "ירושלים",
+    "postalCode": "5468448"
+  },
+  "landlinePhone": "0518540285",
+  "mobilePhone": "0515896141",
+  "dateOfInjury": {
+    "day": 23,
+    "month": 8,
+    "year": 2025
+  },
+  "timeOfInjury": "20:41",
+  "accidentLocation": "במדרגות הבניין",
+  "accidentDescription": "התחשמלות קלה במהלך עבודה",
+  "accidentAddress": "רח' הרצל 169, תל אביב",
+  "injuredBodyPart": "קרסול שמאל",
+  "signature": "חתימה רפואית",
+  "formFillingDate": {
+    "day": 25,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 11,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "פרטי",
+  "natureOfAccident": "התחשמלות קלה"
+}

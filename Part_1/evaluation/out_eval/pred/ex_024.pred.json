@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "528730078",
+  "gender": "female",
+  "dateOfBirth": {
+    "day": "04",
+    "month": "09",
+    "year": "1994"
+  },
+  "address": {
+    "apartment": "36",
+    "city": "תל אביב",
+    "entrance": "13",
+    "houseNumber": "",
+    "poBox": "",
+    "postalCode": "9404197",
+    "street": "יהודה הלוי"
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0537340694",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "10",
+    "month": "01",
+    "year": "2025"
+  },
+  "timeOfInjury": "12:40",
+  "accidentLocation": "בבית הספר",
+  "accidentAddress": "רח׳ אלנבי 711, תל אביב",
+  "accidentDescription": "פגיעה במהלך ספורט במהלך עבודה",
+  "injuredBodyPart": "רגל שמאל",
+  "signature": "חתימהX",
+  "formFillingDate": {
+    "day": "21",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "07",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מאוחדת",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

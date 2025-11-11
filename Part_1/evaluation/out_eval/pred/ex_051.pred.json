@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "792032723",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "01",
+    "month": "08",
+    "year": "1970"
+  },
+  "address": {
+    "apartment": "14",
+    "city": "נתניה",
+    "entrance": "ג",
+    "houseNumber": "10",
+    "poBox": "",
+    "postalCode": "4645256",
+    "street": "אבן גבירול"
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0595447760",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "17",
+    "month": "10",
+    "year": "2025"
+  },
+  "timeOfInjury": "18:38",
+  "accidentLocation": "במגרש הספורט",
+  "accidentAddress": "רח' בן גוריון 1, אשדוד",
+  "accidentDescription": "נפילה מאופניים",
+  "injuredBodyPart": "קרסול שמאל",
+  "signature": "שם המבקש נחתם על ידי נציג",
+  "formFillingDate": {
+    "day": "06",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "05",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "לאומית",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

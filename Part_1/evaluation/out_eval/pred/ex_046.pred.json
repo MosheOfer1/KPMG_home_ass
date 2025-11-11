@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "298689751",
+  "gender": "female",
+  "dateOfBirth": {
+    "day": "05",
+    "month": "02",
+    "year": "1979"
+  },
+  "address": {
+    "street": "ז׳בוטינסקי",
+    "houseNumber": "6",
+    "entrance": "ב",
+    "apartment": "4",
+    "city": "פתח תקווה",
+    "poBox": "",
+    "postalCode": "8448240"
+  },
+  "landlinePhone": "0520613905",
+  "mobilePhone": "0589025387",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "24",
+    "month": "10",
+    "year": "2025"
+  },
+  "timeOfInjury": "09:19",
+  "accidentLocation": "במדרגות הבניין",
+  "accidentAddress": "רח׳ הרצל 541, באר שבע",
+  "accidentDescription": "מכה בראש במהלך פעילות יומיומית",
+  "injuredBodyPart": "רגל ימין",
+  "signature": "שם המבקש נחתם על ידי נציג",
+  "formFillingDate": {
+    "day": "02",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "28",
+    "month": "10",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

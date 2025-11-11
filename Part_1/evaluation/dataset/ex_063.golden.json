@@ -1,0 +1,44 @@
+{
+  "lastName": "דנינו",
+  "firstName": "נועה",
+  "idNumber": "835044410",
+  "dateOfBirth": {
+    "day": 24,
+    "month": 8,
+    "year": 1995
+  },
+  "address": {
+    "street": "שדרות חן",
+    "houseNumber": 12,
+    "entrance": "ד",
+    "apartment": 35,
+    "city": "תל אביב",
+    "postalCode": "8843597"
+  },
+  "landlinePhone": "0589014407",
+  "mobilePhone": "0539139920",
+  "dateOfInjury": {
+    "day": 26,
+    "month": 10,
+    "year": 2025
+  },
+  "timeOfInjury": "05:22",
+  "accidentLocation": "בחוף הים",
+  "accidentDescription": "נפילה מאופניים במהלך עבודה",
+  "accidentAddress": "רח' החשמונאים 150, באר שבע",
+  "injuredBodyPart": "יד ימין",
+  "signature": "חתימה ידנית",
+  "formFillingDate": {
+    "day": 17,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 30,
+    "month": 10,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "ללא",
+  "natureOfAccident": "נפילה מאופניים"
+}

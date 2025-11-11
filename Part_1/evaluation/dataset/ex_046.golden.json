@@ -1,0 +1,44 @@
+{
+  "lastName": "יעקב",
+  "firstName": "הילה",
+  "idNumber": "298689751",
+  "dateOfBirth": {
+    "day": 5,
+    "month": 2,
+    "year": 1979
+  },
+  "address": {
+    "street": "ז'בוטינסקי",
+    "houseNumber": 6,
+    "entrance": "ב",
+    "apartment": 4,
+    "city": "פתח תקווה",
+    "postalCode": "8448240"
+  },
+  "landlinePhone": "0589025887",
+  "mobilePhone": "0520613905",
+  "dateOfInjury": {
+    "day": 24,
+    "month": 10,
+    "year": 2025
+  },
+  "timeOfInjury": "09:19",
+  "accidentLocation": "במדרגות הבניין",
+  "accidentDescription": "מכה בראש במהלך פעילות יומיומית",
+  "accidentAddress": "רח' הרצל 145, באר שבע",
+  "injuredBodyPart": "רגל ימין",
+  "signature": "נחתם על ידי נציג",
+  "formFillingDate": {
+    "day": 2,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 28,
+    "month": 10,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "פרטי",
+  "natureOfAccident": "מכה בראש"
+}

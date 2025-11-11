@@ -1,0 +1,44 @@
+{
+  "lastName": "מזרחי",
+  "firstName": "ליאן",
+  "idNumber": "997623672",
+  "dateOfBirth": {
+    "day": 15,
+    "month": 11,
+    "year": 1988
+  },
+  "address": {
+    "street": "שדרות חן",
+    "houseNumber": 93,
+    "entrance": "ב",
+    "apartment": 47,
+    "city": "אשדוד",
+    "postalCode": "7462867"
+  },
+  "landlinePhone": "0500666102",
+  "mobilePhone": "0559831006",
+  "dateOfInjury": {
+    "day": 27,
+    "month": 10,
+    "year": 2025
+  },
+  "timeOfInjury": "23:37",
+  "accidentLocation": "בגן הציבורי",
+  "accidentDescription": "פציעה בעבודה במהלך פעילות יומיומית",
+  "accidentAddress": "רח' החשמונאים 38, הרצליה",
+  "injuredBodyPart": "שכם ימין",
+  "signature": "חתימה ידנית",
+  "formFillingDate": {
+    "day": 1,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 7,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "מכבי",
+  "natureOfAccident": "פציעה בעבודה"
+}

@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "083790087",
+  "gender": "Female",
+  "dateOfBirth": {
+    "day": "03",
+    "month": "05",
+    "year": "1999"
+  },
+  "address": {
+    "apartment": "14",
+    "city": "נתניה",
+    "entrance": "ד",
+    "houseNumber": "109",
+    "poBox": "",
+    "postalCode": "3823229",
+    "street": "יהודה הלוי"
+  },
+  "landlinePhone": "0650746215",
+  "mobilePhone": "0551317396",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "29",
+    "month": "08",
+    "year": "2025"
+  },
+  "timeOfInjury": "17:55",
+  "accidentLocation": "בגן הציבורי",
+  "accidentAddress": "רח' בן גוריון 31, ראשון לציון",
+  "accidentDescription": "חתך ביד במהלך עבודה",
+  "injuredBodyPart": "יד ימין",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "20",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "03",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מכבי",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

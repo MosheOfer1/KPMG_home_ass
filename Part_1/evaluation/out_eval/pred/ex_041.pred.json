@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "734947773",
+  "gender": "נקבה",
+  "dateOfBirth": {
+    "day": "13",
+    "month": "09",
+    "year": "1985"
+  },
+  "address": {
+    "apartment": "13",
+    "city": "ירושלים",
+    "entrance": "ד",
+    "houseNumber": "31",
+    "poBox": "",
+    "postalCode": "4142003",
+    "street": "בן גוריון"
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0528827561",
+  "jobType": "עצמאי",
+  "dateOfInjury": {
+    "day": "13",
+    "month": "09",
+    "year": "2025"
+  },
+  "timeOfInjury": "23:22",
+  "accidentLocation": "בדרך לעבודה",
+  "accidentAddress": "רח׳ ויצמן 901, פתח תקווה",
+  "accidentDescription": "פגיעה במהלך ספורט במהלך פעילות יומיומית",
+  "injuredBodyPart": "ברך ימין",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "08",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "09",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מאוחדת",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

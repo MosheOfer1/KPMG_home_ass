@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "138460051",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "25",
+    "month": "06",
+    "year": "1970"
+  },
+  "address": {
+    "street": "אבן גבירול",
+    "houseNumber": "78",
+    "entrance": "ד",
+    "apartment": "32",
+    "city": "אשדוד",
+    "poBox": "",
+    "postalCode": ""
+  },
+  "landlinePhone": "0541519",
+  "mobilePhone": "0523245",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "19",
+    "month": "10",
+    "year": "2025"
+  },
+  "timeOfInjury": "03:47",
+  "accidentLocation": "בבית הספר",
+  "accidentAddress": "רח׳ הרצל 731, חיפה",
+  "accidentDescription": "פציעה בעבודה בעת ירידה במדרגות",
+  "injuredBodyPart": "יד שמאל",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "19",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "11",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

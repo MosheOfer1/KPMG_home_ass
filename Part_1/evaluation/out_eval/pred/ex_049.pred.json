@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "855286868",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "05",
+    "month": "10",
+    "year": "1989"
+  },
+  "address": {
+    "street": "יהודה הלוי",
+    "houseNumber": "38",
+    "entrance": "ד",
+    "apartment": "19",
+    "city": "ירושלים",
+    "postalCode": "9168493",
+    "poBox": ""
+  },
+  "landlinePhone": "",
+  "mobilePhone": "059422213",
+  "jobType": "עצמאי",
+  "dateOfInjury": {
+    "day": "08",
+    "month": "09",
+    "year": "2025"
+  },
+  "timeOfInjury": "09:28",
+  "accidentLocation": "בבית הספר",
+  "accidentAddress": "רח׳ הרצל 171, באר שבע",
+  "accidentDescription": "חבלה בגב בעת ירידה במדרגות",
+  "injuredBodyPart": "צוואר",
+  "signature": "נחתם על ידי נציג",
+  "formFillingDate": {
+    "day": "27",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "05",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מכבי",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

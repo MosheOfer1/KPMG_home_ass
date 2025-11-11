@@ -1,0 +1,44 @@
+{
+  "lastName": "חדד",
+  "firstName": "עומר",
+  "idNumber": "658284538",
+  "dateOfBirth": {
+    "day": 12,
+    "month": 5,
+    "year": 1986
+  },
+  "address": {
+    "street": "בן גוריון",
+    "houseNumber": 119,
+    "entrance": "",
+    "apartment": 26,
+    "city": "ירושלים",
+    "postalCode": "2026450"
+  },
+  "landlinePhone": "0564624993",
+  "mobilePhone": "0542789343",
+  "dateOfInjury": {
+    "day": 21,
+    "month": 8,
+    "year": 2025
+  },
+  "timeOfInjury": "11:01",
+  "accidentLocation": "בכביש",
+  "accidentDescription": "נפילה ממדרגות במהלך פעילות יומיומית",
+  "accidentAddress": "רח' אלנבי 128, אשדוד",
+  "injuredBodyPart": "צוואר",
+  "signature": "חתימה אלקטרונית",
+  "formFillingDate": {
+    "day": 21,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 10,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "ללא",
+  "natureOfAccident": "נפילה ממדרגות"
+}

@@ -1,0 +1,44 @@
+{
+  "lastName": "דנינו",
+  "firstName": "אורי",
+  "idNumber": "441639707",
+  "dateOfBirth": {
+    "day": 24,
+    "month": 5,
+    "year": 1971
+  },
+  "address": {
+    "street": "שדרות חן",
+    "houseNumber": 25,
+    "entrance": "ג",
+    "apartment": 58,
+    "city": "ירושלים",
+    "postalCode": "2314032"
+  },
+  "landlinePhone": "0577023057",
+  "mobilePhone": "0539216822",
+  "dateOfInjury": {
+    "day": 6,
+    "month": 9,
+    "year": 2025
+  },
+  "timeOfInjury": "07:41",
+  "accidentLocation": "בגן הציבורי",
+  "accidentDescription": "התחשמלות קלה במהלך עבודה",
+  "accidentAddress": "רח' ז'בוטינסקי 119, חיפה",
+  "injuredBodyPart": "צוואר",
+  "signature": "חתימה אלקטרונית",
+  "formFillingDate": {
+    "day": 25,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 7,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "כללית",
+  "natureOfAccident": "התחשמלות קלה"
+}

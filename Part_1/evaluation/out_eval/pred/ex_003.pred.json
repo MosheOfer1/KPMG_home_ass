@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "959749330",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "19",
+    "month": "08",
+    "year": "1974"
+  },
+  "address": {
+    "apartment": "5",
+    "city": "הרצליה",
+    "entrance": "119",
+    "houseNumber": "",
+    "poBox": "",
+    "postalCode": "5192827",
+    "street": "בן גוריון"
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0598169803",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "20",
+    "month": "08",
+    "year": "2025"
+  },
+  "timeOfInjury": "15:50",
+  "accidentLocation": "בחוף הים",
+  "accidentAddress": "רח׳ ויצמן 721, פתח תקווה",
+  "accidentDescription": "מכה בראש במהלך עבודה",
+  "injuredBodyPart": "יד ימין",
+  "signature": "חתימהX",
+  "formFillingDate": {
+    "day": "09",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "10",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מאוחדת",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "טופס זה מנוסח בלשון זכר אך פונה לנשים וגברים כאחד"
+  }
+}

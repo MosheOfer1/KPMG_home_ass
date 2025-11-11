@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "032570491",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "21",
+    "month": "01",
+    "year": "1986"
+  },
+  "address": {
+    "street": "אבן גבירול",
+    "houseNumber": "29",
+    "entrance": "ד",
+    "apartment": "60",
+    "city": "ראשון לציון",
+    "poBox": "",
+    "postalCode": "9700144"
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0516746286",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "27",
+    "month": "09",
+    "year": "2025"
+  },
+  "timeOfInjury": "08:10",
+  "accidentLocation": "בבית",
+  "accidentAddress": "רח׳ יהודה הלוי 091, רעננה",
+  "accidentDescription": "נפילה ממדרגות בעת ירידה במדרגות",
+  "injuredBodyPart": "גב תחתון",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "22",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "01",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "כללית",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

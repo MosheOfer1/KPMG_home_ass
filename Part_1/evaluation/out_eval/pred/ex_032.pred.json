@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "281462906",
+  "gender": "female",
+  "dateOfBirth": {
+    "day": "19",
+    "month": "09",
+    "year": "1982"
+  },
+  "address": {
+    "street": "הרצל",
+    "houseNumber": "17",
+    "entrance": "א",
+    "apartment": "3",
+    "city": "פתח תקווה",
+    "postalCode": "1631078",
+    "poBox": ""
+  },
+  "landlinePhone": "0505779708",
+  "mobilePhone": "0598658469",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "01",
+    "month": "11",
+    "year": "2025"
+  },
+  "timeOfInjury": "04:01",
+  "accidentLocation": "בחוף הים",
+  "accidentAddress": "רח׳ הרצל 661, באר שבע",
+  "accidentDescription": "חתך ביד בעת ירידה במדרגות",
+  "injuredBodyPart": "גב תחתון",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "05",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "01",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מכבי",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

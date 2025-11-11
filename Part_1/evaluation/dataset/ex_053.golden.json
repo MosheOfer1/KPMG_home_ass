@@ -1,0 +1,44 @@
+{
+  "lastName": "מזרחי",
+  "firstName": "נעם",
+  "idNumber": "123771621",
+  "dateOfBirth": {
+    "day": 9,
+    "month": 5,
+    "year": 1979
+  },
+  "address": {
+    "street": "בן גוריון",
+    "houseNumber": 52,
+    "entrance": "א",
+    "apartment": 33,
+    "city": "אשדוד",
+    "postalCode": "1618558"
+  },
+  "landlinePhone": "0517527271",
+  "mobilePhone": "0598597775",
+  "dateOfInjury": {
+    "day": 2,
+    "month": 9,
+    "year": 2025
+  },
+  "timeOfInjury": "07:10",
+  "accidentLocation": "בבית",
+  "accidentDescription": "חבלה בגב בעת ירידה במדרגות",
+  "accidentAddress": "רח' החשמונאים 146, תל אביב",
+  "injuredBodyPart": "ברך ימין",
+  "signature": "חתימת מטופל",
+  "formFillingDate": {
+    "day": 25,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 27,
+    "month": 10,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "ללא",
+  "natureOfAccident": "חבלה בגב"
+}

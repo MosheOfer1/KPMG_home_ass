@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "שם פרטי",
+  "idNumber": "245529225",
+  "gender": "male",
+  "dateOfBirth": {
+    "day": "18",
+    "month": "07",
+    "year": "1994"
+  },
+  "address": {
+    "street": "יהודה הלוי",
+    "houseNumber": "105",
+    "entrance": "28",
+    "apartment": "",
+    "city": "אשדוד",
+    "postalCode": "6354498",
+    "poBox": ""
+  },
+  "landlinePhone": "0543604803",
+  "mobilePhone": "0513437713",
+  "jobType": "עצמאי",
+  "dateOfInjury": {
+    "day": "11",
+    "month": "03",
+    "year": "2025"
+  },
+  "timeOfInjury": "00:09",
+  "accidentLocation": "מקום העבודה",
+  "accidentAddress": "שדרות חן 041, חיפה",
+  "accidentDescription": "החלקה בבית",
+  "injuredBodyPart": "מרפק שמאל",
+  "signature": "חתימהX",
+  "formFillingDate": {
+    "day": "01",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "06",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מכבי",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "אבחנות רפואיות"
+  }
+}

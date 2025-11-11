@@ -1,0 +1,44 @@
+{
+  "lastName": "גולן",
+  "firstName": "הילה",
+  "idNumber": "115289457",
+  "dateOfBirth": {
+    "day": 17,
+    "month": 12,
+    "year": 1983
+  },
+  "address": {
+    "street": "בן גוריון",
+    "houseNumber": 31,
+    "entrance": "א",
+    "apartment": 52,
+    "city": "נתניה",
+    "postalCode": "4823390"
+  },
+  "landlinePhone": "0558601178",
+  "mobilePhone": "0538874115",
+  "dateOfInjury": {
+    "day": 29,
+    "month": 9,
+    "year": 2025
+  },
+  "timeOfInjury": "03:24",
+  "accidentLocation": "בבית הספר",
+  "accidentDescription": "התחשמלות קלה במהלך עבודה",
+  "accidentAddress": "רח' שדרות חן 173, הרצליה",
+  "injuredBodyPart": "רגל שמאל",
+  "signature": "חתימה אלקטרונית",
+  "formFillingDate": {
+    "day": 5,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 9,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "לאומית",
+  "natureOfAccident": "התחשמלות קלה"
+}

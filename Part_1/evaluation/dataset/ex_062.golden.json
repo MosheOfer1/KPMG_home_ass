@@ -1,0 +1,44 @@
+{
+  "lastName": "חדד",
+  "firstName": "דוד",
+  "idNumber": "805414309",
+  "dateOfBirth": {
+    "day": 16,
+    "month": 4,
+    "year": 1989
+  },
+  "address": {
+    "street": "ויצמן",
+    "houseNumber": 29,
+    "entrance": "ג",
+    "apartment": 8,
+    "city": "רעננה",
+    "postalCode": "7067168"
+  },
+  "landlinePhone": "0523909070",
+  "mobilePhone": "0539560618",
+  "dateOfInjury": {
+    "day": 30,
+    "month": 8,
+    "year": 2025
+  },
+  "timeOfInjury": "13:39",
+  "accidentLocation": "בדרך לעבודה",
+  "accidentDescription": "פגיעה במהלך ספורט במהלך עבודה",
+  "accidentAddress": "רח' שדרות חן 12, תל אביב",
+  "injuredBodyPart": "יד שמאל",
+  "signature": "חתימה אלקטרונית",
+  "formFillingDate": {
+    "day": 2,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 28,
+    "month": 10,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "ללא",
+  "natureOfAccident": "פגיעה במהלך ספורט"
+}

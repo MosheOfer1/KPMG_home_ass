@@ -1,0 +1,44 @@
+{
+  "lastName": "יעקב",
+  "firstName": "יוסי",
+  "idNumber": "792032713",
+  "dateOfBirth": {
+    "day": 1,
+    "month": 8,
+    "year": 1970
+  },
+  "address": {
+    "street": "אבן גבירול",
+    "houseNumber": 10,
+    "entrance": "ג",
+    "apartment": 14,
+    "city": "נתניה",
+    "postalCode": "4645256"
+  },
+  "landlinePhone": "0595447760",
+  "mobilePhone": "0558253820",
+  "dateOfInjury": {
+    "day": 17,
+    "month": 10,
+    "year": 2025
+  },
+  "timeOfInjury": "18:38",
+  "accidentLocation": "במגרש הספורט",
+  "accidentDescription": "נפילה מאופניים",
+  "accidentAddress": "רח' בן גוריון 1, אשדוד",
+  "injuredBodyPart": "קרסול שמאל",
+  "signature": "נחתם על ידי נציג",
+  "formFillingDate": {
+    "day": 6,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 5,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "לאומית",
+  "natureOfAccident": "נפילה מאופניים"
+}

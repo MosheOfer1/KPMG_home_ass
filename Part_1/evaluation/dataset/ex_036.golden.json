@@ -1,0 +1,44 @@
+{
+  "lastName": "יעקב",
+  "firstName": "ליאן",
+  "idNumber": "070561632",
+  "dateOfBirth": {
+    "day": 28,
+    "month": 11,
+    "year": 1989
+  },
+  "address": {
+    "street": "בן גוריון",
+    "houseNumber": 117,
+    "entrance": "ג",
+    "apartment": 51,
+    "city": "באר שבע",
+    "postalCode": "3240384"
+  },
+  "landlinePhone": "0578537002",
+  "mobilePhone": "0552729125",
+  "dateOfInjury": {
+    "day": 3,
+    "month": 11,
+    "year": 2025
+  },
+  "timeOfInjury": "04:47",
+  "accidentLocation": "בגן הציבורי",
+  "accidentDescription": "התחשמלות קלה בעת ירידה במדרגות",
+  "accidentAddress": "רח' ויצמן 180, תל אביב",
+  "injuredBodyPart": "רגל שמאל",
+  "signature": "נחתם על ידי נציג",
+  "formFillingDate": {
+    "day": 21,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 29,
+    "month": 10,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "לאומית",
+  "natureOfAccident": "התחשמלות קלה"
+}

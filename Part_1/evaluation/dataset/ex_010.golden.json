@@ -1,0 +1,44 @@
+{
+  "lastName": "אוחנה",
+  "firstName": "הילה",
+  "idNumber": "525499237",
+  "dateOfBirth": {
+    "day": 26,
+    "month": 3,
+    "year": 1973
+  },
+  "address": {
+    "street": "יהודה הלוי",
+    "houseNumber": 10,
+    "entrance": "",
+    "apartment": 49,
+    "city": "ראשון לציון",
+    "postalCode": "0642624"
+  },
+  "landlinePhone": "0501407189",
+  "mobilePhone": "0560118098",
+  "dateOfInjury": {
+    "day": 1,
+    "month": 11,
+    "year": 2025
+  },
+  "timeOfInjury": "04:27",
+  "accidentLocation": "בכביש",
+  "accidentDescription": "התחשמלות קלה",
+  "accidentAddress": "רח' החשמונאים 165, פתח תקווה",
+  "injuredBodyPart": "שכם ימין",
+  "signature": "חתימה ממוחשבת",
+  "formFillingDate": {
+    "day": 4,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 31,
+    "month": 10,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "מאוחדת",
+  "natureOfAccident": "התחשמלות קלה"
+}

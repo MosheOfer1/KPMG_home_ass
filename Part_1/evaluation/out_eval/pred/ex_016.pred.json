@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "067373299",
+  "gender": "Male",
+  "dateOfBirth": {
+    "day": "15",
+    "month": "08",
+    "year": "2001"
+  },
+  "address": {
+    "street": "ויצמן",
+    "houseNumber": "64",
+    "entrance": "ג",
+    "apartment": "22",
+    "city": "פתח תקווה",
+    "poBox": "",
+    "postalCode": "5661091"
+  },
+  "landlinePhone": "052810569",
+  "mobilePhone": "0515717134",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "25",
+    "month": "09",
+    "year": "2025"
+  },
+  "timeOfInjury": "04:19",
+  "accidentLocation": "בבית",
+  "accidentAddress": "רח' ויצמן 361, ראשון לציון",
+  "accidentDescription": "תאונת דרכים קלה בעת ירידה במדרגות",
+  "injuredBodyPart": "גב תחתון",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "22",
+    "month": "10",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "05",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מכבי",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "אבחנות רפואיות"
+  }
+}

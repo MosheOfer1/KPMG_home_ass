@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "279407975",
+  "gender": "נקבה",
+  "dateOfBirth": {
+    "day": "02",
+    "month": "03",
+    "year": "1995"
+  },
+  "address": {
+    "street": "אבן גבירול",
+    "houseNumber": "31",
+    "entrance": "ג",
+    "apartment": "22",
+    "city": "ראשון לציון",
+    "poBox": "",
+    "postalCode": "2687032"
+  },
+  "landlinePhone": "0525324295",
+  "mobilePhone": "0510993348",
+  "jobType": "עצמאי",
+  "dateOfInjury": {
+    "day": "22",
+    "month": "09",
+    "year": "2025"
+  },
+  "timeOfInjury": "18:11",
+  "accidentLocation": "מקום העבודה",
+  "accidentAddress": "רח׳ אבן גבירול 63, ירושלים",
+  "accidentDescription": "פציעה בעבודה במהלך עבודה",
+  "injuredBodyPart": "יד ימין",
+  "signature": "חתימהX",
+  "formFillingDate": {
+    "day": "10",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "03",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מכבי",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

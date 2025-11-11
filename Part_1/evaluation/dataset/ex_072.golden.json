@@ -1,0 +1,44 @@
+{
+  "lastName": "מזרחי",
+  "firstName": "מיכל",
+  "idNumber": "279407975",
+  "dateOfBirth": {
+    "day": 2,
+    "month": 3,
+    "year": 1995
+  },
+  "address": {
+    "street": "אבן גבירול",
+    "houseNumber": 31,
+    "entrance": "ג",
+    "apartment": 22,
+    "city": "ראשון לציון",
+    "postalCode": "2687032"
+  },
+  "landlinePhone": "0525324295",
+  "mobilePhone": "0510993348",
+  "dateOfInjury": {
+    "day": 22,
+    "month": 9,
+    "year": 2025
+  },
+  "timeOfInjury": "18:11",
+  "accidentLocation": "מקום העבודה",
+  "accidentDescription": "פציעה בעבודה במהלך עבודה",
+  "accidentAddress": "רח' אבן גבירול 36, ירושלים",
+  "injuredBodyPart": "יד ימין",
+  "signature": "חתימה ממוחשבת",
+  "formFillingDate": {
+    "day": 10,
+    "month": 11,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 3,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "נקבה",
+  "healthFundMember": "מכבי",
+  "natureOfAccident": "פציעה בעבודה"
+}

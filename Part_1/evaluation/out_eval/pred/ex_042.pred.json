@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "027980502",
+  "gender": "נקבה",
+  "dateOfBirth": {
+    "day": "06",
+    "month": "02",
+    "year": "1971"
+  },
+  "address": {
+    "street": "יהודה הלוי",
+    "houseNumber": "104",
+    "entrance": "ד",
+    "apartment": "44",
+    "city": "רעננה",
+    "postalCode": "7896570",
+    "poBox": ""
+  },
+  "landlinePhone": "0581454163",
+  "mobilePhone": "055320665",
+  "jobType": "עצמאי",
+  "dateOfInjury": {
+    "day": "05",
+    "month": "09",
+    "year": "2025"
+  },
+  "timeOfInjury": "16:34",
+  "accidentLocation": "מקום העבודה",
+  "accidentAddress": "רח' ויצמן 03, פתח תקווה",
+  "accidentDescription": "התחשמלות קלה במהלך פעילות יומיומית",
+  "injuredBodyPart": "גב תחתון",
+  "signature": "חתימה ממוחשבת",
+  "formFillingDate": {
+    "day": "06",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "06",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מאוחדת",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

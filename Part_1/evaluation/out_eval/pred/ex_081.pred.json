@@ -1,0 +1,49 @@
+{
+  "lastName": "ס״ב",
+  "firstName": "",
+  "idNumber": "536672446",
+  "gender": "נקבה",
+  "dateOfBirth": {
+    "day": "24",
+    "month": "09",
+    "year": "1987"
+  },
+  "address": {
+    "street": "אלנבי",
+    "houseNumber": "109",
+    "entrance": "א",
+    "apartment": "24",
+    "city": "רעננה",
+    "postalCode": "3131578",
+    "poBox": ""
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0565673368",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "31",
+    "month": "08",
+    "year": "2025"
+  },
+  "timeOfInjury": "14:18",
+  "accidentLocation": "בגן הציבורי",
+  "accidentAddress": "רח׳ אבן גבירול 671, ראשון לציון",
+  "accidentDescription": "פגיעה במהלך ספורט בעת ירידה במדרגות",
+  "injuredBodyPart": "רגל שמאל",
+  "signature": "חתימהX",
+  "formFillingDate": {
+    "day": "11",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "03",
+    "month": "11",
+    "year": "2025"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מכבי",
+    "natureOfAccident": "",
+    "medicalDiagnoses": "מהות התאונה (אבחנות רפואיות)"
+  }
+}

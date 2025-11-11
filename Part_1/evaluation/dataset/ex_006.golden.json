@@ -1,0 +1,44 @@
+{
+  "lastName": "שלום",
+  "firstName": "אדם",
+  "idNumber": "507380059",
+  "dateOfBirth": {
+    "day": 12,
+    "month": 6,
+    "year": 1993
+  },
+  "address": {
+    "street": "יהודה הלוי",
+    "houseNumber": 47,
+    "entrance": "ד",
+    "apartment": 55,
+    "city": "באר שבע",
+    "postalCode": "8783903"
+  },
+  "landlinePhone": "0544537454",
+  "mobilePhone": "0572449428",
+  "dateOfInjury": {
+    "day": 30,
+    "month": 8,
+    "year": 2025
+  },
+  "timeOfInjury": "20:20",
+  "accidentLocation": "בחוף הים",
+  "accidentDescription": "פציעה בעבודה במהלך פעילות יומיומית",
+  "accidentAddress": "רח' דיזנגוף 84, פתח תקווה",
+  "injuredBodyPart": "יד ימין",
+  "signature": "חתימת נבדק",
+  "formFillingDate": {
+    "day": 20,
+    "month": 10,
+    "year": 2025
+  },
+  "formReceiptDateAtClinic": {
+    "day": 7,
+    "month": 11,
+    "year": 2025
+  },
+  "gender": "זכר",
+  "healthFundMember": "כללית",
+  "natureOfAccident": "פציעה בעבודה"
+}

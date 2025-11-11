@@ -1,0 +1,49 @@
+{
+  "lastName": "",
+  "firstName": "",
+  "idNumber": "635187685",
+  "gender": "female",
+  "dateOfBirth": {
+    "day": "01",
+    "month": "03",
+    "year": "1986"
+  },
+  "address": {
+    "street": "אלנבי",
+    "houseNumber": "35",
+    "entrance": "36",
+    "apartment": "",
+    "city": "נתניה",
+    "poBox": "",
+    "postalCode": "4584958"
+  },
+  "landlinePhone": "0597670773",
+  "mobilePhone": "0594903750",
+  "jobType": "",
+  "dateOfInjury": {
+    "day": "16",
+    "month": "10",
+    "year": "2025"
+  },
+  "timeOfInjury": "05:15",
+  "accidentLocation": "בדרך לעבודה",
+  "accidentAddress": "רח' ויצמן 401, באר שבע",
+  "accidentDescription": "החלקה בבית בעת ירידה במדרגות",
+  "injuredBodyPart": "צוואר",
+  "signature": "X",
+  "formFillingDate": {
+    "day": "09",
+    "month": "11",
+    "year": "2025"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "",
+    "month": "",
+    "year": ""
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מאוחדת",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}
