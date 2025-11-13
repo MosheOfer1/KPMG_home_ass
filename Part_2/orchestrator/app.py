@@ -5,10 +5,11 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from .config import OrchestratorConfig
 from .service import OrchestratorService
-from ..azure_integration import load_config
+from ..azure_integration import load_config, AzureEmbeddingsClient, AzureChatClient
 from ..core_models import ChatResponse, ChatRequest
 from ..logging_config import setup_logging
 from ..retriever.config import RetrieverConfig
+from ..retriever.kb import HtmlKB
 
 setup_logging("orchestrator")
 log = logging.getLogger("orchestrator.app")
@@ -16,7 +17,27 @@ log = logging.getLogger("orchestrator.app")
 orch_cfg = OrchestratorConfig()
 aoai_cfg = load_config()
 ret_cfg = RetrieverConfig()
-svc = OrchestratorService(orch_cfg, aoai_cfg, ret_cfg)
+
+embedder = AzureEmbeddingsClient(
+    aoai_cfg,
+    default_deployment=ret_cfg.embeddings_deployment,
+    on_error=lambda event_name, payload: log.info("telemetry %s: %s", event_name, payload)
+
+)
+kb = HtmlKB(
+    ret_cfg.kb_dir,
+    embedder,
+    cache_dir=ret_cfg.cache_dir,
+    embeddings_deployment=ret_cfg.embeddings_deployment,
+)
+chat_client = AzureChatClient(aoai_cfg)
+
+svc = OrchestratorService(
+    orch_cfg=orch_cfg,
+    embedder=embedder,
+    chat_client=chat_client,
+    kb=kb,
+)
 
 app = FastAPI(title="MicroChat Medical – Orchestrator", version="1.0.0")
 

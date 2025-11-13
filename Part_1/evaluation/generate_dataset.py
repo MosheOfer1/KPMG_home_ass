@@ -18,7 +18,7 @@ from pathlib import Path
 from pdfrw import PdfReader  # sanity check that PDF opens
 
 # Your fill pipeline pieces (exactly as in your script)
-from fill_pdf import (
+from .fill_pdf import (
     Rules, PLACEHOLDER_MAP, raw_value, apply_rules,
     flatten_into_page_content, set_need_appearances
 )

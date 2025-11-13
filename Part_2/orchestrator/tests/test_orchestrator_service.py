@@ -2,18 +2,34 @@ from __future__ import annotations
 
 import pytest
 
-from ...azure_integration import load_config
+from ...azure_integration import load_config, AzureEmbeddingsClient, AzureChatClient
 from ...core_models import SessionBundle, Locale, Phase, UserProfile, ChatRequest, ChatResponse, Gender
 from ...orchestrator.config import OrchestratorConfig
 from ...orchestrator.service import OrchestratorService
 from ...retriever.config import RetrieverConfig
+from ...retriever.kb import HtmlKB
 
 
 @pytest.mark.asyncio
 async def test_orchestrator_service_handle_chat_real_request(cfgs):
     orch_cfg, aoai_cfg, ret_cfg = cfgs
-    svc = OrchestratorService(orch_cfg, aoai_cfg, ret_cfg)
+    embedder = AzureEmbeddingsClient(aoai_cfg, default_deployment=ret_cfg.embeddings_deployment,
+                                     on_error=lambda event_name, payload: print("telemetry %s: %s", event_name,
+                                                                                   payload))
+    kb = HtmlKB(
+        ret_cfg.kb_dir,
+        embedder,
+        cache_dir=ret_cfg.cache_dir,
+        embeddings_deployment=ret_cfg.embeddings_deployment,
+    )
+    chat_client = AzureChatClient(aoai_cfg)
 
+    svc = OrchestratorService(
+        orch_cfg=orch_cfg,
+        embedder=embedder,
+        chat_client=chat_client,
+        kb=kb,
+    )
     # Minimal starting session (incomplete profile → INFO phase)
     sb = SessionBundle(
         locale=Locale.HE,
@@ -86,9 +102,23 @@ def cfgs():
 @pytest.mark.asyncio
 async def test_orchestrator_service_handle_chat_fake_request(cfgs):
     orch_cfg, aoai_cfg, ret_cfg = cfgs
+    embedder = AzureEmbeddingsClient(aoai_cfg, default_deployment=ret_cfg.embeddings_deployment,
+                                     on_error=lambda event_name, payload: print("telemetry %s: %s", event_name,
+                                                                                payload))
+    kb = HtmlKB(
+        ret_cfg.kb_dir,
+        embedder,
+        cache_dir=ret_cfg.cache_dir,
+        embeddings_deployment=ret_cfg.embeddings_deployment,
+    )
+    chat_client = AzureChatClient(aoai_cfg)
 
-    # Instantiate service (will create real clients, which we immediately stub)
-    svc = OrchestratorService(orch_cfg, aoai_cfg, ret_cfg)
+    svc = OrchestratorService(
+        orch_cfg=orch_cfg,
+        embedder=embedder,
+        chat_client=chat_client,
+        kb=kb,
+    )
 
     # LLM returns well-formed JSON with a profile patch + CONFIRMED
     info_json = """

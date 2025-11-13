@@ -8,16 +8,13 @@ from typing import Dict, List
 from .config import OrchestratorConfig
 from .prompts import sys_prompt_info, sys_prompt_qna, user_instructions_qna
 from .utils import _is_profile_complete_and_valid, _history_to_messages, _merge_patch, parse_llm_json
-from ..azure_integration import AzureOpenAIConfig, AzureEmbeddingsClient, AzureChatClient
+from ..azure_integration import AzureOpenAIConfig, AzureEmbeddingsClient, AzureChatClient, IEmbeddingsClient, ILLMClient
 from ..core_models import ChatRequest, ChatResponse, Locale, Phase, SessionBundle, Turn
 from ..retriever.config import RetrieverConfig
 from ..retriever.kb import HtmlKB
+from ..retriever.kb_interfaces import IKnowledgeBase
 
 log = logging.getLogger("orchestrator")
-
-def _telemetry_hook(event_name: str, payload: dict):
-    log.info("telemetry %s: %s", event_name, payload)
-
 
 # ---------------------------
 # Service
@@ -34,20 +31,20 @@ class OrchestratorService:
 
     Attributes:
         cfg (OrchestratorConfig): Configuration parameters for the orchestrator.
-        embedder (AzureEmbeddingsClient): Client for embedding operations.
-        kb (HtmlKB): Knowledge base object for document retrieval and search.
-        chat_client (AzureChatClient): Chat client to interact with Azure OpenAI services.
+        embedder (IEmbeddingsClient): Client for embedding operations.
+        kb (IKnowledgeBase): Knowledge base object for document retrieval and search.
+        chat_client (ILLMClient): Chat client to interact with LLM services.
     """
-    def __init__(self, orch_cfg: OrchestratorConfig, aoai_cfg: AzureOpenAIConfig, ret_cfg: RetrieverConfig):
+    def __init__(self,
+                 orch_cfg: OrchestratorConfig,
+                 embedder: IEmbeddingsClient,
+                 kb: IKnowledgeBase,
+                 chat_client: ILLMClient,
+                 ):
         self.cfg = orch_cfg
-        self.embedder = AzureEmbeddingsClient(aoai_cfg, default_deployment=ret_cfg.embeddings_deployment, on_error=_telemetry_hook)
-        self.kb = HtmlKB(
-            ret_cfg.kb_dir,
-            self.embedder,
-            cache_dir=ret_cfg.cache_dir,
-            embeddings_deployment=ret_cfg.embeddings_deployment,
-        )
-        self.chat_client = AzureChatClient(aoai_cfg)
+        self.embedder = embedder
+        self.kb = kb
+        self.chat_client = chat_client
 
     async def handle_chat(self, req: ChatRequest, *, request_id: str | None = None) -> ChatResponse:
         sb = req.session_bundle

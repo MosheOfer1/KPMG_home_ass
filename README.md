@@ -37,13 +37,13 @@ pip install -r requirements.txt
 ### ▶️ Run Extraction
 To run the Gradio GUI simply run:
 ```bash
-python Part_1/app.py
+python -m Part_1.app
 ```
 
 You can also specify a PDF file to extract via CLI using the `--file` flag or `--url` flag:
 Also, you can specify the output directory via `--out` flag.
 ```bash
-python Part_1/extract_pdf_to_json.py --file Part_1/phase1_data/283_ex1.pdf --out Part_1/phase1_data/283_ex1.json
+python -m Part_1.extract_pdf_to_json --file Part_1/phase1_data/283_ex1.pdf --out Part_1/phase1_data/283_ex1.json
 ```
 
 Produces JSON with extracted fields.
