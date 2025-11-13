@@ -1,4 +1,4 @@
-# KPMG Home Assignment – Full README
+# KPMG Home Assignment
 
 ## 📦 Repository Structure
 
@@ -74,11 +74,7 @@ A fully stateless microservice architecture:
 
 ### 🚀 Quick Start (Run All Services)
 
-From **repo root**:
-
-If that for some reason does not work well run this:
-
-For Linux / Mac users:
+For Linux / Mac users run from **repo root**:
 ```bash
 chmod +x Part_2/stop.sh
 chmod +x Part_2/start.sh
@@ -88,9 +84,8 @@ And then if you want to stop:
 ```bash
 Part_2/stop.sh
 ```
-For Windows users:
+For Windows users run from **repo root**:
 
-From repo root run:
 ```bash
 Part_2\start.bat
 ```
