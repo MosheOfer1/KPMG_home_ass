@@ -31,12 +31,12 @@ def load_cases(path: Path) -> List[RetrieverCase]:
                 query=row["query"],
                 hmo=HMO[row["hmo"]] if row.get("hmo") else None,
                 tier=Tier[row["tier"]] if row.get("tier") else None,
-                expected_uris=row["expected_uris"],
+                expected_uris=[r.split("#")[-1] for r in row["expected_uris"]],
             )
         )
     return out
 
-def main(cases_path: str, top_k: int = 6):
+def main(cases_path: str, top_k: int = 1):
     cases = load_cases(Path(cases_path))
     ret_cfg = RetrieverConfig()
     aoai_cfg = load_config()
@@ -46,7 +46,7 @@ def main(cases_path: str, top_k: int = 6):
     rows = []
     for c in cases:
         found = kb.search(c.query, hmo=c.hmo, tier=c.tier, top_k=top_k)
-        uris = [ch.source_uri for ch in found]
+        uris = [ch.source_uri.split("#")[-1] for ch in found]
 
         hits = [u for u in uris if u in c.expected_uris]
         hit_at_k = int(len(hits) > 0)

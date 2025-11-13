@@ -33,7 +33,7 @@ Then install dependencies:
 ```bash
 cd KPMG_home_ass
 python -m venv .venv
-source .venv/bin/activate
+source .venv/bin/activate #.venv\Scripts\activate on Windows
 pip install -r requirements.txt
 ```
 
@@ -80,6 +80,7 @@ A fully stateless microservice architecture:
 From **repo root**:
 
 If that for some reason does not work well run this:
+For Linux / Mac:
 ```bash
 chmod +x Part_2/stop.sh
 chmod +x Part_2/start.sh
@@ -88,6 +89,18 @@ Part_2/start.sh
 And then if you want to stop:
 ```bash
 Part_2/stop.sh
+```
+For Windows:
+
+From repo root run:
+```bash
+Part_2\start.bat
+```
+
+
+Stop services:
+```bash
+Part_2\stop.bat
 ```
 
 Services:

@@ -1,8 +1,8 @@
-pandas
-httpx
-fastapi
-tqdm
-matplotlib
+pandas==2.3.2
+httpx==0.28.1
+fastapi==0.121.2
+tqdm==4.67.1
+matplotlib==3.10.7
 azure-core==1.36.0
 gradio==5.49.1
 pytest==9.0.0
