@@ -9,3 +9,13 @@ optometry_meuhedet_gold_children,1,1.0,t6_2,t6_2
 dental_maccabi_gold_checkups,1,1.0,t1_1,t1_1
 communication_clalit_gold_hearing_rehab,1,1.0,t6_3,t6_3
 workshops_maccabi_silver_stress_management,1,1.0,t4_1,t4_1
+pregnancy_maccabi_silver_birth_course,1,1.0,t4_1,t4_1
+pregnancy_meuhedet_gold_nutrition,1,1.0,t5_2,t5_2
+altmedicine_meuhedet_gold_naturopathy,1,1.0,t4_2,t4_2
+altmedicine_clalit_silver_homeopathy,1,1.0,t5_3,t5_3
+optometry_clalit_silver_laser_treatment,1,1.0,t4_3,t4_3
+optometry_maccabi_bronze_contact_lenses,0,0.0,t5_1,t3_1
+dental_meuhedet_silver_fillings,1,1.0,t2_2,t2_2
+dental_clalit_gold_orthodontics,1,1.0,t5_3,t5_3
+communication_maccabi_gold_language_assessment,1,1.0,t1_1,t1_1
+workshops_meuhedet_gold_smoking_cessation,1,1.0,t1_2,t1_2

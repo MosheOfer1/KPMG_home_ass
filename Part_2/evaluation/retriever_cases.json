@@ -68,5 +68,75 @@
     "hmo": "MACCABI",
     "tier": "SILVER",
     "expected_uris": ["workshops_services.html#t4_1"]
+  },
+  {
+    "id": "pregnancy_maccabi_silver_birth_course",
+    "query": "אני בהריון ומבוטחת במסלול כסף של מכבי. מה ההשתתפות שלי בקורס הכנה ללידה?",
+    "hmo": "MACCABI",
+    "tier": "SILVER",
+    "expected_uris": ["pragrency_services.html#t4_1"]
+  },
+  {
+    "id": "pregnancy_meuhedet_gold_nutrition",
+    "query": "אני בהריון במאוחדת זהב ורוצה ייעוץ תזונתי. כמה פגישות חינם מגיעות לי ומה כולל השירות?",
+    "hmo": "MEUHEDET",
+    "tier": "GOLD",
+    "expected_uris": ["pragrency_services.html#t5_2"]
+  },
+  {
+    "id": "altmedicine_meuhedet_gold_naturopathy",
+    "query": "אני במאוחדת מסלול זהב ומעוניינת בטיפול נטורופתיה. מה גובה ההנחה וכמה טיפולים בשנה מגיעים לי?",
+    "hmo": "MEUHEDET",
+    "tier": "GOLD",
+    "expected_uris": ["alternative_services.html#t4_2"]
+  },
+  {
+    "id": "altmedicine_clalit_silver_homeopathy",
+    "query": "אני בכללית כסף ורוצה להתחיל טיפול הומאופתיה. מה ההטבה במסלול כסף?",
+    "hmo": "CLALIT",
+    "tier": "SILVER",
+    "expected_uris": ["alternative_services.html#t5_3"]
+  },
+  {
+    "id": "optometry_clalit_silver_laser_treatment",
+    "query": "אני בכללית מסלול כסף ומתעניינת בניתוח לייזר לתיקון ראייה. איזה אחוז הנחה אני מקבלת?",
+    "hmo": "CLALIT",
+    "tier": "SILVER",
+    "expected_uris": ["optometry_services.html#t4_3"]
+  },
+  {
+    "id": "optometry_maccabi_bronze_contact_lenses",
+    "query": "אני במכבי ארד ורוצה לקנות עדשות מגע. מה גובה ההנחה על עדשות מגע במסלול ארד?",
+    "hmo": "MACCABI",
+    "tier": "BRONZE",
+    "expected_uris": ["optometry_services.html#t3_1"]
+  },
+  {
+    "id": "dental_meuhedet_silver_fillings",
+    "query": "אני במאוחדת כסף וצריך סתימות לשיניים. איזה אחוז הנחה אני מקבל על סתימות?",
+    "hmo": "MEUHEDET",
+    "tier": "SILVER",
+    "expected_uris": ["dentel_services.html#t2_2"]
+  },
+  {
+    "id": "dental_clalit_gold_orthodontics",
+    "query": "הבן שלי צריך יישור שיניים ואני בכללית מסלול זהב. איזה כיסוי והנחות יש לי ליישור שיניים?",
+    "hmo": "CLALIT",
+    "tier": "GOLD",
+    "expected_uris": ["dentel_services.html#t5_3"]
+  },
+  {
+    "id": "communication_maccabi_gold_language_assessment",
+    "query": "לילד שלי יש קשיי דיבור ואנחנו במכבי זהב. מה ההטבות לאבחון הפרעות שפה ודיבור?",
+    "hmo": "MACCABI",
+    "tier": "GOLD",
+    "expected_uris": ["communication_clinic_services.html#t1_1"]
+  },
+  {
+    "id": "workshops_meuhedet_gold_smoking_cessation",
+    "query": "אני מעשן מבוטח במאוחדת זהב ורוצה להצטרף לסדנת הפסקת עישון. האם הסדנה חינם ומה עוד כלול?",
+    "hmo": "MEUHEDET",
+    "tier": "GOLD",
+    "expected_uris": ["workshops_services.html#t1_2"]
   }
 ]
