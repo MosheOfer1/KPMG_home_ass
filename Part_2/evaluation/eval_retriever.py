@@ -22,7 +22,7 @@ class RetrieverCase:
     expected_uris: List[str]
 
 def load_cases(path: Path) -> List[RetrieverCase]:
-    data: List[Dict[str, Any]] = json.loads(path.read_text())
+    data: List[Dict[str, Any]] = json.loads(path.read_text(encoding="utf-8"))
     out: List[RetrieverCase] = []
     for row in data:
         out.append(

@@ -53,7 +53,7 @@ Produces JSON with extracted fields.
 Dataset: `Part_1/evaluation/dataset`
 
 ➡️ **Full, detailed evaluation documentation:**
-[Full Evaluation Guide](Part_1/evaluation/README_EVAL.md)
+[Full Evaluation Guide](README_EVAL_PART1.md)
 
 
 Evaluation outputs saved to: `Part_1/evaluation/out_eval`
@@ -68,16 +68,17 @@ A fully stateless microservice architecture:
 * **API Gateway** (frontend/backend communication layer)
 * **Gradio Frontend UI** (client-side session memory)
 * **Retriever** (HTML Knowledge Base)
-* 
+
 ➡️ **Full, detailed evaluation documentation:**
-[Full Evaluation Guide](Part_2/evaluation/README_EVAL.md)
+[Full Evaluation Guide](README_EVAL_PART2.md)
 
 ### 🚀 Quick Start (Run All Services)
 
 From **repo root**:
 
 If that for some reason does not work well run this:
-For Linux / Mac:
+
+For Linux / Mac users:
 ```bash
 chmod +x Part_2/stop.sh
 chmod +x Part_2/start.sh
@@ -87,7 +88,7 @@ And then if you want to stop:
 ```bash
 Part_2/stop.sh
 ```
-For Windows:
+For Windows users:
 
 From repo root run:
 ```bash

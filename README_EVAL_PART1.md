@@ -16,21 +16,17 @@ Each pair includes:
 - `ex_###.golden.json` – the true values used to generate the PDF
 
 This controlled dataset enables **repeatable, deterministic evaluation**.
+## ▶️ How to Run the Evaluation
+```bash
+python -m Part_1.evaluation.eval_dataset --dataset Part_1/evaluation/dataset --outdir Part_1/evaluation/out_eval
+
+```
 
 ## ▶️ How to Generate the Dataset
 ```bash
-python Part_1/generate_dataset.py \
-  --in Part_1/phase1_data/template.pdf \
-  --outdir Part_1/evaluation/dataset \
-  --n 100
+python -m Part_1.evaluation.generate_dataset --in Part_1/phase1_data/template.pdf --outdir Part_1/evaluation/dataset --n 100
 ```
 
-## ▶️ How to Run the Evaluation
-```bash
-python Part_1/evaluation/eval_dataset.py \
-  --dataset Part_1/evaluation/dataset \
-  --outdir Part_1/evaluation/out_eval
-```
 
 Outputs include:
 - `per_example.csv` – accuracy per document
@@ -40,18 +36,12 @@ Outputs include:
 - `plot_similarity_per_field.png`
 
 ## 📊 Evaluation Result Images
-(Add images here by placing generated evaluation PNG files in the repo and linking them)
 
 ![Accuracy per Field](Part_1/evaluation/out_eval/plot_accuracy_per_field.png)
 
 ![Similarity per Field](Part_1/evaluation/out_eval/plot_similarity_per_field.png)
 
 ---
-
-## 📄 Extended Evaluation Guide
-A full, detailed explanation of the evaluation process is available in:
-
-➡️ **[Part_1/evaluation/README_EVAL.md](Part_1/evaluation/README_EVAL.md)**
 
 This document explains:
 - Dataset generation internals

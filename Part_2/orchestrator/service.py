@@ -23,6 +23,21 @@ def _telemetry_hook(event_name: str, payload: dict):
 # Service
 # ---------------------------
 class OrchestratorService:
+    """
+    OrchestratorService is responsible for coordinating interactions between various components
+    such as an embedding client, knowledge base, and chat client to provide contextually aware chat
+    responses.
+
+    This class contains the logic for handling chat requests, including phases like Info Collection
+    and Q&A, utilizing machine learning models and a structured knowledge base for response generation.
+    It implements robust error handling and graceful fallback mechanisms when issues occur.
+
+    Attributes:
+        cfg (OrchestratorConfig): Configuration parameters for the orchestrator.
+        embedder (AzureEmbeddingsClient): Client for embedding operations.
+        kb (HtmlKB): Knowledge base object for document retrieval and search.
+        chat_client (AzureChatClient): Chat client to interact with Azure OpenAI services.
+    """
     def __init__(self, orch_cfg: OrchestratorConfig, aoai_cfg: AzureOpenAIConfig, ret_cfg: RetrieverConfig):
         self.cfg = orch_cfg
         self.embedder = AzureEmbeddingsClient(aoai_cfg, default_deployment=ret_cfg.embeddings_deployment, on_error=_telemetry_hook)
@@ -47,6 +62,30 @@ class OrchestratorService:
     # Info phase (LLM-driven JSON contract)
     # ---------------------------
     async def _turn_info(self, req: ChatRequest, locale: Locale, request_id: str | None) -> ChatResponse:
+        """
+        Handles the information-gathering phase of a chat interaction.
+
+        This asynchronous method processes a user's input to gather relevant
+        information based on their profile and previous chat history. It verifies
+        the completeness and validity of the user's profile, formats the conversation
+        into a sequence of messages, and sends a request to an external chat client
+        for a response. The method also constructs fallback responses for failures
+        and applies JSON-based updates to the user's profile based on the chat
+        client's response. Finally, it determines the next chat phase based on
+        the updated profile and response status.
+
+        Arguments:
+            req: The incoming chat request containing user input, the session bundle,
+                and other associated information.
+            locale: The locale or language setting for the current interaction.
+            request_id: A unique string identifying the specific chat interaction.
+                May be None.
+
+        Returns:
+            A ChatResponse object encapsulating the assistant's response text,
+            the suggested next phase of the interaction, validation flags,
+            the updated user profile, and a trace ID for debugging purposes.
+        """
         sb: SessionBundle = req.session_bundle
         profile = sb.user_profile
         user_text = req.user_input
@@ -131,6 +170,28 @@ class OrchestratorService:
     # Q&A phase (grounded with KB)
     # ---------------------------
     async def _turn_qna(self, req: ChatRequest, locale: Locale, request_id: str | None) -> ChatResponse:
+        """
+        Handles the Q&A process, including retrieval of knowledge base entries, assembling context,
+        and generating a conversational response.
+
+        This function is designed to facilitate a chatbot's ability to retrieve relevant information
+        from a knowledge base (KB) and provide meaningful, contextual responses to user queries.
+        It operates in multiple stages: retrieval of documents from the KB, construction of
+        a response context, and interaction with a conversational AI model to generate a reply.
+
+        Parameters:
+            req (ChatRequest): The chat request from the user, encapsulating their input and session details.
+            locale (Locale): The locale specifying the language/region for the response.
+            request_id (str | None): An optional unique identifier for tracking the request.
+
+        Returns:
+            ChatResponse: The chatbot's response, including the generated text, any relevant metadata,
+            and a trace ID.
+
+        Raises:
+            Exception: If an error occurs during KB searches or other operations. This is only logged
+            internally within the function.
+        """
         sb = req.session_bundle
         profile = sb.user_profile
         query = req.user_input

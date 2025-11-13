@@ -9,9 +9,9 @@ from typing import Optional
 
 from dotenv import load_dotenv
 
-from utils import _gather_text_lines, _gather_labeled_checkboxes, _build_system_prompt, _build_user_prompt, \
+from .utils import _gather_text_lines, _gather_labeled_checkboxes, _build_system_prompt, _build_user_prompt, \
     _ensure_json
-from azure_client import analyze_document, generate_chat_completion_json
+from .azure_client import analyze_document, generate_chat_completion_json
 
 # ------------------------------------------------------
 # Logging setup

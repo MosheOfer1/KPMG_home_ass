@@ -20,6 +20,16 @@ from Part_2.retriever.kb_interfaces import IKnowledgeBase
 
 @dataclass
 class KBChunk:
+    """
+    Represents a single knowledge base chunk extracted from a source.
+
+    This class encapsulates a normalized, embedded-ready text chunk that signifies a single
+    atomic piece of information. It includes metadata such as the source URI, the HMO it
+    applies to, associated tier tags, the section it belongs to, the relevant service, and
+    the type of chunk (e.g., benefit, contact information). The class also provides methods
+    to convert the instance to and from a dictionary representation for serialization or
+    interoperability.
+    """
     text: str              # normalized, embed-ready text (one atomic “fact”)
     source_uri: str        # file://...#anchor
     hmo: Optional[HMO]     # Maccabi / Meuhedet / Clalit / None
@@ -92,6 +102,24 @@ class HtmlKB(IKnowledgeBase):
     # --------------------------- Public API ---------------------------
 
     def search(self, query: str, *, hmo: Optional[HMO], tier: Optional[Tier], top_k: int = 6) -> List[KBChunk]:
+        """
+        Searches for the most relevant knowledge base chunks based on the query vector similarity.
+
+        Embeds the provided query text, calculates similarity scores between the query vector
+        and pre-stored chunk vectors, and selects the top chunks based on scores. Optionally,
+        applies modifiers to the scores based on specified HMO or tier tags.
+
+        Parameters:
+            query (str): The search query as a string.
+            hmo (Optional[HMO]): A specific HMO (Health Maintenance Organization) to filter
+                results and modify scores. Defaults to None.
+            tier (Optional[Tier]): A specified tier that may influence the scoring. Defaults to None.
+            top_k (int): The number of top results to be returned. Defaults to 6.
+
+        Returns:
+            List[KBChunk]: A list of the top KBChunk objects that match the search query,
+            ordered by their relevance scores.
+        """
         if not self._chunks:
             return []
         qv = self.embedder.embed_texts([query])[0]

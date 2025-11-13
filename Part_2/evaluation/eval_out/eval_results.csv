@@ -1,11 +1,11 @@
 id,user_input,passed,error,latency_sec,suggested_phase,citations_count
-alt-medicine-maccabi-gold,מהן ההטבות לרפואה משלימה במכבי זהב?,False,Expected word/phrase 'הטבה' in assistant_text,2.69,QNA,6
-chinese-acupuncture-clalit-gold,מה כוללת ההטבה בדיקור סיני בכללית זהב?,True,,2.406,QNA,6
-dental-maccabi-bronze,מה העלות של סתימות במסלול ארד במכבי?,True,,2.429,QNA,6
-dietitian-clalit-silver,מה ההנחה על פגישת תזונאית בכללית כסף?,False,Expected word/phrase 'תזונאית' in assistant_text,1.989,QNA,6
-english-check-maccabi-gold,What benefits do I have for physiotherapy in Maccabi Gold?,False,Expected word/phrase 'physiotherapy' in assistant_text,3.275,QNA,6
-genetic-maccabi-gold,כמה אחוז הנחה יש לי בשביל בדיקות סקר גנטיות?,True,,4.437,QNA,6
-opto-clalit-gold,בדיקות ראייה – כמה זה עולה?,False,Expected word/phrase 'בדיקה' in assistant_text,1.715,QNA,6
-physio-meuhedet-gold,יש החזר על טיפולי פיזיותרפיה במאוחדת זהב?,False,Expected word/phrase 'הנחה' in assistant_text,3.033,QNA,6
-speech-clalit-bronze,כמה משלמים על טיפול בגמגום בכללית ארד?,True,,3.343,QNA,6
-speech-meuhedet-silver,האם יש הנחה בטיפול בהפרעות דיבור במסלול כסף במאוחדת?,False,Expected word/phrase 'טיפול' in assistant_text,2.655,QNA,6
+alt-medicine-maccabi-gold,מהן ההטבות לרפואה משלימה במכבי זהב?,False,Expected word/phrase 'הטבה' in assistant_text,3.937,QNA,6
+chinese-acupuncture-clalit-gold,מה כוללת ההטבה בדיקור סיני בכללית זהב?,False,Expected word/phrase 'הטבה' in assistant_text,2.712,QNA,6
+dental-maccabi-bronze,מה העלות של סתימות במסלול ארד במכבי?,False,Expected word/phrase 'עלות' in assistant_text,1.829,QNA,6
+dietitian-clalit-silver,מה ההנחה על פגישת תזונאית בכללית כסף?,False,Expected word/phrase 'תזונאית' in assistant_text,4.173,QNA,6
+english-check-maccabi-gold,What benefits do I have for physiotherapy in Maccabi Gold?,False,Expected word/phrase 'physiotherapy' in assistant_text,2.46,QNA,6
+genetic-maccabi-gold,כמה אחוז הנחה יש לי בשביל בדיקות סקר גנטיות?,True,,4.271,QNA,6
+opto-clalit-gold,בדיקות ראייה – כמה זה עולה?,False,Expected word/phrase 'בדיקה' in assistant_text,1.922,QNA,6
+physio-meuhedet-gold,יש החזר על טיפולי פיזיותרפיה במאוחדת זהב?,False,Expected word/phrase 'הנחה' in assistant_text,2.155,QNA,6
+speech-clalit-bronze,כמה משלמים על טיפול בגמגום בכללית ארד?,True,,4.321,QNA,6
+speech-meuhedet-silver,האם יש הנחה בטיפול בהפרעות דיבור במסלול כסף במאוחדת?,False,Expected word/phrase 'טיפול' in assistant_text,1.466,QNA,6

@@ -7,3 +7,6 @@
 /.venv
 /Part_2/retriever/tests/__pycache__
 *.pyc
+*.pyc
+/Part_2/evaluation/__pycache__
+/Part_2/retriever/__pycache__

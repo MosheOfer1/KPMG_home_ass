@@ -75,7 +75,7 @@ def _build_expectations(specs: Sequence[Dict[str, Any]]) -> List[Callable[[ChatR
     return exps
 
 def _load_cases(path: Path) -> List[Case]:
-    data = json.loads(Path(path).read_text())
+    data = json.loads(Path(path).read_text(encoding="utf-8"))
     items: List[Case] = []
     for item in data:
         expectations = _build_expectations(item.get("expectations", []))
