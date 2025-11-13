@@ -13,6 +13,10 @@ This repository contains **two independent parts**:
 
 Extract fields from ביטוח לאומי (NII) PDF forms using **Azure Document Intelligence (OCR)** + **Azure OpenAI**.
 
+➡️ **Full, detailed evaluation documentation:**
+[Full Evaluation Guide](Part_1/evaluation/README_EVAL.md)
+
+
 ### 🔧 Setup
 
 ### 🔑 Environment variables
@@ -67,13 +71,23 @@ A fully stateless microservice architecture:
 * **API Gateway** (frontend/backend communication layer)
 * **Gradio Frontend UI** (client-side session memory)
 * **Retriever** (HTML Knowledge Base)
+* 
+➡️ **Full, detailed evaluation documentation:**
+[Full Evaluation Guide](Part_2/evaluation/README_EVAL.md)
 
 ### 🚀 Quick Start (Run All Services)
 
 From **repo root**:
 
+If that for some reason does not work well run this:
 ```bash
-python -m Part_2.run_all
+chmod +x Part_2/stop.sh
+chmod +x Part_2/start.sh
+Part_2/start.sh
+```
+And then if you want to stop:
+```bash
+Part_2/stop.sh
 ```
 
 Services:
@@ -86,11 +100,6 @@ Services:
 
 ```bash
 pytest Part_2
-```
----
-### ▶️ Running the app locally
-```bash
-python Part_2/run_all.py
 ```
 ---
 
@@ -106,15 +115,3 @@ python Part_2/run_all.py
 
 * `run_all.py` automatically handles all microservices.
 * All session memory is stored client-side (required by assignment).
-* For HTTPS locally, use any reverse proxy (Caddy, mkcert, local CA) if needed.
-
----
-
-# 👍 You're Ready!
-
-You now have a full working pipeline:
-
-* PDF → JSON extraction (Part 1)
-* AI-powered medical chatbot using microservices (Part 2)
-
-Happy coding! 🎉

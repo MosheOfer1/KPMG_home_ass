@@ -3,4 +3,4 @@
 .env
 *.env.local
 /Part_1/__pycache__
-/Part_2/logs
+/Part_2/orchestrator/__pycache__

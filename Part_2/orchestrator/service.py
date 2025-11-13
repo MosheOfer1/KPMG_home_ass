@@ -1,116 +1,22 @@
 from __future__ import annotations
-import json, logging, uuid
-import re
-from typing import Dict, List, Tuple, Any
+
+import json
+import logging
+import uuid
+from typing import Dict, List
 
 from .config import OrchestratorConfig
 from .prompts import sys_prompt_info, sys_prompt_qna, user_instructions_qna
+from .utils import _is_profile_complete_and_valid, _history_to_messages, _merge_patch, parse_llm_json
 from ..azure_integration import AzureOpenAIConfig, AzureEmbeddingsClient, AzureChatClient
-from ..core_models import ChatRequest, ChatResponse, Locale, Phase, SessionBundle, UserProfile, ConversationHistory, \
-    Turn
+from ..core_models import ChatRequest, ChatResponse, Locale, Phase, SessionBundle, Turn
 from ..retriever.config import RetrieverConfig
 from ..retriever.kb import HtmlKB
 
 log = logging.getLogger("orchestrator")
 
-# ---------------------------
-# Helpers
-# ---------------------------
-def _is_profile_complete_and_valid(p: UserProfile) -> Tuple[bool, List[str]]:
-    problems: List[str] = []
-    if not p.first_name: problems.append("first_name missing")
-    if not p.last_name: problems.append("last_name missing")
-    if not p.id_number: problems.append("id_number missing (9 digits)")
-    if not p.gender or str(getattr(p.gender, "value", p.gender)).lower() == "unspecified":
-        problems.append("gender missing")
-    if not p.birth_year:
-        problems.append("birth_year missing")
-    if not p.hmo_name: problems.append("hmo_name missing")
-    if not p.hmo_card_number: problems.append("hmo_card_number missing (9 digits)")
-    if not p.membership_tier: problems.append("membership_tier missing")
-    return len(problems) == 0, problems
-
-def _merge_patch(profile: UserProfile, patch: Dict[str, Any]) -> UserProfile:
-    """Safely merge partial user data without breaking validation."""
-    HMO = {"maccabi": "מכבי", "meuhedet": "מאוחדת", "clalit": "כללית"}
-    TIER = {"gold": "זהב", "silver": "כסף", "bronze": "ארד"}
-    GENDER = {"male": "male", "female": "female", "זכר": "male", "נקבה": "female"}
-
-    data = profile.model_dump()
-
-    for k, v in (patch or {}).items():
-        if v is None:
-            continue
-        if isinstance(v, str):
-            v = v.strip().lower()
-
-        try:
-            if k == "hmo_name":
-                v = HMO.get(v, v)
-            elif k == "membership_tier":
-                v = TIER.get(v, v)
-            elif k == "gender":
-                v = GENDER.get(v, v)
-            elif k == "birth_year" and isinstance(v, str) and v.isdigit():
-                v = int(v)
-            elif k in {"id_number", "hmo_card_number"}:
-                v = str(v).strip()
-            data[k] = v
-        except Exception as e:
-            log.warning(f"Ignoring bad field {k}: {v!r} ({e})")
-
-    try:
-        return UserProfile(**data)
-    except Exception as e:
-        log.warning(f"Profile validation failed: {e}")
-        # Fallback to original profile if something still invalid
-        return profile
-
-def _history_to_messages(
-    history: ConversationHistory,
-    max_chars: int
-) -> List[Dict[str, str]]:
-    """
-    Convert ConversationHistory into OpenAI-style messages.
-    Keeps only the most recent content up to max_chars.
-    """
-    msgs: List[Dict[str, str]] = []
-
-    # Flatten turns into role/content messages
-    for t in history.turns:
-        if t.user_text:
-            msgs.append({"role": "user", "content": t.user_text})
-        if t.assistant_text:
-            msgs.append({"role": "assistant", "content": t.assistant_text})
-
-    # Trim from the *left* if too long
-    def total_chars(ms: List[Dict[str, str]]) -> int:
-        return sum(len(m["content"]) for m in ms)
-
-    while msgs and total_chars(msgs) > max_chars:
-        msgs.pop(0)
-
-    return msgs
-
-
-def parse_llm_json(text: str) -> Dict[str, Any]:
-    if not text or not isinstance(text, str):
-        return _fallback_json()
-    try:
-        return json.loads(text)
-    except json.JSONDecodeError:
-        return _fallback_json()
-
-
-def _fallback_json() -> Dict[str, Any]:
-    """
-    Always return a safe structure for the medical chatbot.
-    """
-    return {
-        "assistant_say": "⚠️ לא הצלחתי לפענח את התשובה. אנא נסה שוב.",
-        "profile_patch": {},
-        "status": "ASKING",
-    }
+def _telemetry_hook(event_name: str, payload: dict):
+    log.info("telemetry %s: %s", event_name, payload)
 
 
 # ---------------------------
@@ -119,7 +25,7 @@ def _fallback_json() -> Dict[str, Any]:
 class OrchestratorService:
     def __init__(self, orch_cfg: OrchestratorConfig, aoai_cfg: AzureOpenAIConfig, ret_cfg: RetrieverConfig):
         self.cfg = orch_cfg
-        self.embedder = AzureEmbeddingsClient(aoai_cfg, default_deployment=ret_cfg.embeddings_deployment)
+        self.embedder = AzureEmbeddingsClient(aoai_cfg, default_deployment=ret_cfg.embeddings_deployment, on_error=_telemetry_hook)
         self.kb = HtmlKB(
             ret_cfg.kb_dir,
             self.embedder,
@@ -165,9 +71,30 @@ class OrchestratorService:
         messages.append({"role": "user", "content": user_text})
 
         # Important: request structured JSON
-        raw = self.chat_client.chat(
-            messages, temperature=0.2, max_tokens=350, json_mode=True
-        )
+        try:
+            raw = self.chat_client.chat(
+                messages, temperature=0.2, max_tokens=350, json_mode=True
+            )
+        except Exception as e:
+            log.exception("LLM error during info phase", extra={"request_id": request_id})
+            # User-safe fallback
+            fallback_text = (
+                "⚠️ הייתה בעיה טכנית בעיבוד הבקשה. "
+                "אנא נסה/י שוב בעוד מספר רגעים."
+            ) if locale == Locale.HE else (
+                "⚠️ There was a technical problem handling your request. "
+                "Please try again in a moment."
+            )
+            # Keep phase as INFO_COLLECTION and don’t mutate profile
+            return ChatResponse(
+                assistant_text=fallback_text,
+                suggested_phase=Phase.INFO_COLLECTION,
+                citations=[],
+                validation_flags=["LLM_ERROR"],
+                user_profile=profile,
+                trace_id=request_id or str(uuid.uuid4()),
+            )
+
         parsed = parse_llm_json(raw)
 
         assistant_say = (parsed.get("assistant_say") or "").strip()
@@ -181,7 +108,7 @@ class OrchestratorService:
         )
 
         # Merge & revalidate after LLM patch
-        new_profile = _merge_patch(profile, patch)
+        new_profile = _merge_patch(profile, patch, request_id)
         now_complete, _ = _is_profile_complete_and_valid(new_profile)
 
         suggested_phase = Phase.INFO_COLLECTION
@@ -208,14 +135,52 @@ class OrchestratorService:
         profile = sb.user_profile
         query = req.user_input
 
-        hints: List[str] = []
-        if profile.hmo_name: hints.append(str(profile.hmo_name.value))
-        if profile.membership_tier: hints.append(str(profile.membership_tier.value))
-        retrieval_query = " | ".join([query] + hints) if hints else query
+        # 1) Retrieval
+        try:
+            hints: List[str] = []
+            if profile.hmo_name: hints.append(str(profile.hmo_name.value))
+            if profile.membership_tier: hints.append(str(profile.membership_tier.value))
+            retrieval_query = " | ".join([query] + hints) if hints else query
 
-        found = self.kb.search(
-            retrieval_query, hmo=profile.hmo_name, tier=profile.membership_tier, top_k=self.cfg.top_k
-        )
+            found = self.kb.search(
+                retrieval_query, hmo=profile.hmo_name, tier=profile.membership_tier, top_k=self.cfg.top_k
+            )
+        except Exception as e:
+            log.exception("KB search error", extra={"request_id": request_id})
+            fallback = (
+                "⚠️ אני נתקל בבעיה בגישה למידע כרגע. "
+                "אפשר לנסות שוב מאוחר יותר, או לפנות ישירות לקופת החולים."
+            ) if locale == Locale.HE else (
+                "⚠️ I'm having trouble accessing the knowledge base right now. "
+                "Please try again later or contact your HMO directly."
+            )
+            return ChatResponse(
+                assistant_text=fallback,
+                suggested_phase=Phase.QNA,
+                citations=[],
+                user_profile=profile,
+                validation_flags=["KB_ERROR"],
+                trace_id=request_id or str(uuid.uuid4()),
+            )
+
+        # 2) If retrieval returns nothing – handle gracefully
+        if not found:
+            log.info("No KB results for query", extra={"request_id": request_id})
+            msg = (
+                "לא מצאתי מידע רלוונטי לשאלה הזאת במסמכים שברשותי. "
+                "נסה/י לשאול אחרת או לפנות לקופת החולים לקבלת מידע מדויק."
+            ) if locale == Locale.HE else (
+                "I couldn't find relevant information for this question "
+                "in the documents I have. Try rephrasing, or contact your HMO directly."
+            )
+            return ChatResponse(
+                assistant_text=msg,
+                suggested_phase=Phase.QNA,
+                citations=[],
+                user_profile=profile,
+                validation_flags=["NO_KB_MATCH"],
+                trace_id=request_id or str(uuid.uuid4()),
+            )
 
         parts: List[str] = []
         citations: List[str] = []

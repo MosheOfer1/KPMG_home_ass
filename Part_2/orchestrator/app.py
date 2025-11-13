@@ -7,10 +7,11 @@ from .config import OrchestratorConfig
 from .service import OrchestratorService
 from ..azure_integration import load_config
 from ..core_models import ChatResponse, ChatRequest
+from ..logging_config import setup_logging
 from ..retriever.config import RetrieverConfig
 
+setup_logging("orchestrator")
 log = logging.getLogger("orchestrator.app")
-logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 orch_cfg = OrchestratorConfig()
 aoai_cfg = load_config()
@@ -31,9 +32,14 @@ async def health() -> dict:
 @app.post("/v1/chat", response_model=ChatResponse)
 async def chat(req: ChatRequest, request: Request) -> ChatResponse:
     request_id = request.headers.get("X-Request-ID", str(uuid.uuid4()))
+    adapter = logging.LoggerAdapter(log, extra={"request_id": request_id})
+    adapter.info("Orchestrator /v1/chat start")
+
     try:
-        return await svc.handle_chat(req, request_id=request_id)
+        resp = await svc.handle_chat(req, request_id=request_id)
+        adapter.info("Orchestrator /v1/chat success")
+        return resp
     except Exception as e:
-        log.exception("orchestrator error: %s", e)
-        # Keep details out of body; gateway will translate to 502
+        adapter.exception("orchestrator error")
+        # Let gateway convert this into 502
         raise

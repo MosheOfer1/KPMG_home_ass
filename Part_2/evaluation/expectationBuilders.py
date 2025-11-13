@@ -3,8 +3,8 @@ from __future__ import annotations
 import re
 from typing import Callable
 
-from Part_2.core_models import (
-    Phase, UserProfile, ChatResponse, Gender, HMO, Tier, Locale
+from ..core_models import (
+    Phase, UserProfile, ChatResponse, Gender, HMO, Tier
 )
 
 
@@ -21,7 +21,6 @@ def default_profile() -> UserProfile:
         hmo_name=HMO.MACCABI,
         hmo_card_number="987654321",
         membership_tier=Tier.GOLD,
-        locale=Locale.HE,
     )
 
 def with_overrides(p: UserProfile, **overrides) -> UserProfile:

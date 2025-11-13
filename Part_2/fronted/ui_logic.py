@@ -12,7 +12,8 @@ from ..core_models import (
     ChatResponse, ChatRequest, SessionBundle,
     UserProfile, ConversationHistory, Phase, Locale, Turn
 )
-
+from ..logging_config import setup_logging
+setup_logging("frontend")
 log = logging.getLogger(__name__)
 
 API_BASE = "http://localhost:8000"
@@ -221,8 +222,15 @@ async def fetch_assistant_reply(
         return history, sb
 
     except Exception as e:
-        history[-1][1] = f"{t['error']}: {type(e).__name__}: {e}"
+        log.exception(f"Frontend error calling /chat: {e}", extra={"request_id": sb.request_id})
+        user_msg = (
+            f"{t['error']}: אירעה תקלה טכנית. נסה/י שוב מאוחר יותר."
+            if lang == "he"
+            else f"{t['error']}: A technical error occurred. Please try again later."
+        )
+        history[-1][1] = user_msg
         return history, sb
+
 
 
 def change_language(lang: str):

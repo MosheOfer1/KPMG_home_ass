@@ -1,9 +1,8 @@
-# -*- coding: utf-8 -*-
 from __future__ import annotations
 import gradio as gr
 
-from Part_2.core_models import Locale
-from Part_2.fronted.ui_logic import (
+from ..core_models import Locale
+from .ui_logic import (
     TRANSLATIONS,
     new_session_bundle,
     add_user_message,

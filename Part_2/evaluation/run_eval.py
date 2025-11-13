@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 from __future__ import annotations
 
 import argparse
@@ -16,30 +15,29 @@ import pandas as pd
 # Inline expectation builders
 # -----------------------------
 # Use exactly these; do NOT import from elsewhere.
-from Part_2.core_models import ChatResponse  # for type checks
-from Part_2.evaluation.expectationBuilders import expect_type_and_basics, expect_words, expect_any_substring, \
-    expect_percent_rough, expect_regex, expect_citations_are_files
+from .expectationBuilders import expect_type_and_basics, expect_any_substring, \
+    expect_percent_rough, expect_regex, expect_citations_are_files, expect_words
 
 _EXPECTATION_REGISTRY: Dict[str, Callable[..., Callable[[ChatResponse], None]]] = {
     "expect_type_and_basics": expect_type_and_basics,
-    "expect_words": expect_words,
     "expect_any_substring": expect_any_substring,
     "expect_percent_rough": expect_percent_rough,
     "expect_regex": expect_regex,
     "expect_citations_are_files": expect_citations_are_files,
+    "expect_words": expect_words,
 }
 
 # -----------------------------
 # Project imports
 # -----------------------------
-from Part_2.core_models import (
+from ..core_models import (
     SessionBundle, Locale, Phase, ChatRequest, ChatResponse,
     HMO, Tier, Gender, UserProfile
 )
-from Part_2.orchestrator.config import OrchestratorConfig
-from Part_2.orchestrator.service import OrchestratorService
-from Part_2.retriever.config import RetrieverConfig
-from Part_2.azure_integration import load_config
+from ..orchestrator.config import OrchestratorConfig
+from ..orchestrator.service import OrchestratorService
+from ..retriever.config import RetrieverConfig
+from ..azure_integration import load_config
 
 # -----------------------------
 # Data models / helpers
@@ -104,12 +102,11 @@ async def _run_case(svc: OrchestratorService, case: Case) -> Dict[str, Any]:
         hmo_name=HMO.MACCABI,
         hmo_card_number="987654321",
         membership_tier=Tier.GOLD,
-        locale=Locale.HE,
     )
     for k, v in case.profile_overrides.items():
         setattr(base, k, v)
 
-    sb = SessionBundle(locale=base.locale, phase=Phase.QNA, user_profile=base)
+    sb = SessionBundle(phase=Phase.QNA, user_profile=base)
     req = ChatRequest(user_input=case.user_input, session_bundle=sb)
 
     t0 = time.perf_counter()

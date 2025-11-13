@@ -426,28 +426,28 @@ class Config:
     rules_json: Optional[Path]
     flatten: bool
 
-def parse_args(argv: Optional[Sequence[str]] = None) -> Config:
-    p = argparse.ArgumentParser(description="Fill a fillable AcroForm PDF by placeholder names with preprocessing.")
-    p.add_argument("--in", dest="in_pdf", required=True, help="Input PDF")
-    p.add_argument("--json", dest="json_path", required=True, help="Path to JSON data")
-    p.add_argument("--out", dest="out_pdf", required=True, help="Output PDF")
-    p.add_argument("--rules", dest="rules_json", default=None, help="Optional rules JSON")
-    p.add_argument("--flatten", action="store_true", help="Flatten form fields into static content")
-    a = p.parse_args(argv)
-    return Config(
-        in_pdf=Path(a.in_pdf),
-        json_path=Path(a.json_path),
-        out_pdf=Path(a.out_pdf),
-        rules_json=Path(a.rules_json) if a.rules_json else None,
-        flatten=a.flatten,
-    )
-
-def main(argv: Optional[Sequence[str]] = None) -> None:
-    cfg = parse_args(argv)
-    data = json.loads(cfg.json_path.read_text(encoding="utf-8"))
-    rules = Rules.load(cfg.rules_json)
-    fill_pdf(cfg.in_pdf, cfg.out_pdf, data, rules, flatten=cfg.flatten)
-    print(f"Filled PDF written to: {cfg.out_pdf}")
-
-if __name__ == "__main__":
-    main()
+# def parse_args(argv: Optional[Sequence[str]] = None) -> Config:
+#     p = argparse.ArgumentParser(description="Fill a fillable AcroForm PDF by placeholder names with preprocessing.")
+#     p.add_argument("--in", dest="in_pdf", required=True, help="Input PDF")
+#     p.add_argument("--json", dest="json_path", required=True, help="Path to JSON data")
+#     p.add_argument("--out", dest="out_pdf", required=True, help="Output PDF")
+#     p.add_argument("--rules", dest="rules_json", default=None, help="Optional rules JSON")
+#     p.add_argument("--flatten", action="store_true", help="Flatten form fields into static content")
+#     a = p.parse_args(argv)
+#     return Config(
+#         in_pdf=Path(a.in_pdf),
+#         json_path=Path(a.json_path),
+#         out_pdf=Path(a.out_pdf),
+#         rules_json=Path(a.rules_json) if a.rules_json else None,
+#         flatten=a.flatten,
+#     )
+#
+# def main(argv: Optional[Sequence[str]] = None) -> None:
+#     cfg = parse_args(argv)
+#     data = json.loads(cfg.json_path.read_text(encoding="utf-8"))
+#     rules = Rules.load(cfg.rules_json)
+#     fill_pdf(cfg.in_pdf, cfg.out_pdf, data, rules, flatten=cfg.flatten)
+#     print(f"Filled PDF written to: {cfg.out_pdf}")
+#
+# if __name__ == "__main__":
+#     main()

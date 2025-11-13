@@ -1,4 +1,3 @@
-# prompts.py
 from __future__ import annotations
 from Part_2.core_models import Locale
 

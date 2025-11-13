@@ -165,25 +165,25 @@ def fill_pdf_with_checkboxes(in_pdf: Path, out_pdf: Path, data: dict):
     flatten_into_page_content(pdf)
     PdfWriter().write(str(out_pdf), pdf)
 
-# -------------------------------------------------------------
-# Main
-# -------------------------------------------------------------
-def main():
-    import argparse
-    p = argparse.ArgumentParser(description="Generate random JSON → fill & flatten PDF.")
-    p.add_argument("--in", dest="in_pdf", required=True, help="Template input PDF")
-    p.add_argument("--out", dest="out_pdf", required=True, help="Output filled PDF")
-    args = p.parse_args()
-
-    data = _local_random_json()
-    out_pdf = Path(args.out_pdf)
-    out_json = out_pdf.with_suffix(".json")
-
-    fill_pdf_with_checkboxes(Path(args.in_pdf), out_pdf, data)
-    out_json.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
-
-    print(f"✅ Created {out_pdf}")
-    print(f"✅ JSON saved as {out_json}")
-
-if __name__ == "__main__":
-    main()
+# # -------------------------------------------------------------
+# # Main
+# # -------------------------------------------------------------
+# def main():
+#     import argparse
+#     p = argparse.ArgumentParser(description="Generate random JSON → fill & flatten PDF.")
+#     p.add_argument("--in", dest="in_pdf", required=True, help="Template input PDF")
+#     p.add_argument("--out", dest="out_pdf", required=True, help="Output filled PDF")
+#     args = p.parse_args()
+#
+#     data = _local_random_json()
+#     out_pdf = Path(args.out_pdf)
+#     out_json = out_pdf.with_suffix(".json")
+#
+#     fill_pdf_with_checkboxes(Path(args.in_pdf), out_pdf, data)
+#     out_json.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+#
+#     print(f"✅ Created {out_pdf}")
+#     print(f"✅ JSON saved as {out_json}")
+#
+# if __name__ == "__main__":
+#     main()

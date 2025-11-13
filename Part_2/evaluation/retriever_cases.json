@@ -1,0 +1,72 @@
+[
+  {
+    "id": "pregnancy_maccabi_gold_genetic_screening",
+    "query": "אני בהריון ומבוטחת במסלול זהב של מכבי. מה ההנחה שאני מקבלת על בדיקות סקר גנטיות בהריון?",
+    "hmo": "MACCABI",
+    "tier": "GOLD",
+    "expected_uris": ["pragrency_services.html#t2_1"]
+  },
+  {
+    "id": "pregnancy_clalit_bronze_ultrasound",
+    "query": "אני בכללית מסלול ארד ורוצה לעשות סקירת מערכות בהריון. כמה הנחה יש לי על הסקירה?",
+    "hmo": "CLALIT",
+    "tier": "BRONZE",
+    "expected_uris": ["pragrency_services.html#t3_3"]
+  },
+  {
+    "id": "pregnancy_meuhedet_silver_complications",
+    "query": "אני בהריון במאוחדת כסף ויש לי סיבוכי הריון. איזה כיסוי אני מקבלת על טיפול בסיבוכי הריון?",
+    "hmo": "MEUHEDET",
+    "tier": "SILVER",
+    "expected_uris": ["pragrency_services.html#t6_2"]
+  },
+  {
+    "id": "altmedicine_clalit_gold_acupuncture",
+    "query": "אני בכללית זהב ומעוניינת בטיפול דיקור סיני (אקופונקטורה). מה גובה ההנחה וכמה טיפולים בשנה מגיעים לי?",
+    "hmo": "CLALIT",
+    "tier": "GOLD",
+    "expected_uris": ["alternative_services.html#t1_3"]
+  },
+  {
+    "id": "altmedicine_maccabi_bronze_chiropractic",
+    "query": "יש לי מכבי ארד ואני רוצה טיפול כירופרקטיקה לגב. אילו הטבות יש לי ברפואה משלימה לכירופרקטיקה?",
+    "hmo": "MACCABI",
+    "tier": "BRONZE",
+    "expected_uris": ["alternative_services.html#t6_1"]
+  },
+  {
+    "id": "optometry_maccabi_gold_glasses",
+    "query": "אני צריך משקפי ראייה ומבוטח במסלול זהב של מכבי. מה ההחזר על משקפיים ומה התקרה בשקלים?",
+    "hmo": "MACCABI",
+    "tier": "GOLD",
+    "expected_uris": ["optometry_services.html#t2_1"]
+  },
+  {
+    "id": "optometry_meuhedet_gold_children",
+    "query": "לבתי יש בעיית ראייה והיא מבוטחת במאוחדת זהב. מה כולל כיסוי האופטומטריה לילדים במאוחדת זהב?",
+    "hmo": "MEUHEDET",
+    "tier": "GOLD",
+    "expected_uris": ["optometry_services.html#t6_2"]
+  },
+  {
+    "id": "dental_maccabi_gold_checkups",
+    "query": "אני במכבי זהב ורוצה לדעת מה מגיע לי במרפאת השיניים לבדיקות וניקוי שיניים שגרתי.",
+    "hmo": "MACCABI",
+    "tier": "GOLD",
+    "expected_uris": ["dentel_services.html#t1_1"]
+  },
+  {
+    "id": "communication_clalit_gold_hearing_rehab",
+    "query": "אני בכללית זהב עם ירידה בשמיעה. מה ההטבות שיש לי בשיקום שמיעה במרפאת התקשורת?",
+    "hmo": "CLALIT",
+    "tier": "GOLD",
+    "expected_uris": ["communication_clinic_services.html#t6_3"]
+  },
+  {
+    "id": "workshops_maccabi_silver_stress_management",
+    "query": "אני מרגיש עומס נפשי ומבוטח במסלול כסף של מכבי. אילו סדנאות לניהול מתח יש וכמה הנחה יש לי?",
+    "hmo": "MACCABI",
+    "tier": "SILVER",
+    "expected_uris": ["workshops_services.html#t4_1"]
+  }
+]
