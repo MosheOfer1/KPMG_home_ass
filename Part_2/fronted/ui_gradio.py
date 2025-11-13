@@ -1,89 +1,115 @@
 # -*- coding: utf-8 -*-
 from __future__ import annotations
-import uuid
-from typing import List, Tuple
-
 import gradio as gr
-import httpx
 
-from ..core_models import ChatResponse, ChatRequest, SessionBundle, UserProfile, ConversationHistory, Phase, Locale
+from Part_2.core_models import Locale
+from Part_2.fronted.ui_logic import (
+    TRANSLATIONS,
+    new_session_bundle,
+    add_user_message,
+    fetch_assistant_reply,
+    initialize_session,
+    change_language,
+    header_html,
+)
 
-# ---- Import your existing classes ----
+css = """
+#chatbot {
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+#msg-box {
+    border-radius: 8px;
+}
+.header-text {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+#lang-selector {
+    max-width: 150px;
+}
+"""
 
+with gr.Blocks(css=css, title="MicroChat Medical") as demo:
+    lang_state = gr.State("he")
+    sb_state = gr.State(new_session_bundle(Locale.HE))
 
-API_BASE = "http://localhost:8000"
-
-# ----------------- Helpers -----------------
-
-def new_session_bundle() -> SessionBundle:
-    # Start with an empty profile; the LLM will collect details conversationally
-    profile = UserProfile()
-    return SessionBundle(
-        user_profile=profile,
-        history=ConversationHistory(),
-        phase=Phase.INFO_COLLECTION,
-        locale=profile.locale or Locale.HE,
-        request_id=None,
+    # Header
+    header_md = gr.Markdown(
+        header_html("he"),
+        elem_id="header"
     )
 
-async def post_chat(req: ChatRequest) -> ChatResponse:
-    """Send ChatRequest → ChatResponse (HTTP)."""
-    async with httpx.AsyncClient(timeout=60.0) as client:
-        r = await client.post(
-            f"{API_BASE}/chat",
-            json=req.model_dump(),
-            headers={"X-Request-ID": str(uuid.uuid4())},
-        )
-        r.raise_for_status()
-        return ChatResponse.model_validate(r.json())
-
-async def on_send(message: str, history: List[List[str]], sb: SessionBundle) -> Tuple[List[List[str]], SessionBundle]:
-    if not message or not message.strip():
-        return history, sb
-
-    # Show the user message immediately
-    history = history + [[message, None]]
-
-    try:
-        resp = await post_chat(ChatRequest(session_bundle=sb, user_input=message))
-        assistant_text = resp.assistant_text
-        # Append citations (under the assistant message)
-        if resp.citations:
-            bullets = "\n".join(f"• {c}" for c in resp.citations)
-            assistant_text += f"\n\n—\n**מקורות:**\n{bullets}"
-
-        # Optional phase badge
-        if resp.suggested_phase:
-            phase_label = "איסוף פרטים" if resp.suggested_phase == Phase.INFO_COLLECTION else "שאלות ותשובות"
-            assistant_text = f"**[{phase_label}]**\n\n" + assistant_text
-
-        history[-1][1] = assistant_text
-
-        # Update session bundle from response (profile + phase)
-        sb.user_profile = resp.user_profile
-        sb.phase = resp.suggested_phase
-        return history, sb
-
-    except Exception as e:
-        history[-1][1] = f"⚠️ שגיאה: {type(e).__name__}: {e}"
-        return history, sb
-
-# ----------------- UI -----------------
-with gr.Blocks(title="MicroChat Medical") as demo:
-    gr.Markdown(
-        """
-        # 🩺 MicroChat Medical — Client UI
-        """
+    # Language selector
+    lang_dropdown = gr.Dropdown(
+        choices=[("עברית", "he"), ("English", "en")],
+        value="he",
+        label=TRANSLATIONS["he"]["language"],
+        elem_id="lang-selector",
+        scale=1,
     )
 
-    chat = gr.Chatbot(height=560)
-    msg = gr.Textbox(label="Message", placeholder="כתוב/י הודעה…", autofocus=True)
-    send = gr.Button("Send", variant="primary")
+    # Chat + input
+    chat = gr.Chatbot(
+        height=500,
+        elem_id="chatbot",
+        show_label=False,
+        bubble_full_width=False,
+        render_markdown=True,
+    )
 
-    sb_state = gr.State(new_session_bundle())
+    msg = gr.Textbox(
+        placeholder=TRANSLATIONS["he"]["placeholder"],
+        show_label=False,
+        scale=9,
+        elem_id="msg-box",
+        autofocus=True,
+    )
+    send = gr.Button(TRANSLATIONS["he"]["send"], variant="primary", scale=1)
 
-    send.click(on_send, inputs=[msg, chat, sb_state], outputs=[chat, sb_state])
-    msg.submit(on_send, inputs=[msg, chat, sb_state], outputs=[chat, sb_state])
+    # On load – show system intro
+    demo.load(
+        initialize_session,
+        inputs=[sb_state, lang_state],
+        outputs=[chat, sb_state],
+    )
+
+    # Language change
+    lang_dropdown.change(
+        change_language,
+        inputs=[lang_dropdown],
+        outputs=[header_md, msg, send, lang_dropdown, sb_state],
+    ).then(
+        lambda lang: lang,
+        inputs=[lang_dropdown],
+        outputs=[lang_state],
+    ).then(
+        initialize_session,
+        inputs=[sb_state, lang_state],
+        outputs=[chat, sb_state],
+    )
+
+    # Send button
+    send.click(
+        add_user_message,
+        inputs=[msg, chat, sb_state, lang_state],
+        outputs=[chat, msg, sb_state],
+    ).then(
+        fetch_assistant_reply,
+        inputs=[chat, sb_state, lang_state],
+        outputs=[chat, sb_state],
+    )
+
+    # Enter key
+    msg.submit(
+        add_user_message,
+        inputs=[msg, chat, sb_state, lang_state],
+        outputs=[chat, msg, sb_state],
+    ).then(
+        fetch_assistant_reply,
+        inputs=[chat, sb_state, lang_state],
+        outputs=[chat, sb_state],
+    )
 
 if __name__ == "__main__":
-    demo.queue().launch(server_name="0.0.0.0", server_port=7860)
+    demo.queue().launch(server_name="0.0.0.0", server_port=7860, inbrowser=True)

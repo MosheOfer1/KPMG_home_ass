@@ -10,7 +10,7 @@ import subprocess
 import time
 import os
 import sys
-import signal
+import webbrowser
 from urllib.request import urlopen, Request
 from urllib.error import URLError
 
@@ -124,10 +124,15 @@ if __name__ == "__main__":
             sys.exit(1)
 
         print("\n🚀 All services launched.")
-        print("Frontend: http://127.0.0.1:7860")
-        print("API:      http://127.0.0.1:8000")
-        print("Orch:     http://127.0.0.1:8001")
+        print("It is ruing here: http://127.0.0.1:7860")
+
         print("\nPress Ctrl+C to stop.")
+        # Auto-open frontend in the browser
+        try:
+            webbrowser.open("http://127.0.0.1:7860")
+        except Exception as e:
+            print(f"⚠️ Could not open browser automatically: {e}")
+
         while True:
             time.sleep(1)
     except KeyboardInterrupt:

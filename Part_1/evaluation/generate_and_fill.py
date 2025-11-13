@@ -12,7 +12,7 @@ import json
 from pathlib import Path
 from pdfrw import PdfDict, PdfName, PdfReader, PdfWriter
 
-from Part_1.evaluation.fill_pdf import Rules, PLACEHOLDER_MAP, raw_value, apply_rules, flatten_into_page_content, \
+from fill_pdf import Rules, PLACEHOLDER_MAP, raw_value, apply_rules, flatten_into_page_content, \
     set_need_appearances
 
 

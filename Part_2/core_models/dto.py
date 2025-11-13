@@ -1,6 +1,6 @@
 from __future__ import annotations
 from typing import List, Optional
-from datetime import datetime
+from datetime import datetime, UTC
 
 from pydantic import BaseModel, Field, constr, ConfigDict
 
@@ -16,18 +16,16 @@ class UserProfile(BaseModel):
     last_name: Optional[str] = None
     id_number: Optional[NineDigit] = None          # Israeli Teudat Zehut as 9-digit string
     gender: Optional[Gender] = Gender.UNSPECIFIED
-    birth_year: Optional[int] = Field(default=None, ge=1900, le=datetime.utcnow().year)
+    birth_year: Optional[int] = Field(default=None, ge=1900, le=datetime.now(UTC).year)
     hmo_name: Optional[HMO] = None
     hmo_card_number: Optional[NineDigit] = None     # 9-digit string
     membership_tier: Optional[Tier] = None
-    locale: Locale = Locale.HE
 
 
 class Turn(BaseModel):
     model_config = ConfigDict(extra="forbid")
     user_text: Optional[str] = None
     assistant_text: Optional[str] = None
-    timestamp: datetime = Field(default_factory=datetime.utcnow)
     citations: List[str] = Field(default_factory=list)  # source URIs/anchors
 
 

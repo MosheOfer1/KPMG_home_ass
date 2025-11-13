@@ -1,4 +1,6 @@
-
+/Part_2/logs
 /.idea
 .env
+*.env.local
 /Part_1/__pycache__
+/Part_2/logs

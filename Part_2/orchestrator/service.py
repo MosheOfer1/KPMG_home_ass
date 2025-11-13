@@ -1,12 +1,13 @@
-# orchestrator.py
 from __future__ import annotations
 import json, logging, uuid
+import re
 from typing import Dict, List, Tuple, Any
 
 from .config import OrchestratorConfig
 from .prompts import sys_prompt_info, sys_prompt_qna, user_instructions_qna
 from ..azure_integration import AzureOpenAIConfig, AzureEmbeddingsClient, AzureChatClient
-from ..core_models import ChatRequest, ChatResponse, Locale, Phase, SessionBundle, UserProfile
+from ..core_models import ChatRequest, ChatResponse, Locale, Phase, SessionBundle, UserProfile, ConversationHistory, \
+    Turn
 from ..retriever.config import RetrieverConfig
 from ..retriever.kb import HtmlKB
 
@@ -28,9 +29,6 @@ def _is_profile_complete_and_valid(p: UserProfile) -> Tuple[bool, List[str]]:
     if not p.hmo_card_number: problems.append("hmo_card_number missing (9 digits)")
     if not p.membership_tier: problems.append("membership_tier missing")
     return len(problems) == 0, problems
-
-
-log = logging.getLogger("orchestrator.service")
 
 def _merge_patch(profile: UserProfile, patch: Dict[str, Any]) -> UserProfile:
     """Safely merge partial user data without breaking validation."""
@@ -68,6 +66,53 @@ def _merge_patch(profile: UserProfile, patch: Dict[str, Any]) -> UserProfile:
         # Fallback to original profile if something still invalid
         return profile
 
+def _history_to_messages(
+    history: ConversationHistory,
+    max_chars: int
+) -> List[Dict[str, str]]:
+    """
+    Convert ConversationHistory into OpenAI-style messages.
+    Keeps only the most recent content up to max_chars.
+    """
+    msgs: List[Dict[str, str]] = []
+
+    # Flatten turns into role/content messages
+    for t in history.turns:
+        if t.user_text:
+            msgs.append({"role": "user", "content": t.user_text})
+        if t.assistant_text:
+            msgs.append({"role": "assistant", "content": t.assistant_text})
+
+    # Trim from the *left* if too long
+    def total_chars(ms: List[Dict[str, str]]) -> int:
+        return sum(len(m["content"]) for m in ms)
+
+    while msgs and total_chars(msgs) > max_chars:
+        msgs.pop(0)
+
+    return msgs
+
+
+def parse_llm_json(text: str) -> Dict[str, Any]:
+    if not text or not isinstance(text, str):
+        return _fallback_json()
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        return _fallback_json()
+
+
+def _fallback_json() -> Dict[str, Any]:
+    """
+    Always return a safe structure for the medical chatbot.
+    """
+    return {
+        "assistant_say": "⚠️ לא הצלחתי לפענח את התשובה. אנא נסה שוב.",
+        "profile_patch": {},
+        "status": "ASKING",
+    }
+
+
 # ---------------------------
 # Service
 # ---------------------------
@@ -104,36 +149,46 @@ class OrchestratorService:
         sys_msg = sys_prompt_info(locale)
         profile_json = profile.model_dump()
 
-        messages = [
+        # Convert past turns to messages
+        history_msgs = _history_to_messages(sb.history, max_chars=self.cfg.max_history_chars)
+
+        messages: List[Dict[str, str]] = [
             {"role": "system", "content": sys_msg},
             {"role": "system", "content": f"PROFILE_SNAPSHOT_JSON: {json.dumps(profile_json, ensure_ascii=False)}"},
             {"role": "system", "content": f"VALIDATION: {'OK' if complete else 'MISSING/INVALID -> ' + '; '.join(problems)}"},
-            {"role": "user", "content": user_text},
         ]
+
+        # Insert conversation history (if any), before the latest user input
+        messages.extend(history_msgs)
+
+        # Latest user input as the last user message
+        messages.append({"role": "user", "content": user_text})
 
         # Important: request structured JSON
         raw = self.chat_client.chat(
-            messages, temperature=0.2, max_tokens=350
+            messages, temperature=0.2, max_tokens=350, json_mode=True
         )
-        parsed = json.loads(raw)
+        parsed = parse_llm_json(raw)
 
         assistant_say = (parsed.get("assistant_say") or "").strip()
         patch = parsed.get("profile_patch") or {}
         status = (parsed.get("status") or "ASKING").upper()
+        sb.history.turns.append(
+            Turn(
+                user_text=user_text,
+                assistant_text=assistant_say
+            )
+        )
 
         # Merge & revalidate after LLM patch
         new_profile = _merge_patch(profile, patch)
         now_complete, _ = _is_profile_complete_and_valid(new_profile)
 
-        # Decide phase and confirmation flag
         suggested_phase = Phase.INFO_COLLECTION
         getattr(sb, "info_confirmed", False)
 
         if status == "CONFIRMED" and now_complete:
             suggested_phase = Phase.QNA
-
-        # (Controller responsibility) Persist sb.user_profile <- new_profile and sb.info_confirmed <- info_confirmed
-        # If you handle persistence here, you can attach them to ChatResponse via trace or a side channel.
 
         return ChatResponse(
             assistant_text=assistant_say or ("OK." if locale != Locale.HE else "אוקיי."),
@@ -144,11 +199,13 @@ class OrchestratorService:
             trace_id=request_id or str(uuid.uuid4()),
         )
 
+
     # ---------------------------
     # Q&A phase (grounded with KB)
     # ---------------------------
     async def _turn_qna(self, req: ChatRequest, locale: Locale, request_id: str | None) -> ChatResponse:
-        profile = req.session_bundle.user_profile
+        sb = req.session_bundle
+        profile = sb.user_profile
         query = req.user_input
 
         hints: List[str] = []
@@ -163,7 +220,7 @@ class OrchestratorService:
         parts: List[str] = []
         citations: List[str] = []
         for i, ch in enumerate(found, start=1):
-            parts.append(f"[{i}] {ch.text}")
+            parts.append(f"[{i}] {ch.section} | {ch.service} | {ch.hmo} | {ch.tier_tags} | {ch.text} | {ch.source_uri} | {ch.kind}")
             citations.append(ch.source_uri)
         context_blob = "\n\n".join(parts)
         if len(context_blob) > self.cfg.max_context_chars:
@@ -172,20 +229,38 @@ class OrchestratorService:
         sys_msg = sys_prompt_qna(locale)
         user_instr = user_instructions_qna(locale)
         profile_line = (
-            f"HMO={getattr(profile.hmo_name,'value',profile.hmo_name)} | "
-            f"Tier={getattr(profile.membership_tier,'value',profile.membership_tier)} | "
-            f"Gender={getattr(profile.gender,'value',profile.gender)} | "
+            f"HMO={getattr(profile.hmo_name, 'value', profile.hmo_name)} | "
+            f"Tier={getattr(profile.membership_tier, 'value', profile.membership_tier)} | "
+            f"Gender={getattr(profile.gender, 'value', profile.gender)} | "
             f"BirthYear={profile.birth_year}"
         )
 
-        messages = [
+        # History messages
+        history_msgs = _history_to_messages(sb.history, max_chars=self.cfg.max_history_chars)
+
+        messages: List[Dict[str, str]] = [
             {"role": "system", "content": sys_msg},
             {"role": "system", "content": f"Knowledge snippets:\n{context_blob}"},
             {"role": "system", "content": f"User {profile_line}"},
-            {"role": "user", "content": f"{user_instr}\n\n{query}"},
         ]
 
+        # Insert the past conversation before the current question
+        messages.extend(history_msgs)
+
+        # Finally, the new question with instructions
+        messages.append(
+            {"role": "user", "content": f"{user_instr}\n\n{query}"}
+        )
+
         answer = self.chat_client.chat(messages, temperature=0.2, max_tokens=600)
+        sb.history.turns.append(
+            Turn(
+                user_text=query,
+                assistant_text=answer,
+                citations=citations
+            )
+        )
+
         return ChatResponse(
             assistant_text=answer,
             suggested_phase=Phase.QNA,
@@ -194,3 +269,4 @@ class OrchestratorService:
             validation_flags=[],
             trace_id=request_id or str(uuid.uuid4()),
         )
+

@@ -4,10 +4,10 @@ from pathlib import Path
 
 import pytest
 
-from Part_2.azure_integration import AzureEmbeddingsClient, load_config
-from Part_2.core_models import HMO, Tier
-from Part_2.retriever.config import RetrieverConfig
-from Part_2.retriever.kb import HtmlKB
+from ...azure_integration import AzureEmbeddingsClient, load_config
+from ...core_models import HMO, Tier
+from ...retriever.config import RetrieverConfig
+from ...retriever.kb import HtmlKB
 
 
 @pytest.fixture(scope="session")

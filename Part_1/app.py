@@ -1,16 +1,14 @@
-#!/usr/bin/env python3
-# app.py — Simple Gradio UI for DI → AOAI → JSON
 from __future__ import annotations
 
 import json
 import os
+import webbrowser
 
 import gradio as gr
 from dotenv import load_dotenv
 
-# Reuse your existing modules
 from azure_client import analyze_document, generate_chat_completion_json
-from extract import _gather_text_lines, _gather_labeled_checkboxes, _build_system_prompt, _build_user_prompt, \
+from extract_pdf_to_json import _gather_text_lines, _gather_labeled_checkboxes, _build_system_prompt, _build_user_prompt, \
     _ensure_json
 
 
@@ -34,7 +32,7 @@ def process(file, url, hebrew_keys, model_id):
     if url and url.strip():
         url_source = url.strip()
     elif file is not None:
-        pdf_bytes = file  # works for PDFs and images; azure_client now infers content_type (see patch below)
+        pdf_bytes = file
     else:
         return None, None, None, "Please upload a file or provide a URL."
 
@@ -96,5 +94,10 @@ with gr.Blocks(title="Form→JSON (Azure DI + AOAI)") as demo:
     )
 
 if __name__ == "__main__":
-    # Set share=True if you want a public link during dev
-    demo.launch()
+    demo.launch(inbrowser=True)
+    # Auto-open frontend in the browser
+    try:
+        webbrowser.open("http://127.0.0.1:7860")
+    except Exception as e:
+        print(f"⚠️ Could not open browser automatically: {e}")
+

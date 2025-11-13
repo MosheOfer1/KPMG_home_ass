@@ -20,8 +20,8 @@ from typing import Any, Dict, List
 
 import matplotlib.pyplot as plt
 from tqdm import tqdm
+from ..extract_pdf_to_json import run
 
-from Part_1.main import run
 
 # --- logging ---
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
