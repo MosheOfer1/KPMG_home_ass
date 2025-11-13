@@ -32,14 +32,13 @@ async def health() -> dict:
 @app.post("/v1/chat", response_model=ChatResponse)
 async def chat(req: ChatRequest, request: Request) -> ChatResponse:
     request_id = request.headers.get("X-Request-ID", str(uuid.uuid4()))
-    adapter = logging.LoggerAdapter(log, extra={"request_id": request_id})
-    adapter.info("Orchestrator /v1/chat start")
+    log.info("Orchestrator /v1/chat start")
 
     try:
         resp = await svc.handle_chat(req, request_id=request_id)
-        adapter.info("Orchestrator /v1/chat success")
+        log.info("Orchestrator /v1/chat success")
         return resp
     except Exception as e:
-        adapter.exception("orchestrator error")
+        log.exception("orchestrator error")
         # Let gateway convert this into 502
         raise

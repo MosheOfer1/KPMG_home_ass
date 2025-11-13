@@ -13,9 +13,6 @@ This repository contains **two independent parts**:
 
 Extract fields from ביטוח לאומי (NII) PDF forms using **Azure Document Intelligence (OCR)** + **Azure OpenAI**.
 
-➡️ **Full, detailed evaluation documentation:**
-[Full Evaluation Guide](Part_1/evaluation/README_EVAL.md)
-
 
 ### 🔧 Setup
 
@@ -55,9 +52,9 @@ Produces JSON with extracted fields.
 
 Dataset: `Part_1/evaluation/dataset`
 
-```bash
-pytest Part_1
-```
+➡️ **Full, detailed evaluation documentation:**
+[Full Evaluation Guide](Part_1/evaluation/README_EVAL.md)
+
 
 Evaluation outputs saved to: `Part_1/evaluation/out_eval`
 
@@ -126,5 +123,5 @@ pytest Part_2
 
 # 🙌 Notes
 
-* `run_all.py` automatically handles all microservices.
+* `start.sh/bat` automatically handles all microservices.
 * All session memory is stored client-side (required by assignment).

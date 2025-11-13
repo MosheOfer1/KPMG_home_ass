@@ -222,7 +222,7 @@ async def fetch_assistant_reply(
         return history, sb
 
     except Exception as e:
-        log.exception(f"Frontend error calling /chat: {e}", extra={"request_id": sb.request_id})
+        log.exception(f"Frontend error calling /chat: {e}")
         user_msg = (
             f"{t['error']}: אירעה תקלה טכנית. נסה/י שוב מאוחר יותר."
             if lang == "he"
