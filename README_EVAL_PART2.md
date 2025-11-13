@@ -29,20 +29,40 @@ It then:
 
 ---
 
-## ▶️ How to Run
+## ▶️ How to Run the Retriever Evaluation
 
-From the repository root:
+Run from repo root:
 
 ```bash
-python -m Part_2.evaluation.run_eval --cases Part_2/evaluation/cases.json --outdir Part_2/evaluation/eval_out
+python -m Part_2.evaluation.eval_retriever --cases Part_2/evaluation/retriever_cases.json
 ```
 
-This produces:
+**Output:**
 
-* `eval_results.csv` – full results
-* `latency.png` – per-case latency plot
-* `results_bar.png` – pass/fail bar chart
-* `results_pie.png` – pass/fail distribution
+* `retriever_eval.csv` with: `hit_at_k`, `mrr`, retrieved vs expected URIs.
+* `retriever_pie.png`
+
+![retriever_pie.png](Part_2/evaluation/eval_out/retriever_pie.png)
+
+
+**Purpose:**
+Checks if the retriever returns the correct KB HTML chunk IDs for each query.
+
+**Case File Format:**
+Each entry contains:
+
+* `id`
+* `query`
+* optional `hmo`, `tier`
+* `expected_uris` (IDs after `#`)
+
+**How it Works:**
+
+1. Loads cases.
+2. Builds embedder + HtmlKB.
+3. Runs `kb.search()`.
+4. Computes Hit@K + MRR.
+5. Saves CSV.
 
 ---
 

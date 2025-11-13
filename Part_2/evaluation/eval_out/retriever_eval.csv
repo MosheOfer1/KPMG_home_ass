@@ -1,0 +1,11 @@
+id,hit_at_k,mrr,retrieved_uris,expected_uris
+pregnancy_maccabi_gold_genetic_screening,1,1.0,t2_1,t2_1
+pregnancy_clalit_bronze_ultrasound,1,1.0,t3_3,t3_3
+pregnancy_meuhedet_silver_complications,1,1.0,t6_2,t6_2
+altmedicine_clalit_gold_acupuncture,1,1.0,t1_3,t1_3
+altmedicine_maccabi_bronze_chiropractic,1,1.0,t6_1,t6_1
+optometry_maccabi_gold_glasses,0,0.0,t5_1,t2_1
+optometry_meuhedet_gold_children,1,1.0,t6_2,t6_2
+dental_maccabi_gold_checkups,1,1.0,t1_1,t1_1
+communication_clalit_gold_hearing_rehab,1,1.0,t6_3,t6_3
+workshops_maccabi_silver_stress_management,1,1.0,t4_1,t4_1

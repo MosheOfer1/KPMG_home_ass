@@ -7,6 +7,7 @@ from pathlib import Path
 from typing import List, Dict, Any
 
 import pandas as pd
+import matplotlib.pyplot as plt
 
 from ..core_models import HMO, Tier
 from ..azure_integration import load_config, AzureEmbeddingsClient
@@ -15,6 +16,26 @@ from ..retriever.kb import HtmlKB
 
 @dataclass
 class RetrieverCase:
+    """
+    Represents a single test case for a retriever system.
+
+    This class is used to encapsulate all relevant information about a retriever
+    test case, including its identifier, input query, associated health
+    maintenance organization (HMO) data or retrieval tier, and the expected
+    retrieved URIs.
+
+    Attributes:
+        id: str
+            A unique identifier for the test case.
+        query: str
+            The input query corresponding to the test case.
+        hmo: HMO | None
+            The HMO data associated with the test case, if applicable.
+        tier: Tier | None
+            The tier level associated with the test case, if applicable.
+        expected_uris: List[str]
+            A list of URIs expected to be retrieved for this test case.
+    """
     id: str
     query: str
     hmo: HMO | None
@@ -66,6 +87,19 @@ def main(cases_path: str, top_k: int = 1):
     outdir.mkdir(parents=True, exist_ok=True)
     df.to_csv(outdir / "retriever_eval.csv", index=False)
     print(df[["id", "hit_at_k", "mrr"]])
+
+    # Pie chart: pass/fail distribution
+    counts = df["hit_at_k"].value_counts().to_dict()
+    labels = ["Hit@K = 1", "Hit@K = 0"]
+    sizes = [counts.get(1, 0), counts.get(0, 0)]
+
+    plt.figure(figsize=(5, 5))
+    plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=140)
+    plt.title("Retriever Hit@K Distribution")
+
+    plt.savefig(outdir / "retriever_pie.png", dpi=120, bbox_inches="tight")
+    plt.close()
+
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
