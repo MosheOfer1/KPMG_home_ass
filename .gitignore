@@ -10,3 +10,4 @@
 *.pyc
 /Part_2/evaluation/__pycache__
 /Part_2/retriever/__pycache__
+/Part_2/api_gateway/__pycache__

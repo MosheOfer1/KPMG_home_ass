@@ -1,7 +1,6 @@
 from __future__ import annotations
 import gradio as gr
 
-from ..core_models import Locale
 from .ui_logic import (
     TRANSLATIONS,
     new_session_bundle,
@@ -31,7 +30,7 @@ css = """
 
 with gr.Blocks(css=css, title="MicroChat Medical") as demo:
     lang_state = gr.State("he")
-    sb_state = gr.State(new_session_bundle(Locale.HE))
+    sb_state = gr.State(new_session_bundle())
 
     # Header
     header_md = gr.Markdown(

@@ -9,13 +9,13 @@
     "year": "1995"
   },
   "address": {
-    "street": "הרמבם",
-    "houseNumber": "16",
-    "entrance": "1",
     "apartment": "12",
     "city": "אבן יהודה",
+    "entrance": "1",
+    "houseNumber": "16",
+    "poBox": "",
     "postalCode": "312422",
-    "poBox": ""
+    "street": "הרמבם"
   },
   "landlinePhone": "",
   "mobilePhone": "6502474947",

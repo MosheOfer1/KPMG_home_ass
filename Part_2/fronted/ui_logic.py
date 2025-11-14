@@ -74,6 +74,18 @@ Please share your relevant details with me, and I'll be happy to help!"""
 # -------- Core helpers --------
 
 def new_session_bundle(locale: Locale = Locale.HE) -> SessionBundle:
+    """
+    Creates a new session bundle initialized with default user profile,
+    conversation history, phase, and a specified locale.
+
+    The session bundle encapsulates all components necessary for managing
+    a user session, including user profile, conversation history, and the
+    current phase of the session.
+
+    :param locale: The locale to assign to the session bundle. Defaults to Locale.HE.
+    :return: An initialized session bundle.
+    :rtype: SessionBundle
+    """
     return SessionBundle(
         user_profile=UserProfile(),
         history=ConversationHistory(),
